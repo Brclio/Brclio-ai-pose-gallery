@@ -1,0 +1,542 @@
+{
+  "上半身1人|P001": {
+    "zh": "双手在胸前比心",
+    "en": "Making a heart with both hands in front of the chest"
+  },
+  "上半身1人|P002": {
+    "zh": "双臂在头顶比心",
+    "en": "Making a heart with both arms overhead"
+  },
+  "上半身1人|P003": {
+    "zh": "在脸颊旁比指心",
+    "en": "Making a finger heart beside the cheek"
+  },
+  "上半身1人|P004": {
+    "zh": "双手在下巴下比耶",
+    "en": "Double peace signs under the chin"
+  },
+  "上半身1人|P005": {
+    "zh": "辣妹式比耶（手背朝外）",
+    "en": "Gyaru peace sign (back of the hand facing out)"
+  },
+  "上半身1人|P006": {
+    "zh": "双拳贴脸颊（装可爱）",
+    "en": "Fists against the cheeks in a cutesy pose"
+  },
+  "上半身1人|P007": {
+    "zh": "兔耳姿势",
+    "en": "Bunny ears pose"
+  },
+  "上半身1人|P008": {
+    "zh": "招财猫式猫爪手",
+    "en": "Cat paws in a beckoning cat pose"
+  },
+  "上半身1人|P009": {
+    "zh": "张爪咆哮姿势",
+    "en": "Roaring pose with hands like claws"
+  },
+  "上半身1人|P010": {
+    "zh": "嘘声手势（食指放在唇边）",
+    "en": "Shushing pose (index finger to the lips)"
+  },
+  "上半身1人|P011": {
+    "zh": "歪头并用手遮住一只眼（眨眼感）",
+    "en": "Tilting the head with a hand over one eye, as if winking"
+  },
+  "上半身1人|P012": {
+    "zh": "飞吻",
+    "en": "Blowing a kiss"
+  },
+  "上半身1人|P013": {
+    "zh": "双掌托下巴（花朵姿势）",
+    "en": "Chin resting in both palms (flower pose)"
+  },
+  "上半身1人|P014": {
+    "zh": "用食指轻戳脸颊",
+    "en": "Poking the cheek with an index finger"
+  },
+  "上半身1人|P015": {
+    "zh": "双手遮住嘴边（萌袖感）",
+    "en": "Covering the mouth with both hands, as if in oversized sleeves"
+  },
+  "上半身1人|P016": {
+    "zh": "请求姿势（双手合十）",
+    "en": "Pleading pose with palms together"
+  },
+  "上半身1人|P017": {
+    "zh": "害羞地抱住自己",
+    "en": "Hugging oneself shyly"
+  },
+  "上半身1人|P018": {
+    "zh": "用手指比画框",
+    "en": "Making a frame with the fingers"
+  },
+  "上半身1人|P019": {
+    "zh": "将头发拨到耳后",
+    "en": "Tucking hair behind the ear"
+  },
+  "上半身1人|P020": {
+    "zh": "双手捧住脸颊",
+    "en": "Cupping the cheeks with both hands"
+  },
+  "上半身1人|P021": {
+    "zh": "敬礼姿势",
+    "en": "Saluting pose"
+  },
+  "上半身1人|P022": {
+    "zh": "指向镜头",
+    "en": "Pointing at the camera"
+  },
+  "上半身1人|P023": {
+    "zh": "打哈欠伸懒腰（一手放在嘴边）",
+    "en": "Yawning and stretching with one hand at the mouth"
+  },
+  "上半身1人|P024": {
+    "zh": "一手比心，另一手放在胸前",
+    "en": "Making a heart with one hand, the other on the chest"
+  },
+  "上半身1人|P025": {
+    "zh": "从双手指缝间窥看",
+    "en": "Peeking through the fingers of both hands"
+  },
+  "上半身1人|P026": {
+    "zh": "Dacchu-no 姿势（前倾聚拢胸部）",
+    "en": "Dacchu-no pose (leaning forward to press the bust together)"
+  },
+  "上半身1人|P027": {
+    "zh": "雏式姿势（双手放在膝上）",
+    "en": "Hina pose (both hands on the knees)"
+  },
+  "上半身1人|P028": {
+    "zh": "用双肘聚拢胸部并扭腰",
+    "en": "Pressing the bust together with the elbows while twisting the waist"
+  },
+  "上半身1人|P029": {
+    "zh": "耸肩聚拢胸部（双手在下方交叠）",
+    "en": "Shrugging to press the bust together, hands overlapped below"
+  },
+  "上半身1人|P030": {
+    "zh": "双臂在胸下交叉并向上托起",
+    "en": "Crossing the arms beneath the bust to lift it"
+  },
+  "上半身1人|P031": {
+    "zh": "双手从下方托起胸部",
+    "en": "Lifting the bust from below with both hands"
+  },
+  "上半身1人|P032": {
+    "zh": "将胸部放在桌上",
+    "en": "Resting the bust on a table"
+  },
+  "上半身1人|P033": {
+    "zh": "竖起前臂，从两侧夹住胸部",
+    "en": "Holding the forearms upright to press the bust from both sides"
+  },
+  "上半身1人|P034": {
+    "zh": "用单臂托起胸部",
+    "en": "Scooping up the bust with one arm"
+  },
+  "上半身1人|P035": {
+    "zh": "俯视构图，双手放在锁骨处",
+    "en": "High-angle view with both hands on the collarbones"
+  },
+  "上半身1人|P036": {
+    "zh": "双手握住腰部并挺胸",
+    "en": "Holding the waist with both hands and pushing the chest out"
+  },
+  "上半身1人|P037": {
+    "zh": "双手从两侧聚拢胸部",
+    "en": "Pressing the bust together from the sides with both hands"
+  },
+  "上半身1人|P038": {
+    "zh": "双手在背后交握并挺胸",
+    "en": "Clasping the hands behind the back and pushing the chest out"
+  },
+  "上半身1人|P039": {
+    "zh": "跪立，双手撑在前方以聚拢胸部",
+    "en": "Kneeling upright with both hands braced in front to press the bust together"
+  },
+  "上半身1人|P040": {
+    "zh": "单肘撑膝托腮",
+    "en": "Resting the cheek on one hand with the elbow on the knee"
+  },
+  "上半身1人|P041": {
+    "zh": "用双臂抱住胸部",
+    "en": "Cradling the bust with both arms"
+  },
+  "上半身1人|P042": {
+    "zh": "一手聚拢胸部，另一手放在头发上",
+    "en": "Pressing the bust together with one hand, the other in the hair"
+  },
+  "上半身1人|P043": {
+    "zh": "一侧肩膀下沉，身体前倾",
+    "en": "Leaning forward with one shoulder lowered"
+  },
+  "上半身1人|P044": {
+    "zh": "俯卧撑肘，聚拢胸部",
+    "en": "Lying face down on the elbows to press the bust together"
+  },
+  "上半身1人|P045": {
+    "zh": "后仰并用双臂夹住胸部",
+    "en": "Arching back and pressing the bust between both arms"
+  },
+  "上半身1人|P046": {
+    "zh": "一臂绕腰，另一手放在颈侧",
+    "en": "One arm around the waist, the other hand at the side of the neck"
+  },
+  "上半身1人|P047": {
+    "zh": "双手贴在胸部上方并向内聚拢",
+    "en": "Placing both hands on the upper bust and pressing inward"
+  },
+  "上半身1人|P048": {
+    "zh": "下巴放在手背上并前倾",
+    "en": "Leaning forward with the chin resting on the back of a hand"
+  },
+  "上半身1人|P049": {
+    "zh": "四肢着地的俯视图（胸前视角）",
+    "en": "High-angle view on all fours, focused on the chest"
+  },
+  "上半身1人|P050": {
+    "zh": "交叉抱臂托起胸部",
+    "en": "Lifting the bust with folded arms"
+  },
+  "上半身1人|P051": {
+    "zh": "双手包住胸部",
+    "en": "Cupping the breasts with both hands"
+  },
+  "上半身1人|P052": {
+    "zh": "双手揉胸",
+    "en": "Massaging the breasts with both hands"
+  },
+  "上半身1人|P053": {
+    "zh": "手作胸罩（双手遮胸）",
+    "en": "Hand bra (covering the breasts with both hands)"
+  },
+  "上半身1人|P054": {
+    "zh": "一手遮胸，另一手放在腰间",
+    "en": "Covering the breasts with one hand, the other at the waist"
+  },
+  "上半身1人|P055": {
+    "zh": "一手揉胸，另一手向后拨头发",
+    "en": "Massaging the breasts with one hand while sweeping the hair back with the other"
+  },
+  "上半身1人|P056": {
+    "zh": "解下肩带的动作",
+    "en": "Slipping off a shoulder strap"
+  },
+  "上半身1人|P057": {
+    "zh": "双手向后拨头发并大幅后仰",
+    "en": "Sweeping the hair back with both hands and arching deeply"
+  },
+  "上半身1人|P058": {
+    "zh": "双手放在脑后，露出腋下",
+    "en": "Both hands behind the head, showing the underarms"
+  },
+  "上半身1人|P059": {
+    "zh": "用手指沿胸部下缘轻划",
+    "en": "Tracing beneath the breasts with the fingers"
+  },
+  "上半身1人|P060": {
+    "zh": "手指放在嘴边，另一手放在胸部",
+    "en": "Fingers at the lips, the other hand on the breasts"
+  },
+  "上半身1人|P061": {
+    "zh": "用指尖遮住乳头",
+    "en": "Covering the nipples with the fingertips"
+  },
+  "上半身1人|P062": {
+    "zh": "一手放在胸部，另一手轻抚腹部",
+    "en": "One hand on the breasts, the other tracing the abdomen"
+  },
+  "上半身1人|P063": {
+    "zh": "双手向后撑地，将胸部向前挺出",
+    "en": "Bracing the hands behind the body and pushing the chest forward"
+  },
+  "上半身1人|P064": {
+    "zh": "俯卧并用一只手托起胸部",
+    "en": "Lying face down and lifting the bust with one hand"
+  },
+  "上半身1人|P065": {
+    "zh": "四肢着地，反弓背部并抬头仰望",
+    "en": "On all fours, arching the back and looking up"
+  },
+  "上半身1人|P066": {
+    "zh": "四肢着地，将一只手放在胸前",
+    "en": "On all fours with one hand at the chest"
+  },
+  "上半身1人|P067": {
+    "zh": "豹式伸展（正面）",
+    "en": "Panther stretch (front view)"
+  },
+  "上半身1人|P068": {
+    "zh": "跪立后仰，双手触脚跟",
+    "en": "Kneeling upright and arching back with hands on the heels"
+  },
+  "上半身1人|P069": {
+    "zh": "跪立，双手放在脑后",
+    "en": "Kneeling upright with both hands behind the head"
+  },
+  "上半身1人|P070": {
+    "zh": "嘴边含住手指",
+    "en": "Holding a finger between the lips"
+  },
+  "上半身1人|P071": {
+    "zh": "握住颈侧并后仰",
+    "en": "Holding the side of the neck and arching back"
+  },
+  "上半身1人|P072": {
+    "zh": "双手聚拢胸部并向前挺出",
+    "en": "Pressing the breasts together with both hands and pushing them forward"
+  },
+  "上半身1人|P073": {
+    "zh": "侧躺并抱住胸部",
+    "en": "Lying on the side and cradling the bust"
+  },
+  "上半身1人|P074": {
+    "zh": "仰卧，双手放在胸部",
+    "en": "Lying on the back with both hands on the breasts"
+  },
+  "上半身1人|P075": {
+    "zh": "仰卧，双臂向上伸展并反弓身体",
+    "en": "Lying on the back and arching with both arms overhead"
+  },
+  "上半身1人|P076": {
+    "zh": "身体前倾，手伸向大腿内侧",
+    "en": "Leaning forward with hands reaching toward the inner thighs"
+  },
+  "上半身1人|P077": {
+    "zh": "在背后解开搭扣的动作",
+    "en": "Unfastening a clasp behind the back"
+  },
+  "上半身1人|P078": {
+    "zh": "一手遮胸，另一手向上托起",
+    "en": "Covering the bust with one hand and lifting it with the other"
+  },
+  "上半身1人|P079": {
+    "zh": "将手伸入乳沟",
+    "en": "Slipping a hand into the cleavage"
+  },
+  "上半身1人|P080": {
+    "zh": "俯视构图，双手放在胸部，呈向上看的姿态",
+    "en": "High-angle view with both hands on the breasts, as if looking upward"
+  },
+  "2人絡み|P001": {
+    "zh": "面对面，抱起一侧膝盖",
+    "en": "Facing each other while holding one knee up"
+  },
+  "2人絡み|P002": {
+    "zh": "俯卧在对方双腿之间，依偎在一起",
+    "en": "Nestling face down between the partner's legs"
+  },
+  "2人絡み|P003": {
+    "zh": "抬起脚踝，将双腿呈 V 字打开",
+    "en": "Lifting the ankles and opening the legs into a V"
+  },
+  "2人絡み|P004": {
+    "zh": "双腿搭在肩上，对方俯身覆上",
+    "en": "Legs over the shoulders with the partner leaning over"
+  },
+  "2人絡み|P005": {
+    "zh": "将腰部高高抬起，把脸靠近",
+    "en": "Lifting the hips high as the partner brings their face close"
+  },
+  "2人絡み|P006": {
+    "zh": "倒抱抬起，两人朝向相反",
+    "en": "Holding the partner upside down, facing opposite directions"
+  },
+  "2人絡み|P007": {
+    "zh": "站立前倾，双手撑在膝盖上",
+    "en": "Standing bent forward with hands on the knees"
+  },
+  "2人絡み|P008": {
+    "zh": "双腿交缠，互相拉住手臂",
+    "en": "Entwining the legs and pulling each other's arms"
+  },
+  "2人絡み|P009": {
+    "zh": "让对方坐在腿上，从背后抱住",
+    "en": "Seating the partner on the lap and embracing from behind"
+  },
+  "2人絡み|P010": {
+    "zh": "侧坐在对方腿上，被抱在怀里",
+    "en": "Sitting sideways on the partner's lap in an embrace"
+  },
+  "2人絡み|P011": {
+    "zh": "伸直双腿，两人叠躺",
+    "en": "Lying one over the other with legs extended"
+  },
+  "2人絡み|P013": {
+    "zh": "一人四肢着地，另一人在身后跪立",
+    "en": "Kneeling upright behind a partner on all fours"
+  },
+  "2人絡み|P014": {
+    "zh": "双手撑地，双腿被对方抱住",
+    "en": "Hands on the floor with legs held by the partner"
+  },
+  "2人絡み|P015": {
+    "zh": "在对方双腿之间四肢着地",
+    "en": "On all fours between the partner's legs"
+  },
+  "2人絡み|P016": {
+    "zh": "将双腿交给对方支撑，倚靠在腿上",
+    "en": "Resting on the partner's lap with legs supported"
+  },
+  "2人絡み|P017": {
+    "zh": "双腿缠住对方腰部并相拥",
+    "en": "Embracing with legs wrapped around the partner's waist"
+  },
+  "2人絡み|P018": {
+    "zh": "背对对方，坐在腰部上方",
+    "en": "Sitting over the partner's hips, facing away"
+  },
+  "2人絡み|P019": {
+    "zh": "背对对方，蹲在其腿上",
+    "en": "Squatting on the partner's lap, facing away"
+  },
+  "2人絡み|P020": {
+    "zh": "侧身，将一条腿搭在对方肩上",
+    "en": "Lying sideways with one leg resting on the partner's shoulder"
+  },
+  "2人絡み|P021": {
+    "zh": "叠躺在上方，伸直双腿",
+    "en": "Lying on top of the partner with legs extended"
+  },
+  "2人絡み|P022": {
+    "zh": "手腕在头顶交叠，膝盖被抱住",
+    "en": "Wrists overlapped overhead with knees held close"
+  },
+  "2人絡み|P023": {
+    "zh": "面对对方，坐在腰部上方",
+    "en": "Sitting over the partner's hips, facing them"
+  },
+  "2人絡み|P024": {
+    "zh": "仰卧，腰部由对方膝盖托起",
+    "en": "Lying on the back with hips lifted by the partner's knees"
+  },
+  "2人絡み|P025": {
+    "zh": "坐在对方腿上，向前倚靠",
+    "en": "Leaning forward on the partner's lap"
+  },
+  "2人絡み|P026": {
+    "zh": "仰卧，腰部被高高抱起",
+    "en": "Lying on the back with hips held high"
+  },
+  "2人絡み|P030": {
+    "zh": "双臂向前伸，腰部由对方支撑",
+    "en": "Arms extended forward with hips supported by the partner"
+  },
+  "2人絡み|P031": {
+    "zh": "坐着倚靠对方竖起的膝盖",
+    "en": "Sitting against the partner's raised knees"
+  },
+  "2人絡み|P032": {
+    "zh": "两人反向叠躺",
+    "en": "Lying one on top of the other, facing opposite directions"
+  },
+  "2人絡み|P034": {
+    "zh": "跪立跨在对方脸部上方",
+    "en": "Kneeling astride the partner's face"
+  },
+  "2人絡み|P036": {
+    "zh": "双手向后撑地，双腿交缠",
+    "en": "Hands braced behind the body with legs entwined"
+  },
+  "2人絡み|P037": {
+    "zh": "抱住抬起的一条腿",
+    "en": "Embracing one raised leg"
+  },
+  "2人絡み|P040": {
+    "zh": "俯身覆在对方上方，亲吻胸前",
+    "en": "Leaning over the partner and kissing their chest"
+  },
+  "2人絡み|P041": {
+    "zh": "胸部贴地，抬高腰部",
+    "en": "Chest against the floor with hips raised"
+  },
+  "2人絡み|P042": {
+    "zh": "坐在盘腿的对方腿上相拥",
+    "en": "Embracing on the lap of a cross-legged partner"
+  },
+  "2人絡み|P043": {
+    "zh": "将膝盖拉向肩部，握住脚踝",
+    "en": "Drawing the knees toward the shoulders and holding the ankles"
+  },
+  "2人絡み|P044": {
+    "zh": "从背后将手放在对方胸前",
+    "en": "Reaching from behind to rest a hand on the partner's chest"
+  },
+  "2人絡み|P045": {
+    "zh": "深度前屈，双手撑地",
+    "en": "Bending deeply forward with hands on the floor"
+  },
+  "2人絡み|P046": {
+    "zh": "坐姿，双腿向前伸直",
+    "en": "Sitting with legs extended forward"
+  },
+  "2人絡み|P047": {
+    "zh": "双腿交叉，一条腿搭在肩上",
+    "en": "Crossing the legs with one leg over the partner's shoulder"
+  },
+  "2人絡み|P048": {
+    "zh": "俯卧，抬起一条腿",
+    "en": "Lying face down with one leg lifted"
+  },
+  "2人絡み|P049": {
+    "zh": "相拥，双腿交缠",
+    "en": "Embracing with legs entwined"
+  },
+  "2人絡み|P050": {
+    "zh": "踮脚伸展，一只脚向后抬起",
+    "en": "Rising onto tiptoes with one foot lifted behind"
+  },
+  "2人絡み|P051": {
+    "zh": "在耳边轻语并触摸脸颊",
+    "en": "Whispering in the ear and touching the cheek"
+  },
+  "2人絡み|P052": {
+    "zh": "将双手腕按在头顶上方",
+    "en": "Pinning both wrists above the head"
+  },
+  "2人絡み|P053": {
+    "zh": "从背后环抱胸前",
+    "en": "Embracing around the chest from behind"
+  },
+  "2人絡み|P054": {
+    "zh": "被横抱在怀中并后仰",
+    "en": "Arching back while being cradled in the partner's arms"
+  },
+  "2人絡み|P055": {
+    "zh": "侧坐，将一条腿高高伸直",
+    "en": "Sitting sideways with one leg extended high"
+  },
+  "2人絡み|P056": {
+    "zh": "撑肘，从旁边俯视对方",
+    "en": "Propped on an elbow, looking down at the partner from beside them"
+  },
+  "2人絡み|P057": {
+    "zh": "躺在一起，将腿搭在对方身上",
+    "en": "Lying close together with a leg draped over the partner"
+  },
+  "2人絡み|P058": {
+    "zh": "在对方双腿之间托腮",
+    "en": "Resting the cheek on a hand between the partner's legs"
+  },
+  "2人絡み|P059": {
+    "zh": "抱住膝窝，将双腿大幅打开",
+    "en": "Holding behind the knees and opening the legs wide"
+  },
+  "2人絡み|P060": {
+    "zh": "将双膝拉向胸前",
+    "en": "Drawing both knees toward the chest"
+  },
+  "2人絡み|P061": {
+    "zh": "从后方支撑前倾者的腰部",
+    "en": "Supporting the bent-forward partner's hips from behind"
+  },
+  "2人絡み|P062": {
+    "zh": "坐在对方腿上，双腿环住其腰部",
+    "en": "Sitting on the partner's lap with legs wrapped around their waist"
+  },
+  "2人絡み|P063": {
+    "zh": "背靠对方，将双膝大幅打开",
+    "en": "Leaning back against the partner with knees spread wide"
+  }
+}

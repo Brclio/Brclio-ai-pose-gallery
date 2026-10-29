@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; connect-src 'none'">
+<title>姿势图库 POSE-DB-01</title>
+<style>__ORIGINAL_CSS__</style>
+<style>
+/* Only multilingual controls and long translated labels extend the original skin. */
+.hero-actions{display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-wrap:wrap;margin-left:auto;min-width:0}
+.lang-switch{display:flex;align-items:center;gap:3px;padding:4px;border:1px solid #4a525f;border-radius:12px;background:rgba(26,30,36,.7);max-width:100%}
+.lang-switch button{border:0;border-radius:8px;background:transparent;color:#cfd4dc;min-height:44px;padding:0 12px;font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap}
+.lang-switch button:hover{background:#232831;color:var(--tx)}
+.lang-switch button[aria-pressed="true"]{background:var(--tx);color:#111418}
+.lang-switch button:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+.lang-switch--modal{align-self:flex-start}
+.lang-switch--modal button{padding:0 10px}
+.search{min-width:0}
+.search input{min-width:0}
+.meta h3,.mside h2{overflow-wrap:anywhere}
+.mang button span{font-size:11px;line-height:1.3;overflow-wrap:anywhere}
+.keys span{margin-right:5px}
+@media(max-width:560px){
+ .hero-actions{width:100%;gap:8px;justify-content:flex-end}
+ .hero-actions .infotabs{margin-left:0}
+ .hero-actions .lang-switch{margin-left:auto}
+ html[lang="en"] .itab{padding:0 14px}
+ .lang-switch button{padding:0 11px}
+ .mside .dl{text-align:center;padding:6px 12px}
+ .seg{min-width:0;max-width:100%}
+ html[lang="en"] #ang button{padding:0 8px;font-size:14px}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="hero-top">
+  <div class="eyebrow" data-i18n="eyebrow">POSE-DB-01 · 图像参考姿势集</div>
+  <div class="hero-actions">
+   <div class="lang-switch" role="group" data-i18n-aria="language" aria-label="语言">
+    <button type="button" data-lang="zh" lang="zh-CN" aria-pressed="true">中文</button>
+    <button type="button" data-lang="en" lang="en" aria-pressed="false">English</button>
+    <button type="button" data-lang="ja" lang="ja" aria-pressed="false">日本語</button>
+   </div>
+   <nav class="infotabs" id="infotabs" data-i18n-aria="infoLabel" aria-label="使用提示与注意事项">
+    <button type="button" class="itab" id="itab0" aria-haspopup="dialog" aria-expanded="false" aria-controls="ipanel0" data-i18n="help">使用提示</button>
+    <button type="button" class="itab" id="itab1" aria-haspopup="dialog" aria-expanded="false" aria-controls="ipanel1" data-i18n="notes">注意事项</button>
+    <div class="ipanel" id="ipanel0" role="dialog" aria-labelledby="ipt0" tabindex="-1" hidden>
+     <div class="ipanel-hd"><h2 id="ipt0" data-i18n="help">使用提示</h2><button type="button" class="ipclose" data-i18n-aria="close" aria-label="关闭">×</button></div><ul data-i18n-list="usage"></ul>
+    </div>
+    <div class="ipanel" id="ipanel1" role="dialog" aria-labelledby="ipt1" tabindex="-1" hidden>
+     <div class="ipanel-hd"><h2 id="ipt1" data-i18n="notes">注意事项</h2><button type="button" class="ipclose" data-i18n-aria="close" aria-label="关闭">×</button></div><ul data-i18n-list="notes"></ul>
+    </div>
+   </nav>
+  </div>
+ </div>
+ <h1><span data-i18n="heading">姿势图库</span><span data-i18n="headingSuffix" style="background:none;color:inherit"> 数据库</span></h1>
+ <p class="sub" data-i18n="subtitle"></p>
+</header>
+<div class="tools"><div class="tools-in">
+ <div class="tabs" id="tabs" role="tablist" data-i18n-aria="series" aria-label="系列"></div>
+ <div class="row2">
+  <label class="search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" data-i18n-aria="search" aria-label="搜索姿势名称、ID 或分类" placeholder="搜索姿势名称、ID 或分类" autocomplete="off"></label>
+  <button class="ftog" id="ftog" aria-expanded="false" aria-controls="more"><span data-i18n="filter">筛选</span><b id="fn"></b></button>
+  <div class="more" id="more">
+   <select id="cat" data-i18n-aria="category" aria-label="分类"></select>
+   <div class="seg" id="ang" role="group" data-i18n-aria="angle" aria-label="角度"></div>
+   <div class="seg" id="view" role="group" data-i18n-aria="view" aria-label="浏览方式"><button data-v="pose" aria-pressed="true" data-i18n="poseView">按姿势</button><button data-v="card" aria-pressed="false" data-i18n="imageView">逐张图片</button></div>
+  </div>
+  <span class="count" id="count" role="status" aria-live="polite"></span>
+ </div>
+</div></div>
+<main><div class="grid" id="grid"></div></main>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mtitle">
+ <button class="close" id="mclose" data-i18n-aria="close" aria-label="关闭">×</button>
+ <div class="mbox">
+  <div class="mimg"><img id="mimg" alt=""><button class="nav l" id="mprev" data-i18n-aria="previousAngle" aria-label="上一个角度">‹</button><button class="nav r" id="mnext" data-i18n-aria="nextAngle" aria-label="下一个角度">›</button></div>
+  <div class="mside">
+   <div class="lang-switch lang-switch--modal" role="group" data-i18n-aria="language" aria-label="语言"><button type="button" data-lang="zh" lang="zh-CN" aria-pressed="true">中文</button><button type="button" data-lang="en" lang="en" aria-pressed="false">English</button><button type="button" data-lang="ja" lang="ja" aria-pressed="false">日本語</button></div>
+   <div><h2 id="mtitle"></h2><div class="id" id="mid"></div></div>
+   <div class="mang" id="mang"></div>
+   <dl class="kv" id="mkv"></dl>
+   <a class="dl" id="mdl" href="#" download data-i18n="download">下载原尺寸 PNG</a>
+   <div class="keys"><kbd>←</kbd><kbd>→</kbd> <span data-i18n="keyAngles">切换角度</span> <kbd>↑</kbd><kbd>↓</kbd> <span data-i18n="keyPoses">上／下一个姿势</span> <kbd>Esc</kbd> <span data-i18n="close">关闭</span></div>
+  </div>
+ </div>
+</div>
+<script>
+__APP_SCRIPT__
+</script>
+</body>
+</html>

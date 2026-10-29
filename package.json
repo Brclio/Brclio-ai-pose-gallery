@@ -1,0 +1,12 @@
+{
+  "name": "brclio-ai-pose-gallery-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local offline snapshot of ai-pose-gallery.pages.dev",
+  "scripts": {
+    "dev": "python3 scripts/serve.py",
+    "start": "python3 scripts/serve.py",
+    "verify": "python3 scripts/verify.py",
+    "build": "python3 scripts/build.py"
+  }
+}

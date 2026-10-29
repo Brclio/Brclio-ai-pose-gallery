@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-29",
+  "checks": [
+    {
+      "layout": "desktop",
+      "language": "zh",
+      "count": "显示 288 个姿势 · 1,439 张",
+      "externalLinks": 0,
+      "lang": "zh-CN",
+      "overflow": false,
+      "promotionNodes": 0
+    },
+    {
+      "layout": "desktop",
+      "language": "en",
+      "count": "Showing 288 poses · 1,439 images",
+      "externalLinks": 0,
+      "lang": "en",
+      "overflow": false,
+      "promotionNodes": 0
+    },
+    {
+      "layout": "desktop",
+      "language": "ja",
+      "count": "288ポーズ・1,439枚を表示",
+      "externalLinks": 0,
+      "lang": "ja",
+      "overflow": false,
+      "promotionNodes": 0
+    },
+    {
+      "layout": "mobile",
+      "language": "zh",
+      "count": "显示 288 个姿势 · 1,439 张",
+      "externalLinks": 0,
+      "lang": "zh-CN",
+      "overflow": false,
+      "promotionNodes": 0
+    },
+    {
+      "layout": "mobile",
+      "language": "en",
+      "count": "Showing 288 poses · 1,439 images",
+      "externalLinks": 0,
+      "lang": "en",
+      "overflow": false,
+      "promotionNodes": 0
+    },
+    {
+      "layout": "mobile",
+      "language": "ja",
+      "count": "288ポーズ・1,439枚を表示",
+      "externalLinks": 0,
+      "lang": "ja",
+      "overflow": false,
+      "promotionNodes": 0
+    }
+  ]
+}

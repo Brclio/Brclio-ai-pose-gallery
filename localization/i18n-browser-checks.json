@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-29",
+  "checks": [
+    {
+      "name": "English UI",
+      "cards": 288,
+      "count": "Showing 288 poses · 1,439 images",
+      "firstTitle": "S-curve stance with hips pushed to the side",
+      "lang": "en",
+      "title": "Pose Gallery POSE-DB-01"
+    },
+    {
+      "name": "English combined filters",
+      "count": "Showing 29 poses · 29 images"
+    },
+    {
+      "name": "Japanese preserves filters",
+      "angle": "上から",
+      "category": "立ち",
+      "count": "29ポーズ・29枚を表示",
+      "lang": "ja"
+    },
+    {
+      "name": "Dialog focus",
+      "active": "mclose",
+      "id": "full_sexy_P001_front"
+    },
+    {
+      "name": "Language switch after changing modal angle in filtered image view",
+      "open": true,
+      "id": "full_sexy_P001_high",
+      "title": "S 形站姿，向侧面顶髋",
+      "count": "显示 288 张"
+    },
+    {
+      "name": "Dialog focus trap",
+      "active": "mdl"
+    },
+    {
+      "name": "Close restores focus",
+      "focusedCard": true,
+      "modalOpen": false
+    },
+    {
+      "name": "Selected English before reload",
+      "lang": "en"
+    },
+    {
+      "name": "English after reload",
+      "lang": "en",
+      "title": "Pose Gallery POSE-DB-01"
+    },
+    {
+      "name": "Cross-language search",
+      "query": "S 形站姿",
+      "count": "Showing 1 pose · 5 images"
+    },
+    {
+      "name": "Cross-language search",
+      "query": "S-curve stance",
+      "count": "Showing 1 pose · 5 images"
+    },
+    {
+      "name": "Cross-language search",
+      "query": "S字立ち",
+      "count": "Showing 1 pose · 5 images"
+    },
+    {
+      "name": "Search survives language switch",
+      "count": "1ポーズ・5枚を表示",
+      "title": "S字立ち・腰を横に突き出す"
+    },
+    {
+      "name": "Japanese empty state",
+      "text": "条件に合う画像がありません\n絞り込みを変えてみてください。"
+    },
+    {
+      "name": "Chinese empty state",
+      "text": "没有符合条件的图片\n请尝试调整筛选条件。"
+    },
+    {
+      "name": "Reset all images",
+      "count": "显示 288 个姿势 · 1,439 张"
+    },
+    {
+      "name": "Single-image mode advances to next pose",
+      "id": "full_sexy_P002_front"
+    },
+    {
+      "name": "Mobile layout zh",
+      "cards": 288,
+      "filterVisible": "block",
+      "lang": "zh-CN",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "name": "Mobile layout en",
+      "cards": 288,
+      "filterVisible": "block",
+      "lang": "en",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "name": "Mobile layout ja",
+      "cards": 288,
+      "filterVisible": "block",
+      "lang": "ja",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "name": "Mobile filter selection",
+      "count": "Showing 29 poses · 145 images",
+      "expanded": "true"
+    },
+    {
+      "name": "Narrow English layout",
+      "anglesWidth": 288,
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "name": "Hover previews side angle",
+      "src": "thumbs/full_sexy_P001_side.jpg"
+    },
+    {
+      "name": "Main image opens hovered angle",
+      "id": "full_sexy_P001_side"
+    },
+    {
+      "name": "Forward focus wraps inside dialog",
+      "active": "mclose"
+    },
+    {
+      "name": "Background restored",
+      "inertAttribute": null
+    },
+    {
+      "name": "English notes",
+      "text": "Free to use, including commercial use in creative works, editing and reference use.\nRedistribution, reposting and resale of the image files themselves, including originals and modified versions, are prohibited.\nCredit is optional. Image metadata has been removed. The images are provided without warranty.\nThe drawings depict mannequins, not real people.\nDo not use these images to represent real people or minors, or for purposes contrary to public order or public decency."
+    },
+    {
+      "name": "Japanese direct link",
+      "lang": "ja"
+    },
+    {
+      "name": "Explicit URL follows language choice",
+      "url": "http://127.0.0.1:4173/?lang=en",
+      "lang": "en"
+    },
+    {
+      "name": "Original PNG download",
+      "href": "img/full_sexy_P001_front.png",
+      "downloadedFilename": "full_sexy_P001_front (1).png"
+    },
+    {
+      "name": "Fresh page load",
+      "count": "Showing 288 poses · 1,439 images"
+    },
+    {
+      "name": "Offline resource boundary",
+      "httpRequests": 133,
+      "externalRequests": [],
+      "hasMore": false
+    },
+    {
+      "name": "Final desktop ja",
+      "brokenVisibleImages": 0,
+      "cards": 288,
+      "lang": "ja",
+      "overflow": false
+    },
+    {
+      "name": "Final desktop en",
+      "brokenVisibleImages": 0,
+      "cards": 288,
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "name": "Final desktop zh",
+      "brokenVisibleImages": 0,
+      "cards": 288,
+      "lang": "zh-CN",
+      "overflow": false
+    },
+    {
+      "name": "Console errors",
+      "errors": []
+    }
+  ]
+}
