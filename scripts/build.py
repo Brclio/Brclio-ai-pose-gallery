@@ -1,21 +1,22 @@
 #!/usr/bin/env python3
 """Build a self-contained, offline multilingual gallery with no dependencies."""
 import hashlib
+import importlib.util
 import json
 from pathlib import Path
-import re
 
 ROOT = Path(__file__).resolve().parents[1]
+_SPEC = importlib.util.spec_from_file_location("gallery_male_catalog", ROOT / "scripts/male_catalog.py")
+male_catalog = importlib.util.module_from_spec(_SPEC)
+_SPEC.loader.exec_module(male_catalog)
 
 
 def inline_json(value):
     return json.dumps(value, ensure_ascii=False).replace("<", "\\u003c").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
 
 
-def build_html():
-    original = (ROOT / "localization/original.html").read_text(encoding="utf-8")
-    records = json.loads(re.search(r"^const D=(.*);$", original, re.MULTILINE).group(1))
-    meta = json.loads(re.search(r"^const META=(.*);$", original, re.MULTILINE).group(1))
+def load_catalog():
+    records, meta = male_catalog.load_original(ROOT)
     translations = {}
     for name in ("poses-full.i18n.json", "poses-upper-pair.i18n.json"):
         part = json.loads((ROOT / "localization" / name).read_text(encoding="utf-8"))
@@ -26,6 +27,11 @@ def build_html():
     if set(translations) != expected:
         raise ValueError("Pose translations do not exactly cover the source gallery")
     ui = json.loads((ROOT / "localization/ui.i18n.json").read_text(encoding="utf-8"))
+    return male_catalog.extend_catalog(ROOT, records, meta, ui, translations)
+
+
+def build_html(catalog=None):
+    records, meta, ui, translations = catalog if catalog is not None else load_catalog()
     script = (ROOT / "src/app.js").read_text(encoding="utf-8")
     for token, value in [("__DATA__", records), ("__META__", meta),
                          ("__UI_I18N__", ui), ("__POSE_I18N__", translations)]:
@@ -40,7 +46,8 @@ def build_html():
 
 
 def main():
-    result = build_html()
+    catalog = load_catalog()
+    result = build_html(catalog)
     (ROOT / "index.html").write_text(result, encoding="utf-8")
     source_path = ROOT / "localization/source.json"
     source = json.loads(source_path.read_text(encoding="utf-8"))
@@ -51,10 +58,19 @@ def main():
                          "Added complete Chinese and English translations and a Chinese/English/Japanese switch",
                          "Added persistent language choice and multilingual search",
                          "Improved dialog keyboard focus and thumbnail activation"]
+    male_count = sum(row["id"].startswith("male_") for row in catalog[0])
+    if male_count:
+        source["changes"].append("Added independently generated male solo images without modifying original records or assets")
+    source["male_generation"] = {
+        "planned_pose_count": 233, "planned_image_count": 1165,
+        "registered_image_count": male_count,
+        "complete": male_count == 1165,
+    }
     source["preserved"] = ["Original CSS in first style block", "Original gallery records and image bytes",
                            "Original source snapshot and usage terms in Japanese"]
     source_path.write_text(json.dumps(source, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print("Built index.html with all 3 languages and 288 translated poses; no runtime dependencies.")
+    pose_count = len({(row["系統"], row["ポーズ番号"]) for row in catalog[0]})
+    print(f"Built index.html with all 3 languages, {pose_count} poses and {male_count}/1165 male images; no runtime dependencies.")
 
 
 if __name__ == "__main__":

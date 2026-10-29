@@ -68,7 +68,8 @@ def inspect_file(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--source", type=Path, default=ROOT / "index.html")
+    parser.add_argument("--source", type=Path, default=ROOT / "localization/original.html",
+                        help="原站 HTML 快照；默认使用保存的原版，不读取新增生成素材")
     parser.add_argument("--base-url", default="https://ai-pose-gallery.pages.dev/")
     parser.add_argument("--workers", type=int, default=12)
     args = parser.parse_args()
@@ -82,6 +83,11 @@ def main():
     if not match:
         parser.error("Could not find the gallery's const D JSON data")
     records = json.loads(match.group(1))
+    if any(str(row.get("id", "")).startswith("male_") or
+           any(PurePosixPath(row[key]).name.startswith("male_") for key in ("サムネ", "原寸"))
+           for row in records):
+        parser.error("Source contains generated male assets. Use localization/original.html; "
+                     "generated assets must never be downloaded from the original website.")
     paths = sorted({validate_path(row[key]) for row in records
                     for key in ("サムネ", "原寸")},
                    key=lambda value: (not value.startswith("thumbs/"), value))

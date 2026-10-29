@@ -155,6 +155,57 @@ def safe_path(value):
     return resolved
 
 
+def load_catalog_module():
+    spec = importlib.util.spec_from_file_location("male_catalog_verify", ROOT / "scripts/male_catalog.py")
+    require(spec is not None and spec.loader is not None, "无法加载男性素材目录校验模块。")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def verify_male_catalog(local, original_records, original_meta, source_ui, source_translations):
+    """Validate additions separately; no original record or translation may change."""
+    catalog = load_catalog_module()
+    plan = catalog.generation_plan(original_records)
+    saved_plan = json.loads((ROOT / "localization/male-generation-plan.json").read_text(encoding="utf-8"))
+    require(saved_plan == plan, "男性生成计划与原站全部单人姿势不一致。")
+    require(plan["pose_count"] == 233 and plan["expected_image_count"] == 1165,
+            "男性生成计划必须覆盖全部 233 个单人姿势及五个角度。")
+    targets = {entry["id"]: entry for entry in plan["entries"]}
+    require(len(targets) == 1165, "男性生成计划有重复图片 ID。")
+    entries = catalog.load_male_assets(ROOT, original_records, verify_files=False)
+    expected_records = original_records + [entry["record"] for entry in entries]
+    require(read_records(local) == expected_records, "本地图库并非原站记录原样保留后追加已登记男性素材。")
+
+    active = {entry["record"]["系統"] for entry in entries}
+    expected_meta = {**original_meta, "lines": list(original_meta["lines"])}
+    expected_ui = json.loads(json.dumps(source_ui))
+    expected_translations = dict(source_translations)
+    for details in catalog.SERIES.values():
+        key = details["key"]
+        if key not in active:
+            continue
+        expected_meta["lines"].append(key)
+        for language in ("zh", "en", "ja"):
+            expected_ui[language]["lines"][key] = key if language == "ja" else details[language]
+    for entry in entries:
+        row = entry["record"]
+        target = targets[entry["id"]]
+        require(entry.get("reviewed") is True, f"男性图片尚未确认通过视觉检查：{entry['id']}")
+        require(row == target["record"], f"男性素材元数据不符合对应原始姿势：{entry['id']}")
+        require(entry["original_source_id"] == target["original_source_id"],
+                f"男性素材源图片对应关系不一致：{entry['id']}")
+        key = row["系統"] + "|" + row["ポーズ番号"]
+        expected_translations[key] = source_translations[target["source_pose_key"]]
+    require(read_constant(local, "META") == expected_meta, "原站元数据或新增男性系列顺序不一致。")
+    require(read_constant(local, "UI") == expected_ui,
+            "内嵌 UI 文案必须保留全部原有译文，仅追加已登记男性系列名称。")
+    require(read_constant(local, "POSE_I18N") == expected_translations,
+            "内嵌姿势译文必须保留原文并完整覆盖已登记男性姿势。")
+    print(f"✓ 男性系列已登记 {len(entries):,}/1,165 张；原有全部文案和图库记录保持不变。")
+    return entries, targets
+
+
 def verify_page():
     original_bytes = (ROOT / "localization/original.html").read_bytes()
     local_bytes = (ROOT / "index.html").read_bytes()
@@ -182,17 +233,22 @@ def verify_page():
     local_css = re.findall(r"<style(?:\s[^>]*)?>([\s\S]*?)</style>", local)
     require(bool(source_css) and bool(local_css) and source_css[0] == local_css[0],
             "原站基础 CSS 被修改。三语补充样式应独立保存。")
-    require(read_constant(local, "META") == read_constant(original, "META"), "图库元数据与原站不一致。")
-
+    original_records = read_records(original)
+    original_meta = read_constant(original, "META")
     records = read_records(local)
-    require(records == read_records(original), "图库数据与原站不一致。")
+    require(records[:len(original_records)] == original_records, "原站图库记录被修改、删除或重新排序。")
     require(len({row["id"] for row in records}) == len(records), "图库存在重复 ID。")
     paths = {row[key] for row in records for key in ("サムネ", "原寸")}
     for path in paths:
         safe_path(path)
     poses = {(row["系統"], row["ポーズ番号"]) for row in records}
 
-    ui, _ = verify_translations(records)
+    ui, translations = verify_translations(original_records)
+    male_entries, male_targets = verify_male_catalog(local, original_records, original_meta, ui, translations)
+    require(source_info.get("male_generation") == {
+        "planned_pose_count": 233, "planned_image_count": 1165,
+        "registered_image_count": len(male_entries), "complete": len(male_entries) == 1165,
+    }, "来源记录中的男性生成进度与实际登记数量不一致。")
     for panel, field in [("ipanel0", "usage"), ("ipanel1", "notes")]:
         match = re.search(r'id="' + panel + r'"[\s\S]*?<ul>(.*?)</ul>', original, re.DOTALL)
         require(match is not None, f"原站缺少 {field} 面板。")
@@ -219,7 +275,9 @@ def verify_page():
     print("✓ 三语页面构建可复现；原站基础 CSS、图库元数据及图片记录完整保留。")
     print(f"✓ 数据：{len(poses):,} 个姿势，{len(records):,} 张图片，{len(paths):,} 个资源文件。")
     print("✓ 页首及页尾推广区与外部推广链接已移除；无自动外部资源依赖。")
-    return records, poses, paths
+    original_paths = {row[key] for row in original_records for key in ("サムネ", "原寸")}
+    original_poses = {(row["系統"], row["ポーズ番号"]) for row in original_records}
+    return original_records, original_poses, original_paths, male_entries, male_targets
 
 
 def image_info(path):
@@ -267,21 +325,70 @@ def verify_assets(records, poses, paths):
             errors.append(str(error))
     require(not errors, f"{len(errors)} 个图片校验失败：\n" + "\n".join(errors[:15]))
     require(total == manifest["total_bytes"], "图片清单总字节数不一致。")
-    print(f"✓ 全部 {len(assets):,} 个图片文件的格式、完整性、大小及 SHA-256 校验通过。")
-    print(f"✓ 图片总大小：{total:,} 字节（{total / 1024**2:.2f} MiB）。")
+    print(f"✓ 原站全部 {len(assets):,} 个图片文件的格式、完整性、大小及 SHA-256 校验通过。")
+    print(f"✓ 原站图片总大小：{total:,} 字节（{total / 1024**2:.2f} MiB）。")
+
+
+def verify_male_assets(entries):
+    paths = set()
+    total = 0
+    errors = []
+    for entry in entries:
+        for asset in entry["files"]:
+            try:
+                relative = asset["path"]
+                require(relative not in paths, f"男性资源文件被重复登记：{relative}")
+                paths.add(relative)
+                path = safe_path(relative)
+                require(path.is_file(), f"男性图片不存在：{relative}")
+                size, digest = image_info(path)
+                require(size == asset["bytes"], f"男性文件大小不一致：{relative}")
+                require(digest == asset["sha256"], f"男性 SHA-256 不一致：{relative}")
+                total += size
+            except (VerificationError, OSError, KeyError) as error:
+                errors.append(str(error))
+    require(not errors, f"{len(errors)} 个男性资源校验失败：\n" + "\n".join(errors[:15]))
+    require(len(paths) == 2 * len(entries), "每张男性图片必须登记原图和缩略图。")
+    print(f"✓ 已登记男性资源 {len(paths):,} 个文件格式、大小及 SHA-256 校验通过，共 {total:,} 字节。")
+
+
+def report_male_coverage(entries, targets, require_complete=False):
+    actual = {entry["id"] for entry in entries}
+    missing = set(targets) - actual
+    require(not (actual - set(targets)), "已登记男性素材包含计划外 ID。")
+    poses = {}
+    for entry in entries:
+        row = entry["record"]
+        poses.setdefault((row["系統"], row["ポーズ番号"]), set()).add(row["アングル"])
+    complete_poses = sum(len(angles) == 5 for angles in poses.values())
+    if missing:
+        print(f"男性全量生成尚未完成：{len(actual):,}/{len(targets):,} 张，"
+              f"{complete_poses}/233 个姿势具备全部五角度；仍缺 {len(missing):,} 张。")
+    else:
+        require(complete_poses == 233, "男性素材角度覆盖不完整。")
+        print("✓ 男性全部 233 个单人姿势、1,165 张五角度图片已齐全。")
+    require(not require_complete or not missing,
+            f"男性全量验收未通过：仍缺 {len(missing):,} 张，不能视为全部完成。")
+    return not missing
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--page-only", action="store_true", help="仅校验页面；不代表图片完整性通过")
+    parser.add_argument("--require-male-complete", action="store_true",
+                        help="要求全部 233 个男性姿势、1,165 张五角度图片及其缩略图校验通过")
     args = parser.parse_args()
+    if args.page_only and args.require_male_complete:
+        parser.error("--require-male-complete 必须包含图片完整性校验，不能与 --page-only 同用")
     try:
-        records, poses, paths = verify_page()
+        records, poses, paths, male_entries, male_targets = verify_page()
         if args.page_only:
             print("页面校验通过（未校验图片，不能视为完整校验）。")
         else:
             verify_assets(records, poses, paths)
-            print("完整校验通过。全程仅读取本地文件，无网络请求。")
+            verify_male_assets(male_entries)
+            print("当前页面及已登记资源完整性校验通过。全程仅读取本地文件，无网络请求。")
+        report_male_coverage(male_entries, male_targets, args.require_male_complete)
         return 0
     except (VerificationError, OSError, KeyError, ValueError, TypeError) as error:
         print(f"校验失败：{error}", file=sys.stderr)

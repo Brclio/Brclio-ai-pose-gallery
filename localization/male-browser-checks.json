@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-30",
+  "snapshotRegisteredImages": 53,
+  "checks": [
+    {
+      "test": "male series language switch",
+      "language": "zh",
+      "count": "显示 2 个姿势 · 8 张",
+      "cards": 2
+    },
+    {
+      "test": "male series language switch",
+      "language": "en",
+      "count": "Showing 2 poses · 8 images",
+      "cards": 2
+    },
+    {
+      "test": "male series language switch",
+      "language": "ja",
+      "count": "2ポーズ・8枚を表示",
+      "cards": 2
+    },
+    {
+      "test": "male side preview",
+      "id": "male_full_single_P001_side",
+      "download": "img/male_full_single_P001_side.png",
+      "angles": 5
+    },
+    {
+      "test": "male global search",
+      "count": "显示 11 个姿势 · 53 张",
+      "allSourceCount": "1439 original images retained",
+      "overflow": false
+    },
+    {
+      "test": "male mobile",
+      "overflow": false
+    }
+  ]
+}
