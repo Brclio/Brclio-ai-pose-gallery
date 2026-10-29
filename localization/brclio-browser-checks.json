@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-29",
+  "baseline": "24de4d3",
+  "checks": [
+    {
+      "test": "desktop",
+      "language": "zh",
+      "badVisibleImages": 0,
+      "count": "显示 288 个姿势 · 1,439 张",
+      "lang": "zh-CN",
+      "overflow": false
+    },
+    {
+      "test": "desktop",
+      "language": "en",
+      "badVisibleImages": 0,
+      "count": "Showing 288 poses · 1,439 images",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "test": "desktop",
+      "language": "ja",
+      "badVisibleImages": 0,
+      "count": "288ポーズ・1,439枚を表示",
+      "lang": "ja",
+      "overflow": false
+    },
+    {
+      "test": "mobile",
+      "language": "zh",
+      "count": "显示 288 个姿势 · 1,439 张",
+      "lang": "zh-CN",
+      "overflow": false
+    },
+    {
+      "test": "mobile",
+      "language": "en",
+      "count": "Showing 288 poses · 1,439 images",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "test": "mobile",
+      "language": "ja",
+      "count": "288ポーズ・1,439枚を表示",
+      "lang": "ja",
+      "overflow": false
+    },
+    {
+      "test": "mobile combined filters",
+      "count": "Showing 29 poses · 29 images",
+      "overflow": false
+    },
+    {
+      "test": "language preserves filters",
+      "count": "29ポーズ・29枚を表示",
+      "category": "分類"
+    },
+    {
+      "test": "empty search",
+      "text": "No matching images\nTry changing your filters."
+    },
+    {
+      "test": "cross-language search settled",
+      "query": "S 形站姿",
+      "count": "Showing 1 pose · 5 images"
+    },
+    {
+      "test": "cross-language search settled",
+      "query": "S-curve stance",
+      "count": "Showing 1 pose · 5 images"
+    },
+    {
+      "test": "cross-language search settled",
+      "query": "S字立ち",
+      "count": "Showing 1 pose · 5 images"
+    },
+    {
+      "test": "thumbnail opens matching angle",
+      "id": "full_sexy_P001_side",
+      "focused": "mclose"
+    },
+    {
+      "test": "modal focus loop end",
+      "focused": "mdl"
+    },
+    {
+      "test": "modal focus loop start",
+      "focused": "mclose"
+    },
+    {
+      "test": "keyboard next angle",
+      "id": "full_sexy_P001_diag"
+    },
+    {
+      "test": "keyboard next pose",
+      "id": "full_sexy_P002_diag"
+    },
+    {
+      "test": "modal language preserves image",
+      "id": "full_sexy_P002_diag",
+      "open": "modal open"
+    },
+    {
+      "test": "modal close",
+      "open": "modal",
+      "focused": "ARTICLE"
+    },
+    {
+      "test": "small-screen notes",
+      "bottom": 552,
+      "items": 5,
+      "overflow": false,
+      "scrollable": true,
+      "top": 203.84375,
+      "viewportHeight": 568
+    },
+    {
+      "test": "320px expanded filters",
+      "angleButtons": [
+        {
+          "right": 99.4765625,
+          "text": "All angles"
+        },
+        {
+          "right": 153.34375,
+          "text": "Front"
+        },
+        {
+          "right": 203.4609375,
+          "text": "High"
+        },
+        {
+          "right": 251.015625,
+          "text": "Low"
+        },
+        {
+          "right": 300,
+          "text": "Side"
+        },
+        {
+          "right": 300,
+          "text": "¾ view"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "test": "series tab",
+      "count": "Showing 73 poses · 365 images"
+    },
+    {
+      "test": "single-image modal preserves other angle on language switch",
+      "id": "full_sexy_P001_high",
+      "count": "288枚を表示",
+      "open": "modal open"
+    },
+    {
+      "test": "responsive breakpoint",
+      "width": 320,
+      "columns": 1,
+      "overflow": false
+    },
+    {
+      "test": "responsive breakpoint",
+      "width": 600,
+      "columns": 2,
+      "overflow": false
+    },
+    {
+      "test": "responsive breakpoint",
+      "width": 900,
+      "columns": 3,
+      "overflow": false
+    },
+    {
+      "test": "responsive breakpoint",
+      "width": 1280,
+      "columns": 4,
+      "overflow": false
+    }
+  ],
+  "download": {
+    "filename": "full_sexy_P002_diag.png",
+    "sha256MatchesOriginal": true
+  },
+  "consoleErrors": []
+}

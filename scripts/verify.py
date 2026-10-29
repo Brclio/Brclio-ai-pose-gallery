@@ -177,7 +177,7 @@ def verify_page():
     builder = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(builder)
     require(local == builder.build_html(), "index.html 与本地源文件构建结果不一致，请运行 python3 scripts/build.py。")
-    require(not re.search(r"__(?:APP_SCRIPT|ORIGINAL_CSS|DATA|META|UI_I18N|POSE_I18N)__", local), "页面残留未替换的构建占位符。")
+    require(not re.search(r"__(?:APP_SCRIPT|ORIGINAL_CSS|BRCLIO_CSS|DATA|META|UI_I18N|POSE_I18N)__", local), "页面残留未替换的构建占位符。")
     source_css = re.findall(r"<style>([\s\S]*?)</style>", original)
     local_css = re.findall(r"<style(?:\s[^>]*)?>([\s\S]*?)</style>", local)
     require(bool(source_css) and bool(local_css) and source_css[0] == local_css[0],

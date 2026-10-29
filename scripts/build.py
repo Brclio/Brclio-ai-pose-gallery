@@ -33,7 +33,10 @@ def build_html():
             raise ValueError(f"Expected exactly one {token} placeholder")
         script = script.replace(token, inline_json(value))
     template = (ROOT / "src/template.html").read_text(encoding="utf-8")
-    return template.replace("__ORIGINAL_CSS__", (ROOT / "src/original.css").read_text(encoding="utf-8")).replace("__APP_SCRIPT__", script)
+    return (template
+            .replace("__ORIGINAL_CSS__", (ROOT / "src/original.css").read_text(encoding="utf-8"))
+            .replace("__BRCLIO_CSS__", (ROOT / "src/brclio.css").read_text(encoding="utf-8"))
+            .replace("__APP_SCRIPT__", script))
 
 
 def main():
@@ -44,6 +47,7 @@ def main():
     source["local_sha256"] = hashlib.sha256(result.encode()).hexdigest()
     source["changes"] = ["Removed Cloudflare Analytics and disabled external connections",
                          "Removed header and footer promotion blocks and their outbound links",
+                         "Applied Brclio Design System as a separate CSS layer without changing content or interaction code",
                          "Added complete Chinese and English translations and a Chinese/English/Japanese switch",
                          "Added persistent language choice and multilingual search",
                          "Improved dialog keyboard focus and thumbnail activation"]

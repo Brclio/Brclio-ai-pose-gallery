@@ -3,7 +3,7 @@
 原站：<https://ai-pose-gallery.pages.dev/>  
 原始快照与三语版本日期：2026-10-29
 
-完整保存 288 个姿势、1,439 张原尺寸 PNG 和 1,439 张 JPEG 缩略图。保留原站基础样式、图片及日文图库和使用说明，移除推广区域，并提供完整简体中文、英文和日文界面。运行时无需联网，也无需安装第三方依赖。
+完整保存 288 个姿势、1,439 张原尺寸 PNG 和 1,439 张 JPEG 缩略图。保留原站图片、日文图库和使用说明，移除推广区域，并提供完整简体中文、英文和日文界面。当前视觉采用 Brclio Design System；原站基础样式源码仍完整保留。运行时无需联网，也无需安装第三方依赖。
 
 ## 启动
 
@@ -40,6 +40,10 @@ python3 scripts/serve.py
 
 ## 修改与构建
 
+视觉层基于 [Brclio Design System](https://github.com/Brclio/brclio-design-system) 的 App 模板与组件适配：暖奶油背景、品牌蓝操作控件、黄色选中提示、衬线标题及无衬线正文。仅覆盖样式，页面内容、业务脚本、三语字典及图片保持不变。字体使用本地系统字体栈，无在线字体请求。
+
+样式适配署名：© 2026 Brclio，采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)；该声明仅适用于 Brclio 设计系统及其样式适配，图库素材仍遵循原站使用说明。
+
 `index.html` 是已生成的独立运行入口。修改源文件或译文后执行：
 
 ```sh
@@ -51,8 +55,9 @@ python3 scripts/verify.py
 
 | 路径 | 用途 |
 | --- | --- |
-| `src/template.html` | 页面结构及三语补充样式 |
+| `src/template.html` | 页面结构与内嵌资源占位符 |
 | `src/original.css` | 原站基础样式，逐字保留 |
+| `src/brclio.css` | Brclio 品牌样式覆盖层，构建时内嵌 |
 | `src/app.js` | 语言切换、搜索、筛选、图片预览交互 |
 | `localization/ui.i18n.json` | 三语界面、分类、角度及说明 |
 | `localization/poses-full.i18n.json` | 两个全身系列的中英文姿势名 |
@@ -61,6 +66,7 @@ python3 scripts/verify.py
 | `localization/source.json` | 来源、变更范围、HTML SHA-256 |
 | `localization/asset-manifest.json` | 每张图片的来源、字节数及 SHA-256 |
 | `localization/i18n-verification.md` | 三语版本审核及浏览器验证记录 |
+| `localization/brclio-verification.md` | Brclio 样式检查及功能回归记录 |
 | `localization/verification-output.txt` | 当前版本完整校验结果 |
 | `localization/{zh,en,ja}-{desktop,mobile}.jpg` | 三语界面截图 |
 

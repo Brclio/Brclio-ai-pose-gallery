@@ -2,10 +2,11 @@
   "url": "https://ai-pose-gallery.pages.dev/",
   "captured_date": "2026-10-29",
   "original_sha256": "044d8f408e3ce2311f3ddcbf43baaee673b2267783fc5486318df3c8e2b4d3a1",
-  "local_sha256": "d327479cf618c60d429b0a9726558ebffff56b4f49c04060c2561c52c80e9d27",
+  "local_sha256": "a56f9570ee55e601d479dabaa472492de0c34028ac39342edbad1739882eb07e",
   "changes": [
     "Removed Cloudflare Analytics and disabled external connections",
     "Removed header and footer promotion blocks and their outbound links",
+    "Applied Brclio Design System as a separate CSS layer without changing content or interaction code",
     "Added complete Chinese and English translations and a Chinese/English/Japanese switch",
     "Added persistent language choice and multilingual search",
     "Improved dialog keyboard focus and thumbnail activation"
