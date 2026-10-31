@@ -24,7 +24,7 @@ import zlib
 
 ROOT = Path(__file__).resolve().parents[1]
 FRAGMENTS = tuple("localization/male-generated-" + name + ".json"
-                  for name in ("standard", "standard-tail", "upper", "expressive"))
+                  for name in ("standard", "standard-tail", "upper", "expressive", "root-tail"))
 _SPEC = importlib.util.spec_from_file_location("import_male_catalog", ROOT / "scripts/male_catalog.py")
 catalog = importlib.util.module_from_spec(_SPEC)
 _SPEC.loader.exec_module(catalog)
