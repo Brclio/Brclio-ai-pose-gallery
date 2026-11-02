@@ -2,7 +2,7 @@
   "url": "https://ai-pose-gallery.pages.dev/",
   "captured_date": "2026-10-29",
   "original_sha256": "044d8f408e3ce2311f3ddcbf43baaee673b2267783fc5486318df3c8e2b4d3a1",
-  "local_sha256": "fb24a3f830f46df7b6ae1032bd7a4774c198928941a897e5c073da73d2aecdac",
+  "local_sha256": "99909ebd4a2d5d0c753e6216399f1fcc6594a8392d0b710ff5b7f7f363f5f341",
   "changes": [
     "Removed Cloudflare Analytics and disabled external connections",
     "Removed header and footer promotion blocks and their outbound links",
@@ -20,7 +20,7 @@
   "male_generation": {
     "planned_pose_count": 233,
     "planned_image_count": 1165,
-    "registered_image_count": 345,
+    "registered_image_count": 400,
     "complete": false
   }
 }
