@@ -268,7 +268,7 @@ def merge_fragments(original_records, plan, targets):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--batch", type=Path, help="JSON list of reviewed built-in output PNGs")
-    parser.add_argument("--ledger", help="Project-relative male-generated-{standard,standard-tail,upper,expressive}.json path")
+    parser.add_argument("--ledger", help="Project-relative male-generated-{standard,standard-tail,upper,expressive,root-tail}.json path")
     parser.add_argument("--reviewed", action="store_true", help="Confirm each batch image has passed visual review")
     parser.add_argument("--merge-fragments", action="store_true", help="Merge reviewed fragment ledgers into male-assets.json")
     args = parser.parse_args()
