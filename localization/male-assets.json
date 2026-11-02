@@ -792,20 +792,24 @@
       "files": [
         {
           "path": "img/male_full_sexy_P006_front.png",
-          "bytes": 1560809,
-          "sha256": "1286c91a9478963dfafeec0c2e35b2f6e234788f5f70f76fb93f8955dc52e531"
+          "bytes": 1047478,
+          "sha256": "7fd4303f73d491dd8798780839d8791d1d726045a511c884e31aa33d45e7476f"
         },
         {
           "path": "thumbs/male_full_sexy_P006_front.jpg",
-          "bytes": 21779,
-          "sha256": "daeeaaf6020b189d07832c8abf6993a221f4ca0a009f5ffcf50b84562f384569"
+          "bytes": 20437,
+          "sha256": "0805a9a381bb879bdda6c8f5380ceeed1675cdf5e518193154a59840a678f0bb"
         }
       ],
-      "prompt": "Use case: scientific-educational.\nAsset type: one 3:4 portrait PNG drawing-pose reference for an offline artist's gallery.\nInput image1 is the exact pose, camera and composition reference. Input image2 is the approved male mannequin body design and line-style reference only; do not copy image2's seated pose.\nCreate the adult MALE counterpart of image1, preserving its hand/foot positions, body gesture, torso bend, head direction, camera angle and framing. Subject is one faceless articulated artist's mannequin: broad shoulders, flat angular masculine pectoral plates, straight waist, narrower pelvis, moderately athletic proportions, ellipsoid joints, oval head construction cross. Smooth featureless pelvic shell; no genitals, nipples, hair or skin texture. Match approved male body design while preserving image1's exact pose.\nThin gray-charcoal outline drawing, white interiors, sparse light construction lines, clean white background. No shading, anatomy labels, text, borders, watermark or additional figure. Fully show all depicted limbs with clear margins; do not crop, add, remove or mirror limbs. Output a single 3:4 portrait image.\nTarget: full_sexy_P006_front — preserve the standing bent-forward push gesture: hips behind, back inclined, both arms extended forward to screen right, both palms upright pressing an invisible surface, head turned slightly toward viewer. Use exactly image1 camera and limb arrangement. Mannequin has a masculine torso, broad upper back and flat pectoral plates; replace all female breast forms. White background without drawing the invisible wall.",
+      "prompt": "Use case: scientific-educational. Create a neutral art-school drawing reference of one adult male articulated drawing mannequin made of opaque smooth geometric shells. Image 1 provides ONLY the joint skeleton, exact pose, camera and framing. Image 2 provides the MALE mannequin identity and line drawing style only, not the seated pose. Reconstruct the torso as a broad male ribcage: a single shallow rectangular wedge with two flat, angular pectoral planes flush against its front surface. The chest contour should form a nearly straight line down toward the abdomen, with absolutely no protruding, round, dangling or teardrop-shaped chest volumes. Thicker straight waist, broad shoulders, narrower geometric pelvis, moderately athletic male limbs, blank construction-line head. Maintain precisely image 1's upright feet, slightly bent standing legs, forward-inclined torso, outstretched arms to the right, vertical open palms, head rotation and all joint positions. Use reference eye-level back-three-quarter viewpoint from image 1, matching all foreshortening and occlusion. The model is an abstract drawing dummy with opaque surfaces and featureless pelvic shell, no biological surface details. Thin gray-charcoal outline on pure white background, no skin rendering, shading, text, props or extra figures. Full body visible with margins, 3:4 portrait canvas. The source's feminine body contours must be replaced by the masculine construction of image 2 while the pose and camera remain fixed.",
       "model": "built-in image_gen",
-      "generated_at": "2026-10-29T23:12:05.633906+00:00",
-      "generated_source_filename": "exec-81c3dd86-50f6-4dbd-b768-f447b17dc03c.png",
-      "reviewed": true
+      "generated_at": "2026-11-02T11:11:45.907410+00:00",
+      "generated_source_filename": "exec-41ff3bcf-32e4-4353-b542-6e1aab7f4c2e.png",
+      "reviewed": true,
+      "correction": {
+        "reason": "Correct overly rounded chest forms to a male rectangular ribcage; all original source files remain unchanged.",
+        "previous_png_sha256": "1286c91a9478963dfafeec0c2e35b2f6e234788f5f70f76fb93f8955dc52e531"
+      }
     },
     {
       "id": "male_full_sexy_P006_high",
@@ -823,19 +827,54 @@
       "files": [
         {
           "path": "img/male_full_sexy_P006_high.png",
-          "bytes": 1600343,
-          "sha256": "eb3d0b0b248fc1c415c3408fd81f1584103c5385ebac3478b74eb7996f7eef7d"
+          "bytes": 1063037,
+          "sha256": "d2ef69fc04cb1ed76721cc5b081d24e0f4169d8c6924b6c31bbcc15dd3374f65"
         },
         {
           "path": "thumbs/male_full_sexy_P006_high.jpg",
-          "bytes": 23583,
-          "sha256": "3ea246fa68d211cfca52b369a49313038b4c3e569876f29139bc7e0842cc9756"
+          "bytes": 21343,
+          "sha256": "234917e2ad4c4068e2aa639eb3c0bef49ffec1ff08e354be03e2d7abf5094049"
         }
       ],
-      "prompt": "Use case: scientific-educational.\nAsset type: one 3:4 portrait PNG drawing-pose reference for an offline artist's gallery.\nInput image1 is the exact pose, camera and composition reference. Input image2 is the approved male mannequin body design and line-style reference only; do not copy image2's seated pose.\nCreate the adult MALE counterpart of image1, preserving its hand/foot positions, body gesture, torso bend, head direction, camera angle and framing. Subject is one faceless articulated artist's mannequin: broad shoulders, flat angular masculine pectoral plates, straight waist, narrower pelvis, moderately athletic proportions, ellipsoid joints, oval head construction cross. Smooth featureless pelvic shell; no genitals, nipples, hair or skin texture. Match approved male body design while preserving image1's exact pose.\nThin gray-charcoal outline drawing, white interiors, sparse light construction lines, clean white background. No shading, anatomy labels, text, borders, watermark or additional figure. Fully show all depicted limbs with clear margins; do not crop, add, remove or mirror limbs. Output a single 3:4 portrait image.\nTarget: full_sexy_P006_high — preserve the standing bent-forward push gesture: hips behind, back inclined, both arms extended forward to screen right, both palms upright pressing an invisible surface, head turned slightly toward viewer. Use exactly image1 camera and limb arrangement. Mannequin has a masculine torso, broad upper back and flat pectoral plates; replace all female breast forms. White background without drawing the invisible wall.",
+      "prompt": "Use case: scientific-educational. Create a neutral art-school drawing reference of one adult male articulated drawing mannequin made of opaque smooth geometric shells. Image 1 provides ONLY the joint skeleton, exact pose, camera and framing. Image 2 provides the MALE mannequin identity and line drawing style only, not the seated pose. Reconstruct the torso as a broad male ribcage: a single shallow rectangular wedge with two flat, angular pectoral planes flush against its front surface. The chest contour should form a nearly straight line down toward the abdomen, with absolutely no protruding, round, dangling or teardrop-shaped chest volumes. Thicker straight waist, broad shoulders, narrower geometric pelvis, moderately athletic male limbs, blank construction-line head. Maintain precisely image 1's upright feet, slightly bent standing legs, forward-inclined torso, outstretched arms to the right, vertical open palms, head rotation and all joint positions. Use reference elevated downward camera viewpoint from image 1, matching all foreshortening and occlusion. The model is an abstract drawing dummy with opaque surfaces and featureless pelvic shell, no biological surface details. Thin gray-charcoal outline on pure white background, no skin rendering, shading, text, props or extra figures. Full body visible with margins, 3:4 portrait canvas. The source's feminine body contours must be replaced by the masculine construction of image 2 while the pose and camera remain fixed.",
       "model": "built-in image_gen",
-      "generated_at": "2026-10-29T23:12:05.692054+00:00",
-      "generated_source_filename": "exec-3a4aaeab-2985-4bf7-bf15-67418c2f7617.png",
+      "generated_at": "2026-11-02T11:11:46.016267+00:00",
+      "generated_source_filename": "exec-56591aac-095f-40e8-9712-1fedc8e34925.png",
+      "reviewed": true,
+      "correction": {
+        "reason": "Correct overly rounded chest forms to a male rectangular ribcage; all original source files remain unchanged.",
+        "previous_png_sha256": "eb3d0b0b248fc1c415c3408fd81f1584103c5385ebac3478b74eb7996f7eef7d"
+      }
+    },
+    {
+      "id": "male_full_sexy_P006_low",
+      "original_source_id": "full_sexy_P006_low",
+      "record": {
+        "id": "male_full_sexy_P006_low",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P006",
+        "分類": "立ち",
+        "ポーズ名": "壁に手をついて腰を突き出す（立ちバック待ち）",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_full_sexy_P006_low.jpg",
+        "原寸": "img/male_full_sexy_P006_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P006_low.png",
+          "bytes": 1077377,
+          "sha256": "18534d79f05cc69a22ed0952fa587e357fd86526fc6d66b5566f8c0a0dc8b1eb"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P006_low.jpg",
+          "bytes": 21564,
+          "sha256": "f2fab75fe237699b4f735be80b76d5aac9fa80fb40fb78fee3ab20fd86175b65"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Create a neutral art-school drawing reference of one adult male articulated drawing mannequin made of opaque smooth geometric shells. Image 1 provides ONLY the joint skeleton, exact pose, camera and framing. Image 2 provides the MALE mannequin identity and line drawing style only, not the seated pose. Reconstruct the torso as a broad male ribcage: a single shallow rectangular wedge with two flat, angular pectoral planes flush against its front surface. The chest contour should form a nearly straight line down toward the abdomen, with absolutely no protruding, round, dangling or teardrop-shaped chest volumes. Thicker straight waist, broad shoulders, narrower geometric pelvis, moderately athletic male limbs, blank construction-line head. Maintain precisely image 1's upright feet, slightly bent standing legs, forward-inclined torso, outstretched arms to the right, vertical open palms, head rotation and all joint positions. Use reference low upward camera viewpoint from image 1, matching all foreshortening and occlusion. The model is an abstract drawing dummy with opaque surfaces and featureless pelvic shell, no biological surface details. Thin gray-charcoal outline on pure white background, no skin rendering, shading, text, props or extra figures. Full body visible with margins, 3:4 portrait canvas. The source's feminine body contours must be replaced by the masculine construction of image 2 while the pose and camera remain fixed.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:11:46.968311+00:00",
+      "generated_source_filename": "exec-6b3115ef-956d-4e5f-8853-0ffb81e5c949.png",
       "reviewed": true
     },
     {
@@ -854,20 +893,24 @@
       "files": [
         {
           "path": "img/male_full_sexy_P006_side.png",
-          "bytes": 1542567,
-          "sha256": "a8f48069303a8672ebc058d3c769a8286a4588e11037e3c672fce169133d8ac6"
+          "bytes": 967417,
+          "sha256": "25cf35b37965921f422867ceaeb68b7b1038aa539de7add8de88618e7f02aa23"
         },
         {
           "path": "thumbs/male_full_sexy_P006_side.jpg",
-          "bytes": 17788,
-          "sha256": "1fe28328fc2014067ba61926aefe7a90a54aea0a4ace095be3c068185314e617"
+          "bytes": 17400,
+          "sha256": "9eb5d955a023de757dc5fe76e913b5d648ef042c4dc7bf3bce0165ac11f3d2a3"
         }
       ],
-      "prompt": "Use case: scientific-educational.\nAsset type: one 3:4 portrait PNG drawing-pose reference for an offline artist's gallery.\nInput image1 is the exact pose, camera and composition reference. Input image2 is the approved male mannequin body design and line-style reference only; do not copy image2's seated pose.\nCreate the adult MALE counterpart of image1, preserving its hand/foot positions, body gesture, torso bend, head direction, camera angle and framing. Subject is one faceless articulated artist's mannequin: broad shoulders, flat angular masculine pectoral plates, straight waist, narrower pelvis, moderately athletic proportions, ellipsoid joints, oval head construction cross. Smooth featureless pelvic shell; no genitals, nipples, hair or skin texture. Match approved male body design while preserving image1's exact pose.\nThin gray-charcoal outline drawing, white interiors, sparse light construction lines, clean white background. No shading, anatomy labels, text, borders, watermark or additional figure. Fully show all depicted limbs with clear margins; do not crop, add, remove or mirror limbs. Output a single 3:4 portrait image.\nTarget: full_sexy_P006_side — preserve the standing bent-forward push gesture: hips behind, back inclined, both arms extended forward to screen right, both palms upright pressing an invisible surface, head turned slightly toward viewer. Use exactly image1 camera and limb arrangement. Mannequin has a masculine torso, broad upper back and flat pectoral plates; replace all female breast forms. White background without drawing the invisible wall.",
+      "prompt": "Use case: scientific-educational. Create a neutral art-school drawing reference of one adult male articulated drawing mannequin made of opaque smooth geometric shells. Image 1 provides ONLY the joint skeleton, exact pose, camera and framing. Image 2 provides the MALE mannequin identity and line drawing style only, not the seated pose. Reconstruct the torso as a broad male ribcage: a single shallow rectangular wedge with two flat, angular pectoral planes flush against its front surface. The chest contour should form a nearly straight line down toward the abdomen, with absolutely no protruding, round, dangling or teardrop-shaped chest volumes. Thicker straight waist, broad shoulders, narrower geometric pelvis, moderately athletic male limbs, blank construction-line head. Maintain precisely image 1's upright feet, slightly bent standing legs, forward-inclined torso, outstretched arms to the right, vertical open palms, head rotation and all joint positions. Use reference side profile camera viewpoint from image 1, matching all foreshortening and occlusion. The model is an abstract drawing dummy with opaque surfaces and featureless pelvic shell, no biological surface details. Thin gray-charcoal outline on pure white background, no skin rendering, shading, text, props or extra figures. Full body visible with margins, 3:4 portrait canvas. The source's feminine body contours must be replaced by the masculine construction of image 2 while the pose and camera remain fixed.",
       "model": "built-in image_gen",
-      "generated_at": "2026-10-29T23:12:05.767785+00:00",
-      "generated_source_filename": "exec-3f2d8309-306c-4322-881a-4be636015f2f.png",
-      "reviewed": true
+      "generated_at": "2026-11-02T11:11:46.106836+00:00",
+      "generated_source_filename": "exec-1faa627b-a048-456e-b045-14aa00733096.png",
+      "reviewed": true,
+      "correction": {
+        "reason": "Correct overly rounded chest forms to a male rectangular ribcage; all original source files remain unchanged.",
+        "previous_png_sha256": "a8f48069303a8672ebc058d3c769a8286a4588e11037e3c672fce169133d8ac6"
+      }
     },
     {
       "id": "male_full_sexy_P006_diag",
@@ -885,20 +928,24 @@
       "files": [
         {
           "path": "img/male_full_sexy_P006_diag.png",
-          "bytes": 1503843,
-          "sha256": "87a4fdec9934ca1e72e08183c48fcefb9ce5cafc623d30965c19e9e6b4007f7d"
+          "bytes": 1022229,
+          "sha256": "ee6d25c6c1a194c184d86ade292f45eb14d0bc4f92c3f0c473d0b563aef8aab1"
         },
         {
           "path": "thumbs/male_full_sexy_P006_diag.jpg",
-          "bytes": 22584,
-          "sha256": "39850e28f8ba4d45f1e90b4cfb1a0a67e1f644636afbd308796f03e182288a9d"
+          "bytes": 20694,
+          "sha256": "d7d1a2ea4dfacd1ba43c4abd7a92049e5b9a17a8343275fb55321c60323e4c97"
         }
       ],
-      "prompt": "Use case: scientific-educational.\nAsset type: one 3:4 portrait PNG drawing-pose reference for an offline artist's gallery.\nInput image1 is the exact pose, camera and composition reference. Input image2 is the approved male mannequin body design and line-style reference only; do not copy image2's seated pose.\nCreate the adult MALE counterpart of image1, preserving its hand/foot positions, body gesture, torso bend, head direction, camera angle and framing. Subject is one faceless articulated artist's mannequin: broad shoulders, flat angular masculine pectoral plates, straight waist, narrower pelvis, moderately athletic proportions, ellipsoid joints, oval head construction cross. Smooth featureless pelvic shell; no genitals, nipples, hair or skin texture. Match approved male body design while preserving image1's exact pose.\nThin gray-charcoal outline drawing, white interiors, sparse light construction lines, clean white background. No shading, anatomy labels, text, borders, watermark or additional figure. Fully show all depicted limbs with clear margins; do not crop, add, remove or mirror limbs. Output a single 3:4 portrait image.\nTarget: full_sexy_P006_diag — preserve the standing bent-forward push gesture: hips behind, back inclined, both arms extended forward to screen right, both palms upright pressing an invisible surface, head turned slightly toward viewer. Use exactly image1 camera and limb arrangement. Mannequin has a masculine torso, broad upper back and flat pectoral plates; replace all female breast forms. White background without drawing the invisible wall.",
+      "prompt": "Use case: scientific-educational. Create a neutral art-school drawing reference of one adult male articulated drawing mannequin made of opaque smooth geometric shells. Image 1 provides ONLY the joint skeleton, exact pose, camera and framing. Image 2 provides the MALE mannequin identity and line drawing style only, not the seated pose. Reconstruct the torso as a broad male ribcage: a single shallow rectangular wedge with two flat, angular pectoral planes flush against its front surface. The chest contour should form a nearly straight line down toward the abdomen, with absolutely no protruding, round, dangling or teardrop-shaped chest volumes. Thicker straight waist, broad shoulders, narrower geometric pelvis, moderately athletic male limbs, blank construction-line head. Maintain precisely image 1's upright feet, slightly bent standing legs, forward-inclined torso, outstretched arms to the right, vertical open palms, head rotation and all joint positions. Use reference diagonal back-three-quarter viewpoint from image 1, matching all foreshortening and occlusion. The model is an abstract drawing dummy with opaque surfaces and featureless pelvic shell, no biological surface details. Thin gray-charcoal outline on pure white background, no skin rendering, shading, text, props or extra figures. Full body visible with margins, 3:4 portrait canvas. The source's feminine body contours must be replaced by the masculine construction of image 2 while the pose and camera remain fixed.",
       "model": "built-in image_gen",
-      "generated_at": "2026-10-29T23:12:05.827332+00:00",
-      "generated_source_filename": "exec-a1780d44-15f6-436b-8b42-fa18c657c97d.png",
-      "reviewed": true
+      "generated_at": "2026-11-02T11:11:46.187061+00:00",
+      "generated_source_filename": "exec-eb9d76a9-30a7-4bbc-a343-c6221e60571c.png",
+      "reviewed": true,
+      "correction": {
+        "reason": "Correct overly rounded chest forms to a male rectangular ribcage; all original source files remain unchanged.",
+        "previous_png_sha256": "87a4fdec9934ca1e72e08183c48fcefb9ce5cafc623d30965c19e9e6b4007f7d"
+      }
     },
     {
       "id": "male_full_sexy_P007_front",
@@ -1518,6 +1565,626 @@
       "model": "built-in image_gen",
       "generated_at": "2026-11-02T10:42:44.841346+00:00",
       "generated_source_filename": "exec-ba5d1b36-11ba-4940-9bc6-9a44b374b6c2.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P011_front",
+      "original_source_id": "full_sexy_P011_front",
+      "record": {
+        "id": "male_full_sexy_P011_front",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P011",
+        "分類": "立ち",
+        "ポーズ名": "両腕を上に伸ばして背伸び・腰をひねる",
+        "アングル": "正面",
+        "サムネ": "thumbs/male_full_sexy_P011_front.jpg",
+        "原寸": "img/male_full_sexy_P011_front.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P011_front.png",
+          "bytes": 1025264,
+          "sha256": "7ae47352e2a569a1ff8a05d0936f36a82e634b26e184f7938801722a1e81e8a7"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P011_front.jpg",
+          "bytes": 17552,
+          "sha256": "7f9ae1635a7a0bb4f8aa78e12d8060915abbd4e009df34af78b82d46c37acc11"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference for an artist's gallery. Input image 1 is the exact pose, camera, and composition reference. Input image 2 is the approved adult male mannequin body design and line-style reference only; never copy its seated pose. Create one adult faceless articulated male artist mannequin, preserving image 1's exact head direction, hand and foot positions, body gesture, contact points, twist, foreshortening and full-body framing. Both arms reach overhead and the two hands touch above the head; torso bends slightly with the hip shifted screen left; both feet are visible and apart. Broad shoulders, flat shallow angular masculine pectoral plates with a nearly straight lower chest edge, never rounded breast forms; straight waist, narrower pelvis, moderately athletic proportions; smooth featureless pelvic shell; ellipsoid articulated joints and oval head with construction cross. Thin neutral gray-charcoal linework, white interiors, sparse construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, props, text, watermark or extra figures. Exactly two arms and two legs. Match the source pose and angle, with the original crop and clear margins, in a single 3:4 portrait image. Camera: front camera; match input image 1 precisely.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:49:20.376215+00:00",
+      "generated_source_filename": "exec-a7581833-e343-46d1-a90b-60f851fea4c4.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P011_high",
+      "original_source_id": "full_sexy_P011_high",
+      "record": {
+        "id": "male_full_sexy_P011_high",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P011",
+        "分類": "立ち",
+        "ポーズ名": "両腕を上に伸ばして背伸び・腰をひねる",
+        "アングル": "上から",
+        "サムネ": "thumbs/male_full_sexy_P011_high.jpg",
+        "原寸": "img/male_full_sexy_P011_high.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P011_high.png",
+          "bytes": 1017607,
+          "sha256": "af555a843dc1f1e67e8ea1a22d4cb2055746f666e8abcd7f4eea38e2116984d4"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P011_high.jpg",
+          "bytes": 19973,
+          "sha256": "5029896eaa602c3ad9b41cfcf05add2721d6c2c4b00c010e90f97d2b8e38be44"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference for an artist's gallery. Input image 1 is the exact pose, camera, and composition reference. Input image 2 is the approved adult male mannequin body design and line-style reference only; never copy its seated pose. Create one adult faceless articulated male artist mannequin, preserving image 1's exact head direction, hand and foot positions, body gesture, contact points, twist, foreshortening and full-body framing. Both arms reach overhead and the two hands touch above the head; torso bends slightly with the hip shifted screen left; both feet are visible and apart. Broad shoulders, flat shallow angular masculine pectoral plates with a nearly straight lower chest edge, never rounded breast forms; straight waist, narrower pelvis, moderately athletic proportions; smooth featureless pelvic shell; ellipsoid articulated joints and oval head with construction cross. Thin neutral gray-charcoal linework, white interiors, sparse construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, props, text, watermark or extra figures. Exactly two arms and two legs. Match the source pose and angle, with the original crop and clear margins, in a single 3:4 portrait image. Camera: high camera looking downward, head and shoulders nearer and feet receding; match input image 1 precisely.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:49:20.379376+00:00",
+      "generated_source_filename": "exec-fc9ac353-f108-445e-b70b-1ac9f8353e6e.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P011_low",
+      "original_source_id": "full_sexy_P011_low",
+      "record": {
+        "id": "male_full_sexy_P011_low",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P011",
+        "分類": "立ち",
+        "ポーズ名": "両腕を上に伸ばして背伸び・腰をひねる",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_full_sexy_P011_low.jpg",
+        "原寸": "img/male_full_sexy_P011_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P011_low.png",
+          "bytes": 1086305,
+          "sha256": "f62accaed19960ddbf416716761f15803b2288151e9da303f4e8224f4d869215"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P011_low.jpg",
+          "bytes": 21440,
+          "sha256": "984f700e33a798b972884ae3839d7c0470f2f37e8021d59d711322cefc61f6d5"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference for an artist's gallery. Input image 1 is the exact pose, camera, and composition reference. Input image 2 is the approved adult male mannequin body design and line-style reference only; never copy its seated pose. Create one adult faceless articulated male artist mannequin, preserving image 1's exact head direction, hand and foot positions, body gesture, contact points, twist, foreshortening and full-body framing. Both arms reach overhead and the two hands touch above the head; torso bends slightly with the hip shifted screen left; both feet are visible and apart. Broad shoulders, flat shallow angular masculine pectoral plates with a nearly straight lower chest edge, never rounded breast forms; straight waist, narrower pelvis, moderately athletic proportions; smooth featureless pelvic shell; ellipsoid articulated joints and oval head with construction cross. Thin neutral gray-charcoal linework, white interiors, sparse construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, props, text, watermark or extra figures. Exactly two arms and two legs. Match the source pose and angle, with the original crop and clear margins, in a single 3:4 portrait image. Camera: low upward camera with nearer feet and longer legs, torso and raised hands receding; match input image 1 precisely.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:49:20.381322+00:00",
+      "generated_source_filename": "exec-1ce29a34-f699-4fb4-9364-d0d6205d5069.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P011_side",
+      "original_source_id": "full_sexy_P011_side",
+      "record": {
+        "id": "male_full_sexy_P011_side",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P011",
+        "分類": "立ち",
+        "ポーズ名": "両腕を上に伸ばして背伸び・腰をひねる",
+        "アングル": "横",
+        "サムネ": "thumbs/male_full_sexy_P011_side.jpg",
+        "原寸": "img/male_full_sexy_P011_side.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P011_side.png",
+          "bytes": 971700,
+          "sha256": "94c01c62ff1f7348fceb37da9c18dbea39dbfa7b883a970bd9e3e8a24fb773b4"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P011_side.jpg",
+          "bytes": 16086,
+          "sha256": "0d47f36f8c473a36c00a5a8d89728d4c76dc9ce815f54c499475f871e9c43285"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference for an artist's gallery. Input image 1 is the exact pose, camera, and composition reference. Input image 2 is the approved adult male mannequin body design and line-style reference only; never copy its seated pose. Create one adult faceless articulated male artist mannequin, preserving image 1's exact head direction, hand and foot positions, body gesture, contact points, twist, foreshortening and full-body framing. Both arms reach overhead and the two hands touch above the head; torso bends slightly with the hip shifted screen left; both feet are visible and apart. Broad shoulders, flat shallow angular masculine pectoral plates with a nearly straight lower chest edge, never rounded breast forms; straight waist, narrower pelvis, moderately athletic proportions; smooth featureless pelvic shell; ellipsoid articulated joints and oval head with construction cross. Thin neutral gray-charcoal linework, white interiors, sparse construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, props, text, watermark or extra figures. Exactly two arms and two legs. Match the source pose and angle, with the original crop and clear margins, in a single 3:4 portrait image. Camera: side camera with face looking screen right and the far arm partly overlapped; match input image 1 precisely.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:49:20.384369+00:00",
+      "generated_source_filename": "exec-6fd5085c-c30d-42d3-8b59-92c06de43a21.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P011_diag",
+      "original_source_id": "full_sexy_P011_diag",
+      "record": {
+        "id": "male_full_sexy_P011_diag",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P011",
+        "分類": "立ち",
+        "ポーズ名": "両腕を上に伸ばして背伸び・腰をひねる",
+        "アングル": "斜め",
+        "サムネ": "thumbs/male_full_sexy_P011_diag.jpg",
+        "原寸": "img/male_full_sexy_P011_diag.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P011_diag.png",
+          "bytes": 990991,
+          "sha256": "0fbddc427f294040c0d6d58703831e1472748668586508d606170849d38e8860"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P011_diag.jpg",
+          "bytes": 18831,
+          "sha256": "ec1aae5c417657d6bc3ade9a0409dd1ae52ebc00d0c78d5e0ba306e5e82b7bc1"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference for an artist's gallery. Input image 1 is the exact pose, camera, and composition reference. Input image 2 is the approved adult male mannequin body design and line-style reference only; never copy its seated pose. Create one adult faceless articulated male artist mannequin, preserving image 1's exact head direction, hand and foot positions, body gesture, contact points, twist, foreshortening and full-body framing. Both arms reach overhead and the two hands touch above the head; torso bends slightly with the hip shifted screen left; both feet are visible and apart. Broad shoulders, flat shallow angular masculine pectoral plates with a nearly straight lower chest edge, never rounded breast forms; straight waist, narrower pelvis, moderately athletic proportions; smooth featureless pelvic shell; ellipsoid articulated joints and oval head with construction cross. Thin neutral gray-charcoal linework, white interiors, sparse construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, props, text, watermark or extra figures. Exactly two arms and two legs. Match the source pose and angle, with the original crop and clear margins, in a single 3:4 portrait image. Camera: three-quarter diagonal camera; match input image 1 precisely.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:49:20.388790+00:00",
+      "generated_source_filename": "exec-773d8f99-7122-4f8d-94fa-7414787e0625.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P012_front",
+      "original_source_id": "full_sexy_P012_front",
+      "record": {
+        "id": "male_full_sexy_P012_front",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P012",
+        "分類": "立ち",
+        "ポーズ名": "立ちV字（片脚を横に高く上げる）",
+        "アングル": "正面",
+        "サムネ": "thumbs/male_full_sexy_P012_front.jpg",
+        "原寸": "img/male_full_sexy_P012_front.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P012_front.png",
+          "bytes": 986617,
+          "sha256": "98790e5b60873b51ef3f7bec6b35f997bc2080163a15b37a8185e63e94ce1c45"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P012_front.jpg",
+          "bytes": 19750,
+          "sha256": "3762aaac1f00368cd45eef86ea70b3ef09cb919a9359422e166ab703cb7b8bc8"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose reference. Image 1 supplies the exact pose, camera and full-body framing. Image 2 supplies only the approved adult male mannequin design and drawing style; do not copy its seated pose. Make one adult faceless articulated male artist mannequin in image 1's exact balancing/stretching pose: one leg supports the body vertically, the other straight leg extends high diagonally toward screen right; one arm curves above the head, its hand relaxed; the opposite arm reaches toward the raised leg with the hand resting at its knee. Preserve all head, hand, elbow, knee and foot positions, contact points, exact limb gesture, foreshortening, camera, orientation and original crop. Broad shoulders, flat shallow angular masculine pectoral plates with nearly straight lower edges, never rounded breast forms; straight waist, narrower pelvis, moderately athletic proportions, ellipsoid joints, smooth featureless pelvic shell and oval head construction cross. Thin neutral gray-charcoal outlines, white interiors, sparse construction lines, plain white background. No nipples, genitals, hair, skin texture, shading, labels, text, watermark, props or additional figures. Exactly two arms and two legs; do not mirror limbs. Keep entire depicted body visible with clear margins. Single 3:4 portrait canvas. Camera and composition: front camera; raised leg runs diagonally towards the top right corner and supporting foot is below the torso.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:53:33.827436+00:00",
+      "generated_source_filename": "exec-ddf5557e-f52d-4b3c-86a0-1334315b4424.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P012_high",
+      "original_source_id": "full_sexy_P012_high",
+      "record": {
+        "id": "male_full_sexy_P012_high",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P012",
+        "分類": "立ち",
+        "ポーズ名": "立ちV字（片脚を横に高く上げる）",
+        "アングル": "上から",
+        "サムネ": "thumbs/male_full_sexy_P012_high.jpg",
+        "原寸": "img/male_full_sexy_P012_high.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P012_high.png",
+          "bytes": 1040651,
+          "sha256": "6a0e8045b39da4f18e1883b6bd2be432d7a2f743b0f7805464932be7224878d7"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P012_high.jpg",
+          "bytes": 22600,
+          "sha256": "51f173ec132ba9f1a6bad0b19d03348664b6cab13b579a0388b3c9edda2b3576"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose reference. Image 1 supplies the exact pose, camera and full-body framing. Image 2 supplies only the approved adult male mannequin design and drawing style; do not copy its seated pose. Make one adult faceless articulated male artist mannequin in image 1's exact balancing/stretching pose: one leg supports the body vertically, the other straight leg extends high diagonally toward screen right; one arm curves above the head, its hand relaxed; the opposite arm reaches toward the raised leg with the hand resting at its knee. Preserve all head, hand, elbow, knee and foot positions, contact points, exact limb gesture, foreshortening, camera, orientation and original crop. Broad shoulders, flat shallow angular masculine pectoral plates with nearly straight lower edges, never rounded breast forms; straight waist, narrower pelvis, moderately athletic proportions, ellipsoid joints, smooth featureless pelvic shell and oval head construction cross. Thin neutral gray-charcoal outlines, white interiors, sparse construction lines, plain white background. No nipples, genitals, hair, skin texture, shading, labels, text, watermark, props or additional figures. Exactly two arms and two legs; do not mirror limbs. Keep entire depicted body visible with clear margins. Single 3:4 portrait canvas. Camera and composition: high downward camera; head and chest appear nearer, supporting foot recedes.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:53:33.829860+00:00",
+      "generated_source_filename": "exec-74feb194-9480-4292-97d4-23d335b5468f.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P012_low",
+      "original_source_id": "full_sexy_P012_low",
+      "record": {
+        "id": "male_full_sexy_P012_low",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P012",
+        "分類": "立ち",
+        "ポーズ名": "立ちV字（片脚を横に高く上げる）",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_full_sexy_P012_low.jpg",
+        "原寸": "img/male_full_sexy_P012_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P012_low.png",
+          "bytes": 1148315,
+          "sha256": "ac5d90342641f5928f957c84648109d6370ce550aafa803852dc3741fb7a7225"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P012_low.jpg",
+          "bytes": 21500,
+          "sha256": "18331764a05dba392f915243d63b9c37b0590469ffe7d2663f03c7379564271e"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose reference. Image 1 supplies the exact pose, camera and full-body framing. Image 2 supplies only the approved adult male mannequin design and drawing style; do not copy its seated pose. Make one adult faceless articulated male artist mannequin in image 1's exact balancing/stretching pose: one leg supports the body vertically, the other straight leg extends high diagonally toward screen right; one arm curves above the head, its hand relaxed; the opposite arm reaches toward the raised leg with the hand resting at its knee. Preserve all head, hand, elbow, knee and foot positions, contact points, exact limb gesture, foreshortening, camera, orientation and original crop. Broad shoulders, flat shallow angular masculine pectoral plates with nearly straight lower edges, never rounded breast forms; straight waist, narrower pelvis, moderately athletic proportions, ellipsoid joints, smooth featureless pelvic shell and oval head construction cross. Thin neutral gray-charcoal outlines, white interiors, sparse construction lines, plain white background. No nipples, genitals, hair, skin texture, shading, labels, text, watermark, props or additional figures. Exactly two arms and two legs; do not mirror limbs. Keep entire depicted body visible with clear margins. Single 3:4 portrait canvas. Camera and composition: low upward camera; supporting foot is large in foreground while torso and head recede.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:53:33.832319+00:00",
+      "generated_source_filename": "exec-17e5eaef-f272-434d-aa5a-73dffe36c017.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P012_side",
+      "original_source_id": "full_sexy_P012_side",
+      "record": {
+        "id": "male_full_sexy_P012_side",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P012",
+        "分類": "立ち",
+        "ポーズ名": "立ちV字（片脚を横に高く上げる）",
+        "アングル": "横",
+        "サムネ": "thumbs/male_full_sexy_P012_side.jpg",
+        "原寸": "img/male_full_sexy_P012_side.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P012_side.png",
+          "bytes": 991102,
+          "sha256": "9b097c4603396092a3c8abdeb54b9e167e9c7a49da1af84cec63199f3efabcfa"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P012_side.jpg",
+          "bytes": 18500,
+          "sha256": "ef19380427dfb8172c8e6d533e1b2626bc963fa8c41919beba0e3505b889b283"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose reference. Image 1 supplies the exact pose, camera and full-body framing. Image 2 supplies only the approved adult male mannequin design and drawing style; do not copy its seated pose. Make one adult faceless articulated male artist mannequin in image 1's exact balancing/stretching pose: one leg supports the body vertically, the other straight leg extends high diagonally toward screen right; one arm curves above the head, its hand relaxed; the opposite arm reaches toward the raised leg with the hand resting at its knee. Preserve all head, hand, elbow, knee and foot positions, contact points, exact limb gesture, foreshortening, camera, orientation and original crop. Broad shoulders, flat shallow angular masculine pectoral plates with nearly straight lower edges, never rounded breast forms; straight waist, narrower pelvis, moderately athletic proportions, ellipsoid joints, smooth featureless pelvic shell and oval head construction cross. Thin neutral gray-charcoal outlines, white interiors, sparse construction lines, plain white background. No nipples, genitals, hair, skin texture, shading, labels, text, watermark, props or additional figures. Exactly two arms and two legs; do not mirror limbs. Keep entire depicted body visible with clear margins. Single 3:4 portrait canvas. Camera and composition: side camera; face and supporting foot face screen right, with the exact side silhouette of image 1.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:53:33.837499+00:00",
+      "generated_source_filename": "exec-9e48a90e-7b6b-4aa9-a6bc-1af3e5175110.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P012_diag",
+      "original_source_id": "full_sexy_P012_diag",
+      "record": {
+        "id": "male_full_sexy_P012_diag",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P012",
+        "分類": "立ち",
+        "ポーズ名": "立ちV字（片脚を横に高く上げる）",
+        "アングル": "斜め",
+        "サムネ": "thumbs/male_full_sexy_P012_diag.jpg",
+        "原寸": "img/male_full_sexy_P012_diag.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P012_diag.png",
+          "bytes": 995278,
+          "sha256": "b86eeda9f67cf064e7d802cd35d2b9f8efc07c8e4a273977f15c8b85fe177834"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P012_diag.jpg",
+          "bytes": 20134,
+          "sha256": "2c9d3c9efc2daa5274ae822a9180d5011966f55b4c07dc38a7cab2a64bdc419f"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose reference. Image 1 supplies the exact pose, camera and full-body framing. Image 2 supplies only the approved adult male mannequin design and drawing style; do not copy its seated pose. Make one adult faceless articulated male artist mannequin in image 1's exact balancing/stretching pose: one leg supports the body vertically, the other straight leg extends high diagonally toward screen right; one arm curves above the head, its hand relaxed; the opposite arm reaches toward the raised leg with the hand resting at its knee. Preserve all head, hand, elbow, knee and foot positions, contact points, exact limb gesture, foreshortening, camera, orientation and original crop. Broad shoulders, flat shallow angular masculine pectoral plates with nearly straight lower edges, never rounded breast forms; straight waist, narrower pelvis, moderately athletic proportions, ellipsoid joints, smooth featureless pelvic shell and oval head construction cross. Thin neutral gray-charcoal outlines, white interiors, sparse construction lines, plain white background. No nipples, genitals, hair, skin texture, shading, labels, text, watermark, props or additional figures. Exactly two arms and two legs; do not mirror limbs. Keep entire depicted body visible with clear margins. Single 3:4 portrait canvas. Camera and composition: three-quarter diagonal camera; match source foreshortening and head direction.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:53:33.841481+00:00",
+      "generated_source_filename": "exec-778ca1e4-d248-4d6f-90b7-36fde91e4d0e.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P013_front",
+      "original_source_id": "full_sexy_P013_front",
+      "record": {
+        "id": "male_full_sexy_P013_front",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P013",
+        "分類": "立ち",
+        "ポーズ名": "後ろ手で胸を張る",
+        "アングル": "正面",
+        "サムネ": "thumbs/male_full_sexy_P013_front.jpg",
+        "原寸": "img/male_full_sexy_P013_front.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P013_front.png",
+          "bytes": 972575,
+          "sha256": "edb2e1d56b708e6a0bdb7b935fc2ecbd8932601ece62e02a9baeb8f66dc69610"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P013_front.jpg",
+          "bytes": 18921,
+          "sha256": "da4626e9244fac4afdfec2bf23bde6752cada4bf2c2b1a958b78d2134bc0f9c9"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference. Input image 1 supplies the exact pose, camera and framing; input image 2 supplies only approved adult male artist mannequin design and line style, never its seated pose. Create one faceless articulated adult MALE mannequin matching image 1's exact head tilt, torso gesture, limb positions, contact points, foreshortening, camera and full-body crop. Broad shoulders, flat shallow angular pectoral plates (no rounded breast forms), straight waist, narrower pelvis, moderately athletic proportions, oval construction head, ellipsoid joints, smooth featureless pelvic shell. Thin neutral gray-charcoal outlines, white interiors, sparse light construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, text, watermark, props, additional figures or missing/extra limbs. Preserve the original full-body framing with all feet and head inside the 3:4 portrait canvas.\nPose/camera: Neutral standing stretch, both hands behind lower back, chest raised, head tilted back, separated planted feet. Preserve image 1 front camera, slight body turn and asymmetric knee bend.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:59:18.783203+00:00",
+      "generated_source_filename": "exec-deb2f636-91eb-465e-aa1a-04f0c1a0b862.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P013_high",
+      "original_source_id": "full_sexy_P013_high",
+      "record": {
+        "id": "male_full_sexy_P013_high",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P013",
+        "分類": "立ち",
+        "ポーズ名": "後ろ手で胸を張る",
+        "アングル": "上から",
+        "サムネ": "thumbs/male_full_sexy_P013_high.jpg",
+        "原寸": "img/male_full_sexy_P013_high.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P013_high.png",
+          "bytes": 1016561,
+          "sha256": "412db459bca596f50c828a44afe75f76e0fb0f30252d5cd4f4c41cf5af1e1128"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P013_high.jpg",
+          "bytes": 20208,
+          "sha256": "92951975d867ccae077f412e20d63b54639e157c46c493c7ef0973a362f5a3b6"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference. Input image 1 supplies the exact pose, camera and framing; input image 2 supplies only approved adult male artist mannequin design and line style, never its seated pose. Create one faceless articulated adult MALE mannequin matching image 1's exact head tilt, torso gesture, limb positions, contact points, foreshortening, camera and full-body crop. Broad shoulders, flat shallow angular pectoral plates (no rounded breast forms), straight waist, narrower pelvis, moderately athletic proportions, oval construction head, ellipsoid joints, smooth featureless pelvic shell. Thin neutral gray-charcoal outlines, white interiors, sparse light construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, text, watermark, props, additional figures or missing/extra limbs. Preserve the original full-body framing with all feet and head inside the 3:4 portrait canvas.\nPose/camera: Neutral standing stretch, both hands behind lower back, chest raised, head tilted back, separated planted feet. Preserve image 1 HIGH downward camera with enlarged head/shoulders and receding lower legs.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:59:18.786398+00:00",
+      "generated_source_filename": "exec-a68bd37c-d6f6-4e9e-912d-f5198c7ca840.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P013_low",
+      "original_source_id": "full_sexy_P013_low",
+      "record": {
+        "id": "male_full_sexy_P013_low",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P013",
+        "分類": "立ち",
+        "ポーズ名": "後ろ手で胸を張る",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_full_sexy_P013_low.jpg",
+        "原寸": "img/male_full_sexy_P013_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P013_low.png",
+          "bytes": 1021890,
+          "sha256": "891ac66826b21937559598534b5cdae657a0a756894faf748bc4396fb9e4dacb"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P013_low.jpg",
+          "bytes": 21071,
+          "sha256": "16bdf62520c6727f875cc4625ca5d42d540ba9d0e07d0ca952cdda53eae95f18"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference. Input image 1 supplies the exact pose, camera and framing; input image 2 supplies only approved adult male artist mannequin design and line style, never its seated pose. Create one faceless articulated adult MALE mannequin matching image 1's exact head tilt, torso gesture, limb positions, contact points, foreshortening, camera and full-body crop. Broad shoulders, flat shallow angular pectoral plates (no rounded breast forms), straight waist, narrower pelvis, moderately athletic proportions, oval construction head, ellipsoid joints, smooth featureless pelvic shell. Thin neutral gray-charcoal outlines, white interiors, sparse light construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, text, watermark, props, additional figures or missing/extra limbs. Preserve the original full-body framing with all feet and head inside the 3:4 portrait canvas.\nPose/camera: Neutral standing stretch, both hands behind lower back, chest raised, head tilted back, separated planted feet. Preserve image 1 LOW upward camera, large foreground foot on image left, long foreshortened legs and smaller head.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:59:18.792141+00:00",
+      "generated_source_filename": "exec-582a1a53-0bd9-4667-a8d5-83fc66923e14.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P013_side",
+      "original_source_id": "full_sexy_P013_side",
+      "record": {
+        "id": "male_full_sexy_P013_side",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P013",
+        "分類": "立ち",
+        "ポーズ名": "後ろ手で胸を張る",
+        "アングル": "横",
+        "サムネ": "thumbs/male_full_sexy_P013_side.jpg",
+        "原寸": "img/male_full_sexy_P013_side.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P013_side.png",
+          "bytes": 1016208,
+          "sha256": "1e82983c3564e0558ee094ba0c42f331a6b3e521508640742bc5814d6c35787c"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P013_side.jpg",
+          "bytes": 18050,
+          "sha256": "da0a087be64056b015e922dce8e5ef6a565dcef9dcc4a82869ea0016a4ad7f8e"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference. Input image 1 supplies the exact pose, camera and framing; input image 2 supplies only approved adult male artist mannequin design and line style, never its seated pose. Create one faceless articulated adult MALE mannequin matching image 1's exact head tilt, torso gesture, limb positions, contact points, foreshortening, camera and full-body crop. Broad shoulders, flat shallow angular pectoral plates (no rounded breast forms), straight waist, narrower pelvis, moderately athletic proportions, oval construction head, ellipsoid joints, smooth featureless pelvic shell. Thin neutral gray-charcoal outlines, white interiors, sparse light construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, text, watermark, props, additional figures or missing/extra limbs. Preserve the original full-body framing with all feet and head inside the 3:4 portrait canvas.\nPose/camera: Neutral standing stretch, both hands clasped behind lower back, chest raised, head tilted back, separated planted feet. Preserve image 1 SIDE camera: face oriented toward image right, visible side silhouette and near shoulder.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:59:18.793984+00:00",
+      "generated_source_filename": "exec-c5277638-d0f9-4756-a52f-e3d68b888874.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P013_diag",
+      "original_source_id": "full_sexy_P013_diag",
+      "record": {
+        "id": "male_full_sexy_P013_diag",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P013",
+        "分類": "立ち",
+        "ポーズ名": "後ろ手で胸を張る",
+        "アングル": "斜め",
+        "サムネ": "thumbs/male_full_sexy_P013_diag.jpg",
+        "原寸": "img/male_full_sexy_P013_diag.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P013_diag.png",
+          "bytes": 992910,
+          "sha256": "204abc166f418a0f506441b054da78e8c60fd50193096128c2ddc593e3292602"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P013_diag.jpg",
+          "bytes": 19453,
+          "sha256": "76f04b57bbcb458b2d930156fbabbe614949176532df4fddf9f7701a0c9b1592"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference. Input image 1 supplies the exact pose, camera and framing; input image 2 supplies only approved adult male artist mannequin design and line style, never its seated pose. Create one faceless articulated adult MALE mannequin matching image 1's exact head tilt, torso gesture, limb positions, contact points, foreshortening, camera and full-body crop. Broad shoulders, flat shallow angular pectoral plates (no rounded breast forms), straight waist, narrower pelvis, moderately athletic proportions, oval construction head, ellipsoid joints, smooth featureless pelvic shell. Thin neutral gray-charcoal outlines, white interiors, sparse light construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, text, watermark, props, additional figures or missing/extra limbs. Preserve the original full-body framing with all feet and head inside the 3:4 portrait canvas.\nPose/camera: Neutral standing stretch, both hands behind lower back, chest raised, head tilted back, separated planted feet. Preserve image 1 DIAGONAL three-quarter camera with its precise asymmetric limb overlaps.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:59:18.795569+00:00",
+      "generated_source_filename": "exec-79a2006a-c176-46ef-9aa0-efd71fa94fbb.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P014_front",
+      "original_source_id": "full_sexy_P014_front",
+      "record": {
+        "id": "male_full_sexy_P014_front",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P014",
+        "分類": "立ち",
+        "ポーズ名": "立ち前屈でお尻を突き出し両手を床へ",
+        "アングル": "正面",
+        "サムネ": "thumbs/male_full_sexy_P014_front.jpg",
+        "原寸": "img/male_full_sexy_P014_front.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P014_front.png",
+          "bytes": 1092529,
+          "sha256": "d8afea7fb71acd7771fa947bface3f3ee1f86fa4afa7897d0d3f44a946f020fd"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P014_front.jpg",
+          "bytes": 24600,
+          "sha256": "014c086d94c9a2a41d98265c3282f6d8c8391938605d5505fb1ac5fe9d981f1c"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference. Input image 1 supplies the exact pose, camera and framing. Input image 2 supplies ONLY approved adult male artist mannequin design and thin outline style; never copy its seated pose. Create one faceless articulated adult MALE mannequin in image 1's exact standing forward-bend stretch: straight legs, hips high, torso folded forward/down, lowered head, both arms reaching straight down with palms flat on the floor, preserving all hand/foot contact points, overlaps and original full-body framing. Replace female torso geometry with a broad male ribcage, broad shoulders, flat shallow angular pectoral planes lying directly on the ribcage, a straight waist and narrower pelvis. The underside chest contour is a nearly straight continuation of the thorax: NO hanging, bulbous, rounded or hemispherical breast lobes. Moderately athletic proportions, oval construction head, ellipsoid joints, smooth featureless pelvic shell. Thin neutral gray-charcoal outlines, white interiors, sparse light construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, text, watermark, props, additional figures, missing or extra limbs. Keep the head, feet and hands fully inside the 3:4 portrait canvas. Preserve original pose/camera while using male design.\nCamera/framing: Preserve image 1 exactly: near side profile, feet at lower left, hands at lower right, hips upper left, lowered head at middle right; both arms overlap closely. This is the planned front reference view even though the source itself is side-on.\nCorrection pass: Use case: precise-object-edit. Input image 1 is the edit target; input image 2 supplies only adult male artist mannequin design. Correct ONLY the chest/thorax geometry in image 1 while keeping exact head, shoulder joints, arms, hands, pelvis, legs, feet, pose, camera, white background, thin linework and full-body 3:4 portrait framing unchanged. The mannequin is adult MALE. Remove the curved hanging lobe on the lower-left side of the ribcage beside the upper arm. Erase the enclosed teardrop/oval chest plate that projects downward. Replace that area with a compact flat male thorax whose underside contour goes in one nearly straight diagonal segment from the abdominal side toward the armpit; pectoral markings are short flat angular seams resting flush against the ribcage, never a separate curved pouch. Broad male back, straight waist, flat chest. Keep hands and feet on the floor and every existing limb in the exact position. Smooth featureless pelvic shell, no nipples, genitals, hair, skin texture, text or watermark.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:04:59.201070+00:00",
+      "generated_source_filename": "exec-3402e0f7-d505-4fa3-882d-3d7052c6a7d8.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P014_high",
+      "original_source_id": "full_sexy_P014_high",
+      "record": {
+        "id": "male_full_sexy_P014_high",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P014",
+        "分類": "立ち",
+        "ポーズ名": "立ち前屈でお尻を突き出し両手を床へ",
+        "アングル": "上から",
+        "サムネ": "thumbs/male_full_sexy_P014_high.jpg",
+        "原寸": "img/male_full_sexy_P014_high.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P014_high.png",
+          "bytes": 1159841,
+          "sha256": "45346083ab1a7a19205814290ba1ca62943cce526dc3ff2740ae0bbdeea3ee6e"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P014_high.jpg",
+          "bytes": 27157,
+          "sha256": "c7ce7396bc1380f29460ef0f1a4e669f5047e4c95a0182803de622814702abe6"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference. Input image 1 supplies the exact pose, camera and framing. Input image 2 supplies ONLY approved adult male artist mannequin design and thin outline style; never copy its seated pose. Create one faceless articulated adult MALE mannequin in image 1's exact standing forward-bend stretch: straight legs, hips high, torso folded forward/down, lowered head, both arms reaching straight down with palms flat on the floor, preserving all hand/foot contact points, overlaps and original full-body framing. Replace female torso geometry with a broad male ribcage, broad shoulders, flat shallow angular pectoral planes lying directly on the ribcage, a straight waist and narrower pelvis. The underside chest contour is a nearly straight continuation of the thorax: NO hanging, bulbous, rounded or hemispherical breast lobes. Moderately athletic proportions, oval construction head, ellipsoid joints, smooth featureless pelvic shell. Thin neutral gray-charcoal outlines, white interiors, sparse light construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, text, watermark, props, additional figures, missing or extra limbs. Keep the head, feet and hands fully inside the 3:4 portrait canvas. Preserve original pose/camera while using male design.\nCamera/framing: Preserve image 1 exact high downward three-quarter view: broad back visible, lowered head between separated arms, both palms reaching toward bottom, feet behind to left, strong foreshortening.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:04:59.204085+00:00",
+      "generated_source_filename": "exec-7d140702-19a7-458f-afe0-5c2bd99b1614.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P014_low",
+      "original_source_id": "full_sexy_P014_low",
+      "record": {
+        "id": "male_full_sexy_P014_low",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P014",
+        "分類": "立ち",
+        "ポーズ名": "立ち前屈でお尻を突き出し両手を床へ",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_full_sexy_P014_low.jpg",
+        "原寸": "img/male_full_sexy_P014_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P014_low.png",
+          "bytes": 1208119,
+          "sha256": "2c20a97e9fa7702cb85b7cab4196ebf662303d314a987de52a8cab6bf57c9ed0"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P014_low.jpg",
+          "bytes": 28888,
+          "sha256": "fc2caac730b432ebda9efacab10a30b98b9d56763504083f40b048d3130a3d24"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference. Input image 1 supplies the exact pose, camera and framing. Input image 2 supplies ONLY approved adult male artist mannequin design and thin outline style; never copy its seated pose. Create one faceless articulated adult MALE mannequin in image 1's exact standing forward-bend stretch: straight legs, hips high, torso folded forward/down, lowered head, both arms reaching straight down with palms flat on the floor, preserving all hand/foot contact points, overlaps and original full-body framing. Replace female torso geometry with a broad male ribcage, broad shoulders, flat shallow angular pectoral planes lying directly on the ribcage, a straight waist and narrower pelvis. The underside chest contour is a nearly straight continuation of the thorax: NO hanging, bulbous, rounded or hemispherical breast lobes. Moderately athletic proportions, oval construction head, ellipsoid joints, smooth featureless pelvic shell. Thin neutral gray-charcoal outlines, white interiors, sparse light construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, text, watermark, props, additional figures, missing or extra limbs. Keep the head, feet and hands fully inside the 3:4 portrait canvas. Preserve original pose/camera while using male design.\nCamera/framing: Preserve image 1 exact low upward camera: enlarged nearest foot in bottom-left foreground, high hips near top-left, torso slopes down-right, lowered head right, both straight arms/palms visible on right. Retain this pronounced low-angle foreshortening.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:04:59.206631+00:00",
+      "generated_source_filename": "exec-0d040043-9686-4462-8151-fcbf3aa3c332.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P014_side",
+      "original_source_id": "full_sexy_P014_side",
+      "record": {
+        "id": "male_full_sexy_P014_side",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P014",
+        "分類": "立ち",
+        "ポーズ名": "立ち前屈でお尻を突き出し両手を床へ",
+        "アングル": "横",
+        "サムネ": "thumbs/male_full_sexy_P014_side.jpg",
+        "原寸": "img/male_full_sexy_P014_side.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P014_side.png",
+          "bytes": 1130912,
+          "sha256": "1ec69de49c3881cacf2fa1fa334a4f0328f9500e368b021e750ed3725bf24ada"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P014_side.jpg",
+          "bytes": 25495,
+          "sha256": "864ab3c9f6ef17b08f0447f40992e1e54155d2a75a0f37277f76c5a455f68e1e"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference. Input image 1 supplies the exact pose, camera and framing. Input image 2 supplies ONLY approved adult male artist mannequin design and thin outline style; never copy its seated pose. Create one faceless articulated adult MALE mannequin in image 1's exact standing forward-bend stretch: straight legs, hips high, torso folded forward/down, lowered head, both arms reaching straight down with palms flat on the floor, preserving all hand/foot contact points, overlaps and original full-body framing. Replace female torso geometry with a broad male ribcage, broad shoulders, flat shallow angular pectoral planes lying directly on the ribcage, a straight waist and narrower pelvis. The underside chest contour is a nearly straight continuation of the thorax: NO hanging, bulbous, rounded or hemispherical breast lobes. Moderately athletic proportions, oval construction head, ellipsoid joints, smooth featureless pelvic shell. Thin neutral gray-charcoal outlines, white interiors, sparse light construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, text, watermark, props, additional figures, missing or extra limbs. Keep the head, feet and hands fully inside the 3:4 portrait canvas. Preserve original pose/camera while using male design.\nCamera/framing: Preserve image 1 exact side profile: feet at lower left, hands flat at lower right, hips upper left, lowered head at middle right; close overlapping arms and legs as shown.\nCorrection pass: Use case: precise-object-edit. Input image 1 is the edit target; input image 2 supplies only adult male artist mannequin design. Correct ONLY the chest/thorax geometry in image 1 while keeping exact head, shoulder joints, arms, hands, pelvis, legs, feet, pose, camera, white background, thin linework and full-body 3:4 portrait framing unchanged. The mannequin is adult MALE. Remove the curved hanging lobe on the lower-left side of the ribcage beside the upper arm. Erase the enclosed teardrop/oval chest plate that projects downward. Replace that area with a compact flat male thorax whose underside contour goes in one nearly straight diagonal segment from the abdominal side toward the armpit; pectoral markings are short flat angular seams resting flush against the ribcage, never a separate curved pouch. Broad male back, straight waist, flat chest. Keep hands and feet on the floor and every existing limb in the exact position. Smooth featureless pelvic shell, no nipples, genitals, hair, skin texture, text or watermark.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:04:59.209850+00:00",
+      "generated_source_filename": "exec-e3f20510-d3a1-4b1e-8293-51ddcfd183d9.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_sexy_P014_diag",
+      "original_source_id": "full_sexy_P014_diag",
+      "record": {
+        "id": "male_full_sexy_P014_diag",
+        "系統": "男性1人・表現系",
+        "ポーズ番号": "P014",
+        "分類": "立ち",
+        "ポーズ名": "立ち前屈でお尻を突き出し両手を床へ",
+        "アングル": "斜め",
+        "サムネ": "thumbs/male_full_sexy_P014_diag.jpg",
+        "原寸": "img/male_full_sexy_P014_diag.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_sexy_P014_diag.png",
+          "bytes": 1193786,
+          "sha256": "bcc5ac2c60faa0aedae83f7ddde3abbfcadbcb83ad74062639237f84e9b624f1"
+        },
+        {
+          "path": "thumbs/male_full_sexy_P014_diag.jpg",
+          "bytes": 28613,
+          "sha256": "e6f9207951ea69def242d853914882364078de0fff1377f3fdf39365fa2c1a40"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG drawing-pose reference. Input image 1 supplies the exact pose, camera and framing. Input image 2 supplies ONLY approved adult male artist mannequin design and thin outline style; never copy its seated pose. Create one faceless articulated adult MALE mannequin in image 1's exact standing forward-bend stretch: straight legs, hips high, torso folded forward/down, lowered head, both arms reaching straight down with palms flat on the floor, preserving all hand/foot contact points, overlaps and original full-body framing. Replace female torso geometry with a broad male ribcage, broad shoulders, flat shallow angular pectoral planes lying directly on the ribcage, a straight waist and narrower pelvis. The underside chest contour is a nearly straight continuation of the thorax: NO hanging, bulbous, rounded or hemispherical breast lobes. Moderately athletic proportions, oval construction head, ellipsoid joints, smooth featureless pelvic shell. Thin neutral gray-charcoal outlines, white interiors, sparse light construction lines, plain white background. No skin texture, hair, nipples, genitals, shading, text, watermark, props, additional figures, missing or extra limbs. Keep the head, feet and hands fully inside the 3:4 portrait canvas. Preserve original pose/camera while using male design.\nCamera/framing: Preserve image 1 exact diagonal three-quarter angle: both straight legs distinctly visible with staggered feet at left/bottom center, two palms at lower right, lowered head right, hips upper left.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:04:59.212463+00:00",
+      "generated_source_filename": "exec-08733b84-52fa-4f5d-85df-efd402913052.png",
       "reviewed": true
     },
     {
@@ -3998,6 +4665,626 @@
       "model": "built-in image_gen",
       "generated_at": "2026-11-02T10:45:56.059021+00:00",
       "generated_source_filename": "exec-3ccfe437-bafb-4fe3-99e6-c667c1fc0761.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P017_front",
+      "original_source_id": "full_single_P017_front",
+      "record": {
+        "id": "male_full_single_P017_front",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P017",
+        "分類": "立ち",
+        "ポーズ名": "立ち・肩越しに振り向く",
+        "アングル": "正面",
+        "サムネ": "thumbs/male_full_single_P017_front.jpg",
+        "原寸": "img/male_full_single_P017_front.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P017_front.png",
+          "bytes": 1123910,
+          "sha256": "069b4926f0b3bb5f7a00b1354543e82089cc4a8290f2a5732585a28056cad00d"
+        },
+        {
+          "path": "thumbs/male_full_single_P017_front.jpg",
+          "bytes": 22449,
+          "sha256": "7176e22ef82d7404f1d3649f34d15858b31ea4fe7ac9d0384110fd8620474a58"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG pose-reference line drawing. Input image 1 is the exact pose, camera and framing reference; input image 2 supplies ONLY adult male mannequin identity and line style, never its seated pose. Create the adult male counterpart of image 1: full-body standing with feet apart, arms relaxed down beside thighs, torso facing forward and head turned toward the viewer's left over the shoulder. Preserve source front camera, head tilt, body weight shift, joint centers, hand positions, foot positions and complete figure crop. One faceless adult articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis and moderately athletic proportions. Smooth featureless pelvic shell; oval blank head with construction cross and rounded articulated joints. Thin neutral gray and charcoal line art, white interior on plain white background. No skin texture, hair, nipples, genitals, shading, props, text or watermark. Exactly one figure with two arms and two legs; preserve all hands and feet. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:51:39.165736+00:00",
+      "generated_source_filename": "exec-621cd840-a4a5-41ea-b20e-9e4529267b42.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P017_high",
+      "original_source_id": "full_single_P017_high",
+      "record": {
+        "id": "male_full_single_P017_high",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P017",
+        "分類": "立ち",
+        "ポーズ名": "立ち・肩越しに振り向く",
+        "アングル": "上から",
+        "サムネ": "thumbs/male_full_single_P017_high.jpg",
+        "原寸": "img/male_full_single_P017_high.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P017_high.png",
+          "bytes": 1141807,
+          "sha256": "0750e76f5dfab2c3de65b076a34ef5c2b13238a37a8b8e7bf35b5753fb5c9b3f"
+        },
+        {
+          "path": "thumbs/male_full_single_P017_high.jpg",
+          "bytes": 25020,
+          "sha256": "81fb0d3b97cf0ae51aa1de30609311019d04de874bf683cf75b684ce046be636"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG pose-reference line drawing. Input image 1 is the exact pose, camera and framing reference; input image 2 supplies ONLY adult male mannequin identity and line style, never its seated pose. Create the adult male counterpart of image 1. Strong high camera looking down, with large near head and shoulders and foreshortened smaller feet below; full-body standing feet apart, arms relaxed beside thighs, head turned toward image left. Match exact head tilt, torso angle and staggered foot depths of image 1. Preserve all source joint centers, contact points, foreshortening and full figure crop. One faceless adult articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis, moderately athletic proportions. Smooth featureless pelvic shell; oval blank head with construction cross and rounded articulated joints. Thin neutral gray and charcoal line art, white interior on plain white background. No skin texture, hair, nipples, genitals, shading, props, text or watermark. Exactly one figure with two arms and two legs; keep every source-visible hand and foot. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:51:39.175460+00:00",
+      "generated_source_filename": "exec-18568b7b-9892-44e0-ada5-3c16f3acc96e.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P017_low",
+      "original_source_id": "full_single_P017_low",
+      "record": {
+        "id": "male_full_single_P017_low",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P017",
+        "分類": "立ち",
+        "ポーズ名": "立ち・肩越しに振り向く",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_full_single_P017_low.jpg",
+        "原寸": "img/male_full_single_P017_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P017_low.png",
+          "bytes": 1176503,
+          "sha256": "9d0f7687bc6ef2224270d80024f1ed1947402321d774e9223dcb1c171e055744"
+        },
+        {
+          "path": "thumbs/male_full_single_P017_low.jpg",
+          "bytes": 24734,
+          "sha256": "38976c87303f1bbdea09c5cb2841d6755f1b5b275b8c42e066b9dc28e420b9d7"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG pose-reference line drawing. Input image 1 is the exact pose, camera and framing reference; input image 2 supplies ONLY adult male mannequin identity and line style, never its seated pose. Create the adult male counterpart of image 1. Strong low camera looking upward, feet and legs in foreground, much smaller receding head; full-body standing feet apart, arms down with hands alongside thighs, head turned as in image 1. Preserve the exact dramatic upward foreshortening and large near left-image foot. Preserve all source joint centers, contact points, foreshortening and full figure crop. One faceless adult articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis, moderately athletic proportions. Smooth featureless pelvic shell; oval blank head with construction cross and rounded articulated joints. Thin neutral gray and charcoal line art, white interior on plain white background. No skin texture, hair, nipples, genitals, shading, props, text or watermark. Exactly one figure with two arms and two legs; keep every source-visible hand and foot. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:51:39.178374+00:00",
+      "generated_source_filename": "exec-28cdf678-ca37-4ec2-a108-0f93b9c2b0a8.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P017_side",
+      "original_source_id": "full_single_P017_side",
+      "record": {
+        "id": "male_full_single_P017_side",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P017",
+        "分類": "立ち",
+        "ポーズ名": "立ち・肩越しに振り向く",
+        "アングル": "横",
+        "サムネ": "thumbs/male_full_single_P017_side.jpg",
+        "原寸": "img/male_full_single_P017_side.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P017_side.png",
+          "bytes": 1080767,
+          "sha256": "90d5737bd4e7bdc20054d17246a0a1b86ac2421523688ab1acc4e92a596ba4da"
+        },
+        {
+          "path": "thumbs/male_full_single_P017_side.jpg",
+          "bytes": 17395,
+          "sha256": "11d5a114cb371332ba7dc27d545d36b0355d84ec94a9984cf913f812731be22b"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG pose-reference line drawing. Input image 1 is the exact pose, camera and framing reference; input image 2 supplies ONLY adult male mannequin identity and line style, never its seated pose. Create the adult male counterpart of image 1. Side camera: full body in profile facing image right, head turned back toward viewer over the shoulder, both arms hanging naturally at thighs, feet slightly staggered apart. Preserve source overlaps, limb placements, head turn and foot angles. Preserve all source joint centers, contact points, foreshortening and full figure crop. One faceless adult articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis, moderately athletic proportions. Smooth featureless pelvic shell; oval blank head with construction cross and rounded articulated joints. Thin neutral gray and charcoal line art, white interior on plain white background. No skin texture, hair, nipples, genitals, shading, props, text or watermark. Exactly one figure with two arms and two legs; keep every source-visible hand and foot. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:51:39.181802+00:00",
+      "generated_source_filename": "exec-f4d9d973-e560-4bf8-9fd4-136b98be29c9.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P017_diag",
+      "original_source_id": "full_single_P017_diag",
+      "record": {
+        "id": "male_full_single_P017_diag",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P017",
+        "分類": "立ち",
+        "ポーズ名": "立ち・肩越しに振り向く",
+        "アングル": "斜め",
+        "サムネ": "thumbs/male_full_single_P017_diag.jpg",
+        "原寸": "img/male_full_single_P017_diag.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P017_diag.png",
+          "bytes": 1134788,
+          "sha256": "61e4e7376eeab1a3e627030efa9278fe7e8e5e975ed4acd45b18182cacfb4d49"
+        },
+        {
+          "path": "thumbs/male_full_single_P017_diag.jpg",
+          "bytes": 21744,
+          "sha256": "fbdc4e9980f488368916c27ab34aa1bc54ee8f572e54cc369c3e41aacafc4002"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG pose-reference line drawing. Input image 1 is the exact pose, camera and framing reference; input image 2 supplies ONLY adult male mannequin identity and line style, never its seated pose. Create the adult male counterpart of image 1. Three-quarter diagonal camera: full-body standing feet apart, head turned toward image left over shoulder, torso at three-quarter angle, arms hanging beside thighs, near hand resting beside outer upper thigh. Preserve source body weight shift, head tilt and precise limb placements. Preserve all source joint centers, contact points, foreshortening and full figure crop. One faceless adult articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis, moderately athletic proportions. Smooth featureless pelvic shell; oval blank head with construction cross and rounded articulated joints. Thin neutral gray and charcoal line art, white interior on plain white background. No skin texture, hair, nipples, genitals, shading, props, text or watermark. Exactly one figure with two arms and two legs; keep every source-visible hand and foot. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:51:39.184972+00:00",
+      "generated_source_filename": "exec-f07793da-781d-42db-bd1b-fae47ac65f0a.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P018_front",
+      "original_source_id": "full_single_P018_front",
+      "record": {
+        "id": "male_full_single_P018_front",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P018",
+        "分類": "立ち",
+        "ポーズ名": "立ち・両手を腰に",
+        "アングル": "正面",
+        "サムネ": "thumbs/male_full_single_P018_front.jpg",
+        "原寸": "img/male_full_single_P018_front.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P018_front.png",
+          "bytes": 1163616,
+          "sha256": "a92cfa6f3cd12b201d36d91451150dd169f5a0a24ae2a0f9fa9ca83e91f9482f"
+        },
+        {
+          "path": "thumbs/male_full_single_P018_front.jpg",
+          "bytes": 24323,
+          "sha256": "1e5cb3ae5f8eb8abdf228eafcab827a455e897b3f407b4598eb5d93986f1fb04"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG pose-reference line drawing. Input image 1 is the exact pose, camera and framing reference; input image 2 supplies ONLY adult male mannequin identity and line style, never its seated pose. Create the adult male counterpart of image 1. Front eye-level camera. Standing upright with feet apart, both palms contacting the waist/upper hips, elbows pointing outward. Preserve the slight head tilt, balanced stance, source hand contact, joint centers and foot angles. Match all source foreshortening and complete full-body crop. One faceless adult articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis and moderately athletic proportions. Smooth featureless pelvic shell; oval blank head with construction cross and rounded articulated joints. Thin neutral gray and charcoal line art, white interior and plain white background. No skin texture, hair, nipples, genitals, shading, props, text or watermark. Exactly one figure with two arms and two legs; keep all source-visible hands and feet. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:56:18.386784+00:00",
+      "generated_source_filename": "exec-3dfb2de2-b33d-4dd1-9913-803343b3e0ea.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P018_high",
+      "original_source_id": "full_single_P018_high",
+      "record": {
+        "id": "male_full_single_P018_high",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P018",
+        "分類": "立ち",
+        "ポーズ名": "立ち・両手を腰に",
+        "アングル": "上から",
+        "サムネ": "thumbs/male_full_single_P018_high.jpg",
+        "原寸": "img/male_full_single_P018_high.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P018_high.png",
+          "bytes": 1161370,
+          "sha256": "1f88c2c396ecb60a19f2cf3390191395ee115d3a90905ee747ece8f3b4117af5"
+        },
+        {
+          "path": "thumbs/male_full_single_P018_high.jpg",
+          "bytes": 28197,
+          "sha256": "b0c3d9d5ffc979872689cd859ff9b59c1eddf7a16d6f9c03779eee93c5b02a04"
+        }
+      ],
+      "prompt": "Use case: precise-object-edit. Edit input image 1, the approved adult male mannequin drawing. Input image 2 is the original pose reference. Make only this small correction: match the exact lower-leg and foot placement of input 2. The foot on the RIGHT side of the image must reach slightly LOWER on the canvas than the foot on the LEFT side, just as input 2, so the right foot is slightly closer to the camera. Preserve the same leg stance width and high downward camera. Do not mirror the image. Preserve all upper body, head tilt, arms and hands-on-waist contacts, broad shoulders and flat shallow angular chest plates, plain white background, neutral gray/charcoal line style, full-body 3:4 portrait framing. Exactly one adult faceless articulated male artist mannequin with two arms and two legs, smooth featureless pelvic shell, no skin texture, hair, nipples or genitals, no props, text or watermark. Do not change anything else.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:57:32.864914+00:00",
+      "generated_source_filename": "exec-c20d3256-c1cd-4707-9f40-9838e3edf958.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P018_low",
+      "original_source_id": "full_single_P018_low",
+      "record": {
+        "id": "male_full_single_P018_low",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P018",
+        "分類": "立ち",
+        "ポーズ名": "立ち・両手を腰に",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_full_single_P018_low.jpg",
+        "原寸": "img/male_full_single_P018_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P018_low.png",
+          "bytes": 1160719,
+          "sha256": "194184799b907cb72e9b372cfa9b18557200c1419ed8bc854780b5fccdf85244"
+        },
+        {
+          "path": "thumbs/male_full_single_P018_low.jpg",
+          "bytes": 27416,
+          "sha256": "f245d7784fc6c1df071be85a47ff5eb44648b2c5719b4b5ba8e24c5bb5a7bf8e"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG pose-reference line drawing. Input image 1 is the exact pose, camera and framing reference; input image 2 supplies ONLY adult male mannequin identity and line style, never its seated pose. Create the adult male counterpart of image 1. Strong low camera looking upward. Standing with feet apart and both hands on waist/upper hips, elbows outward. Large near feet and legs recede toward the small head. Preserve source dramatic upward foreshortening, shoulder tilt, exact hand contact and leg and foot placement. Match all source foreshortening and complete full-body crop. One faceless adult articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis and moderately athletic proportions. Smooth featureless pelvic shell; oval blank head with construction cross and rounded articulated joints. Thin neutral gray and charcoal line art, white interior and plain white background. No skin texture, hair, nipples, genitals, shading, props, text or watermark. Exactly one figure with two arms and two legs; keep all source-visible hands and feet. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:56:18.391526+00:00",
+      "generated_source_filename": "exec-e3778efd-12ac-4dc9-9c04-d46b0099fa1f.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P018_side",
+      "original_source_id": "full_single_P018_side",
+      "record": {
+        "id": "male_full_single_P018_side",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P018",
+        "分類": "立ち",
+        "ポーズ名": "立ち・両手を腰に",
+        "アングル": "横",
+        "サムネ": "thumbs/male_full_single_P018_side.jpg",
+        "原寸": "img/male_full_single_P018_side.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P018_side.png",
+          "bytes": 1061526,
+          "sha256": "fd2a3bef1cca4f8c6fff958a8b032a352f10fc03baeb4e146ad0d1b67a255d0a"
+        },
+        {
+          "path": "thumbs/male_full_single_P018_side.jpg",
+          "bytes": 18816,
+          "sha256": "f581a0211756c916d5e6a37fb104d9442b34cfce67631b62b709ae45c6a5a644"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG pose-reference line drawing. Input image 1 is the exact pose, camera and framing reference; input image 2 supplies ONLY adult male mannequin identity and line style, never its seated pose. Create the adult male counterpart of image 1. Strict side profile camera with head and torso facing image left. Standing feet slightly staggered, both hands planted on waist/upper hips, elbows drawn back in profile. Preserve source exact arm overlap, near palm contact, head direction, knee positions, foot angles and stance. Match all source foreshortening and complete full-body crop. One faceless adult articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis and moderately athletic proportions. Smooth featureless pelvic shell; oval blank head with construction cross and rounded articulated joints. Thin neutral gray and charcoal line art, white interior and plain white background. No skin texture, hair, nipples, genitals, shading, props, text or watermark. Exactly one figure with two arms and two legs; keep all source-visible hands and feet. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:56:18.394774+00:00",
+      "generated_source_filename": "exec-2d3ead83-d0ba-4714-be9c-8a8cb4f736d6.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P018_diag",
+      "original_source_id": "full_single_P018_diag",
+      "record": {
+        "id": "male_full_single_P018_diag",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P018",
+        "分類": "立ち",
+        "ポーズ名": "立ち・両手を腰に",
+        "アングル": "斜め",
+        "サムネ": "thumbs/male_full_single_P018_diag.jpg",
+        "原寸": "img/male_full_single_P018_diag.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P018_diag.png",
+          "bytes": 1119841,
+          "sha256": "4dce292afbeed2ca90a42c32dc79b9129140c51f690fadbc67d9df3796136699"
+        },
+        {
+          "path": "thumbs/male_full_single_P018_diag.jpg",
+          "bytes": 21295,
+          "sha256": "1056932a60689bc6acb56052d359eff6b7a8163f708ef3b0d075bb56f7104c68"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG pose-reference line drawing. Input image 1 is the exact pose, camera and framing reference; input image 2 supplies ONLY adult male mannequin identity and line style, never its seated pose. Create the adult male counterpart of image 1. Three-quarter diagonal camera. Standing feet apart, both hands resting on waist/upper hips, elbows bent outward, torso turned slightly toward image right, head slightly tilted. Preserve source exact torso rotation, asymmetric arm visibility, palm contact, body weight shift and foot positions. Match all source foreshortening and complete full-body crop. One faceless adult articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis and moderately athletic proportions. Smooth featureless pelvic shell; oval blank head with construction cross and rounded articulated joints. Thin neutral gray and charcoal line art, white interior and plain white background. No skin texture, hair, nipples, genitals, shading, props, text or watermark. Exactly one figure with two arms and two legs; keep all source-visible hands and feet. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:56:18.397543+00:00",
+      "generated_source_filename": "exec-725bbebf-119c-459d-b328-f4ddb8897ce4.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P019_front",
+      "original_source_id": "full_single_P019_front",
+      "record": {
+        "id": "male_full_single_P019_front",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P019",
+        "分類": "立ち",
+        "ポーズ名": "立ち・両腕を頭上に伸ばす",
+        "アングル": "正面",
+        "サムネ": "thumbs/male_full_single_P019_front.jpg",
+        "原寸": "img/male_full_single_P019_front.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P019_front.png",
+          "bytes": 999559,
+          "sha256": "a11d4dca21a361fc93c414d9d5522a825eec43e4317c8dc9d82bb675d682b25e"
+        },
+        {
+          "path": "thumbs/male_full_single_P019_front.jpg",
+          "bytes": 18062,
+          "sha256": "a9cfd06143ba4ad578ad0063dad28baaab474a68b882033540cd574586dd1448"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose-reference line drawing.\nInput image 1 supplies ONLY the exact pose, camera, joint positions and framing. Input image 2 supplies ONLY the adult male articulated artist mannequin design and neutral line style; never copy its seated pose.\nCreate one adult male counterpart of input 1, standing with both arms extended overhead. Exact view: front camera, perfectly centered frontal symmetry. Both arms extended vertically overhead and slightly outward; open hands face inward; feet planted separately at the same ground level.\nPreserve input 1's camera angle, head and limb positions, contact points, joint centers, perspective, full-body crop and generous white margins. Keep the entire figure, fingertips and toes visible.\nRedesign the torso explicitly as MALE: broad shoulder girdle, a shallow angular ribcage, flat angular pectoral plates integrated flush into the ribcage, straight waist and narrower pelvis. Pectoral lower edges are shallow straight or angular lines, with no hanging volume, teardrop bulges, rounded breasts or breast separation. Moderately athletic proportions; oval blank head with construction cross, articulated joints, smooth featureless pelvic shell. No nipples, genitals, skin texture or hair.\nThin neutral gray/charcoal outlines and faint construction lines, white fill, pure white background. No extra figures, missing/extra limbs, props, text, border, watermark or shading. Match the source pose and camera exactly. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:03:49.217310+00:00",
+      "generated_source_filename": "exec-84a93c22-7011-4f3f-9a16-e996e941a471.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P019_high",
+      "original_source_id": "full_single_P019_high",
+      "record": {
+        "id": "male_full_single_P019_high",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P019",
+        "分類": "立ち",
+        "ポーズ名": "立ち・両腕を頭上に伸ばす",
+        "アングル": "上から",
+        "サムネ": "thumbs/male_full_single_P019_high.jpg",
+        "原寸": "img/male_full_single_P019_high.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P019_high.png",
+          "bytes": 1127895,
+          "sha256": "0d096612a07ffa6981c94efa3cbe8b256caa92e6dcd351b203367245c0035c4e"
+        },
+        {
+          "path": "thumbs/male_full_single_P019_high.jpg",
+          "bytes": 21978,
+          "sha256": "9b30fb1dffd604ca1b0c4664565cfefcf1d15fc6ea1afea64e4655a1c4526921"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose-reference line drawing.\nInput image 1 supplies ONLY the exact pose, camera, joint positions and framing. Input image 2 supplies ONLY the adult male articulated artist mannequin design and neutral line style; never copy its seated pose.\nCreate one adult male counterpart of input 1, standing with both arms extended overhead. Exact view: steep high camera looking down; lifted hands appear large near the top corners, head and shoulder girdle dominate, pelvis and legs recede smaller toward the feet. Both arms extended overhead and slightly apart, hands facing inward. Preserve this strong top-down foreshortening.\nPreserve input 1's camera angle, head and limb positions, contact points, joint centers, perspective, full-body crop and generous white margins. Keep the entire figure, fingertips and toes visible.\nRedesign the torso explicitly as MALE: broad shoulder girdle, a shallow angular ribcage, flat angular pectoral plates integrated flush into the ribcage, straight waist and narrower pelvis. Pectoral lower edges are shallow straight or angular lines, with no hanging volume, teardrop bulges, rounded breasts or breast separation. Moderately athletic proportions; oval blank head with construction cross, articulated joints, smooth featureless pelvic shell. No nipples, genitals, skin texture or hair.\nThin neutral gray/charcoal outlines and faint construction lines, white fill, pure white background. No extra figures, missing/extra limbs, props, text, border, watermark or shading. Match the source pose and camera exactly. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:03:49.221970+00:00",
+      "generated_source_filename": "exec-19762c6d-5c30-4e27-9a55-528d8afe2dae.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P019_low",
+      "original_source_id": "full_single_P019_low",
+      "record": {
+        "id": "male_full_single_P019_low",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P019",
+        "分類": "立ち",
+        "ポーズ名": "立ち・両腕を頭上に伸ばす",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_full_single_P019_low.jpg",
+        "原寸": "img/male_full_single_P019_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P019_low.png",
+          "bytes": 1124439,
+          "sha256": "b0596eed421ee48b96db73b5166d86efcf2b4c507d21268c9881e1c164dc03b8"
+        },
+        {
+          "path": "thumbs/male_full_single_P019_low.jpg",
+          "bytes": 21241,
+          "sha256": "f27f2960d34c3936e1e74800df7eb1a8587e95146110c4556345530e05e93f61"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose-reference line drawing.\nInput image 1 supplies ONLY the exact pose, camera, joint positions and framing. Input image 2 supplies ONLY the adult male articulated artist mannequin design and neutral line style; never copy its seated pose.\nCreate one adult male counterpart of input 1, standing with both arms extended overhead. Exact view: very low upward camera near the feet: large feet and calves in the foreground, thighs converge upward, the head and lifted hands are distant and small. Both arms reach vertically overhead, feet planted wide in perspective. Preserve this dramatic worm's-eye foreshortening.\nPreserve input 1's camera angle, head and limb positions, contact points, joint centers, perspective, full-body crop and generous white margins. Keep the entire figure, fingertips and toes visible.\nRedesign the torso explicitly as MALE: broad shoulder girdle, a shallow angular ribcage, flat angular pectoral plates integrated flush into the ribcage, straight waist and narrower pelvis. Pectoral lower edges are shallow straight or angular lines, with no hanging volume, teardrop bulges, rounded breasts or breast separation. Moderately athletic proportions; oval blank head with construction cross, articulated joints, smooth featureless pelvic shell. No nipples, genitals, skin texture or hair.\nThin neutral gray/charcoal outlines and faint construction lines, white fill, pure white background. No extra figures, missing/extra limbs, props, text, border, watermark or shading. Match the source pose and camera exactly. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:03:49.225621+00:00",
+      "generated_source_filename": "exec-15afd339-ae06-41fa-aa89-024b001f39e4.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P019_side",
+      "original_source_id": "full_single_P019_side",
+      "record": {
+        "id": "male_full_single_P019_side",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P019",
+        "分類": "立ち",
+        "ポーズ名": "立ち・両腕を頭上に伸ばす",
+        "アングル": "横",
+        "サムネ": "thumbs/male_full_single_P019_side.jpg",
+        "原寸": "img/male_full_single_P019_side.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P019_side.png",
+          "bytes": 990127,
+          "sha256": "6682b2921d46be568220ba080a02b5d78e3a12c2e5cb0d99d1be1dd740df8f7b"
+        },
+        {
+          "path": "thumbs/male_full_single_P019_side.jpg",
+          "bytes": 12424,
+          "sha256": "a6454842877a52dcb67ca7cf22906c0744cd9f8e133bbc04bbb73b1c9649805f"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose-reference line drawing.\nInput image 1 supplies ONLY the exact pose, camera, joint positions and framing. Input image 2 supplies ONLY the adult male articulated artist mannequin design and neutral line style; never copy its seated pose.\nCreate one adult male counterpart of input 1, standing with both arms extended overhead. Exact view: strict left-facing side profile. Both arms reach straight overhead and overlap closely in profile; both legs overlap closely, with the feet pointing left. Preserve the source's slight backwards arch and lifted chest while using a shallow male ribcage profile.\nPreserve input 1's camera angle, head and limb positions, contact points, joint centers, perspective, full-body crop and generous white margins. Keep the entire figure, fingertips and toes visible.\nRedesign the torso explicitly as MALE: broad shoulder girdle, a shallow angular ribcage, flat angular pectoral plates integrated flush into the ribcage, straight waist and narrower pelvis. Pectoral lower edges are shallow straight or angular lines, with no hanging volume, teardrop bulges, rounded breasts or breast separation. Moderately athletic proportions; oval blank head with construction cross, articulated joints, smooth featureless pelvic shell. No nipples, genitals, skin texture or hair.\nThin neutral gray/charcoal outlines and faint construction lines, white fill, pure white background. No extra figures, missing/extra limbs, props, text, border, watermark or shading. Match the source pose and camera exactly. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:03:49.236460+00:00",
+      "generated_source_filename": "exec-88e6cc41-e480-4be0-8aec-04a68754d867.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P019_diag",
+      "original_source_id": "full_single_P019_diag",
+      "record": {
+        "id": "male_full_single_P019_diag",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P019",
+        "分類": "立ち",
+        "ポーズ名": "立ち・両腕を頭上に伸ばす",
+        "アングル": "斜め",
+        "サムネ": "thumbs/male_full_single_P019_diag.jpg",
+        "原寸": "img/male_full_single_P019_diag.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P019_diag.png",
+          "bytes": 1012303,
+          "sha256": "a6966ac96d0588ecf3397ccdc4d937ba847e04ffa66fd8ec5c947a963441a860"
+        },
+        {
+          "path": "thumbs/male_full_single_P019_diag.jpg",
+          "bytes": 17290,
+          "sha256": "0e832d7e5116e8a43707a84e3508986dbfc58dd5bc5cd6d00beaccbc878f60e4"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose-reference line drawing.\nInput image 1 supplies ONLY the exact pose, camera, joint positions and framing. Input image 2 supplies ONLY the adult male articulated artist mannequin design and neutral line style; never copy its seated pose.\nCreate one adult male counterpart of input 1, standing with both arms extended overhead. Exact view: three-quarter oblique camera. Both arms extended vertically overhead, separated hands with palms facing inward. Preserve the slight back arch, tilted faceless head, uneven overlap of shoulders, and source foot placement.\nPreserve input 1's camera angle, head and limb positions, contact points, joint centers, perspective, full-body crop and generous white margins. Keep the entire figure, fingertips and toes visible.\nRedesign the torso explicitly as MALE: broad shoulder girdle, a shallow angular ribcage, flat angular pectoral plates integrated flush into the ribcage, straight waist and narrower pelvis. Pectoral lower edges are shallow straight or angular lines, with no hanging volume, teardrop bulges, rounded breasts or breast separation. Moderately athletic proportions; oval blank head with construction cross, articulated joints, smooth featureless pelvic shell. No nipples, genitals, skin texture or hair.\nThin neutral gray/charcoal outlines and faint construction lines, white fill, pure white background. No extra figures, missing/extra limbs, props, text, border, watermark or shading. Match the source pose and camera exactly. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:03:49.240697+00:00",
+      "generated_source_filename": "exec-601f28a5-b438-437a-81f9-0aaf099ac7f6.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P020_front",
+      "original_source_id": "full_single_P020_front",
+      "record": {
+        "id": "male_full_single_P020_front",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P020",
+        "分類": "立ち",
+        "ポーズ名": "立ち・片手を後頭部に",
+        "アングル": "正面",
+        "サムネ": "thumbs/male_full_single_P020_front.jpg",
+        "原寸": "img/male_full_single_P020_front.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P020_front.png",
+          "bytes": 1071047,
+          "sha256": "cc7684cd246ee30e4cbafb954856357917f3fff7aa73488e068e306b75d19d2e"
+        },
+        {
+          "path": "thumbs/male_full_single_P020_front.jpg",
+          "bytes": 21581,
+          "sha256": "7f1837b72dd88608d263bbf9bd50e7b3838708ea36edf7713b1d827cd98795df"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose-reference line drawing.\nInput image 1 supplies ONLY the exact pose, camera, joint positions and framing. Input image 2 supplies ONLY the adult male articulated artist mannequin design and neutral line style; never copy its seated pose.\nCreate one adult male counterpart of input 1, standing with one hand behind the head and the other on the hip. Exact view and pose: front view as shown in input 1, with subtle torso rotation: screen-right arm bends upward and the hand rests behind the head, screen-left arm bends outward and its hand rests on the hip. Weight mainly over the screen-left leg; screen-right leg extends diagonally outward.\nPreserve input 1's camera angle, head and limb positions, hand-to-head and hand-to-hip contact points, joint centers, perspective, full-body crop and white margins. Keep the entire figure, all hands and toes visible as in source.\nRedesign the torso explicitly as MALE: broad shoulder girdle, shallow angular ribcage, flat angular pectoral plates integrated flush into the ribcage, straight waist and narrower pelvis. Pectoral lower edges are shallow straight or angular lines, with no hanging volume, teardrop bulges, rounded breasts or breast separation. Moderately athletic proportions; oval blank head with construction cross, articulated joints, smooth featureless pelvic shell. No nipples, genitals, skin texture or hair.\nThin neutral gray/charcoal outlines and faint construction lines, white fill, pure white background. No extra figures, missing/extra limbs, props, text, border, watermark or shading. Match the source pose and camera exactly. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:09:24.720550+00:00",
+      "generated_source_filename": "exec-d1e95585-b0eb-4d90-afb7-49bf8a29f443.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P020_high",
+      "original_source_id": "full_single_P020_high",
+      "record": {
+        "id": "male_full_single_P020_high",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P020",
+        "分類": "立ち",
+        "ポーズ名": "立ち・片手を後頭部に",
+        "アングル": "上から",
+        "サムネ": "thumbs/male_full_single_P020_high.jpg",
+        "原寸": "img/male_full_single_P020_high.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P020_high.png",
+          "bytes": 1210235,
+          "sha256": "59feae0dc484e97c7e18521e63ae93c3e612f3469a1442111ca5afe034fa7e7b"
+        },
+        {
+          "path": "thumbs/male_full_single_P020_high.jpg",
+          "bytes": 24188,
+          "sha256": "61480c14d2c480c5c672e4e4399dd550a582d7fd5dad9dad6deab5646d5bd906"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose-reference line drawing.\nInput image 1 supplies ONLY the exact pose, camera, joint positions and framing. Input image 2 supplies ONLY the adult male articulated artist mannequin design and neutral line style; never copy its seated pose.\nCreate one adult male counterpart of input 1, standing with one hand behind the head and the other on the hip. Exact view and pose: strong high-angle view looking down: large head, shoulders and bent arms near the top, legs recede downwards. Screen-right arm bends upward to place the hand behind the head; screen-left hand touches the hip. Preserve the source's rotated torso, weight-bearing leg and outward diagonally extended leg.\nPreserve input 1's camera angle, head and limb positions, hand-to-head and hand-to-hip contact points, joint centers, perspective, full-body crop and white margins. Keep the entire figure, all hands and toes visible as in source.\nRedesign the torso explicitly as MALE: broad shoulder girdle, shallow angular ribcage, flat angular pectoral plates integrated flush into the ribcage, straight waist and narrower pelvis. Pectoral lower edges are shallow straight or angular lines, with no hanging volume, teardrop bulges, rounded breasts or breast separation. Moderately athletic proportions; oval blank head with construction cross, articulated joints, smooth featureless pelvic shell. No nipples, genitals, skin texture or hair.\nThin neutral gray/charcoal outlines and faint construction lines, white fill, pure white background. No extra figures, missing/extra limbs, props, text, border, watermark or shading. Match the source pose and camera exactly. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:09:24.725580+00:00",
+      "generated_source_filename": "exec-06050834-58ca-41c9-8b73-de9bbed676e5.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P020_low",
+      "original_source_id": "full_single_P020_low",
+      "record": {
+        "id": "male_full_single_P020_low",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P020",
+        "分類": "立ち",
+        "ポーズ名": "立ち・片手を後頭部に",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_full_single_P020_low.jpg",
+        "原寸": "img/male_full_single_P020_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P020_low.png",
+          "bytes": 1147443,
+          "sha256": "9f5cafaf3b673e5b016060c954f2bad2dc046d5def239a36db3869d9caea8e83"
+        },
+        {
+          "path": "thumbs/male_full_single_P020_low.jpg",
+          "bytes": 23275,
+          "sha256": "fa94bf64303756d215468fe8d4f1fe2baaa0c33bb9655dd82d81cbfda899b337"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose-reference line drawing.\nInput image 1 supplies ONLY the exact pose, camera, joint positions and framing. Input image 2 supplies ONLY the adult male articulated artist mannequin design and neutral line style; never copy its seated pose.\nCreate one adult male counterpart of input 1, standing with one hand behind the head and the other on the hip. Exact view and pose: strong low upward camera near the feet: large screen-left planted foot in foreground, upward-converging legs and smaller distant head. Screen-right bent arm places its hand behind the head; screen-left hand remains on the hip. Preserve the entire source silhouette, raised elbow and perspective.\nPreserve input 1's camera angle, head and limb positions, hand-to-head and hand-to-hip contact points, joint centers, perspective, full-body crop and white margins. Keep the entire figure, all hands and toes visible as in source.\nRedesign the torso explicitly as MALE: broad shoulder girdle, shallow angular ribcage, flat angular pectoral plates integrated flush into the ribcage, straight waist and narrower pelvis. Pectoral lower edges are shallow straight or angular lines, with no hanging volume, teardrop bulges, rounded breasts or breast separation. Moderately athletic proportions; oval blank head with construction cross, articulated joints, smooth featureless pelvic shell. No nipples, genitals, skin texture or hair.\nThin neutral gray/charcoal outlines and faint construction lines, white fill, pure white background. No extra figures, missing/extra limbs, props, text, border, watermark or shading. Match the source pose and camera exactly. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:09:24.731359+00:00",
+      "generated_source_filename": "exec-f4ee4c74-77cd-4b4b-be7d-8e87060f2840.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P020_side",
+      "original_source_id": "full_single_P020_side",
+      "record": {
+        "id": "male_full_single_P020_side",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P020",
+        "分類": "立ち",
+        "ポーズ名": "立ち・片手を後頭部に",
+        "アングル": "横",
+        "サムネ": "thumbs/male_full_single_P020_side.jpg",
+        "原寸": "img/male_full_single_P020_side.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P020_side.png",
+          "bytes": 1007300,
+          "sha256": "7b568469ba65c108bb16731b5dcc8ef8d2e4068a6076bcc67ba28138e9f45dda"
+        },
+        {
+          "path": "thumbs/male_full_single_P020_side.jpg",
+          "bytes": 19455,
+          "sha256": "8a81c8dba6458354d1b1a2be9d80b69afdfd67d79c0b6f74877e4b37b3ddd82e"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose-reference line drawing.\nInput image 1 supplies ONLY the exact pose, camera, joint positions and framing. Input image 2 supplies ONLY the adult male articulated artist mannequin design and neutral line style; never copy its seated pose.\nCreate one adult male counterpart of input 1, standing with one hand behind the head and the other on the hip. Exact view and pose: source side view facing screen-right with a slight oblique rotation. The near arm bends downward with its hand on the near hip; the far arm rises behind the head and its hand contacts the back of the head. Preserve the tilted head, slight back arch, weight-bearing near leg, and other leg extending diagonally forward toward screen-right with heel lifted.\nPreserve input 1's camera angle, head and limb positions, hand-to-head and hand-to-hip contact points, joint centers, perspective, full-body crop and white margins. Keep the entire figure, all hands and toes visible as in source.\nRedesign the torso explicitly as MALE: broad shoulder girdle, shallow angular ribcage, flat angular pectoral plates integrated flush into the ribcage, straight waist and narrower pelvis. Pectoral lower edges are shallow straight or angular lines, with no hanging volume, teardrop bulges, rounded breasts or breast separation. Moderately athletic proportions; oval blank head with construction cross, articulated joints, smooth featureless pelvic shell. No nipples, genitals, skin texture or hair.\nThin neutral gray/charcoal outlines and faint construction lines, white fill, pure white background. No extra figures, missing/extra limbs, props, text, border, watermark or shading. Match the source pose and camera exactly. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:09:24.734110+00:00",
+      "generated_source_filename": "exec-0516eab0-3f81-4abd-a889-f2322df1e287.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_full_single_P020_diag",
+      "original_source_id": "full_single_P020_diag",
+      "record": {
+        "id": "male_full_single_P020_diag",
+        "系統": "男性1人・標準系",
+        "ポーズ番号": "P020",
+        "分類": "立ち",
+        "ポーズ名": "立ち・片手を後頭部に",
+        "アングル": "斜め",
+        "サムネ": "thumbs/male_full_single_P020_diag.jpg",
+        "原寸": "img/male_full_single_P020_diag.png"
+      },
+      "files": [
+        {
+          "path": "img/male_full_single_P020_diag.png",
+          "bytes": 1128480,
+          "sha256": "0b6ec39a70c302fbefb81c108d07870c14c4e4ca0340803fe3c9f778e0ff2ae2"
+        },
+        {
+          "path": "thumbs/male_full_single_P020_diag.jpg",
+          "bytes": 21267,
+          "sha256": "df0016a660968fde107ba3c3367f4d4c1910bc5cee4fe7fe2e7d93ed4db9b96c"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait PNG art-education pose-reference line drawing.\nInput image 1 supplies ONLY the exact pose, camera, joint positions and framing. Input image 2 supplies ONLY the adult male articulated artist mannequin design and neutral line style; never copy its seated pose.\nCreate one adult male counterpart of input 1, standing with one hand behind the head and the other on the hip. Exact view and pose: three-quarter oblique view exactly as source. Screen-right arm bends overhead to rest its hand behind the head, screen-left arm bends outward with hand on hip. Preserve tilted head, arched torso, hip shift, screen-left weight-bearing leg and diagonally extended screen-right leg.\nPreserve input 1's camera angle, head and limb positions, hand-to-head and hand-to-hip contact points, joint centers, perspective, full-body crop and white margins. Keep the entire figure, all hands and toes visible as in source.\nRedesign the torso explicitly as MALE: broad shoulder girdle, shallow angular ribcage, flat angular pectoral plates integrated flush into the ribcage, straight waist and narrower pelvis. Pectoral lower edges are shallow straight or angular lines, with no hanging volume, teardrop bulges, rounded breasts or breast separation. Moderately athletic proportions; oval blank head with construction cross, articulated joints, smooth featureless pelvic shell. No nipples, genitals, skin texture or hair.\nThin neutral gray/charcoal outlines and faint construction lines, white fill, pure white background. No extra figures, missing/extra limbs, props, text, border, watermark or shading. Match the source pose and camera exactly. Output 3:4 portrait.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:09:24.736104+00:00",
+      "generated_source_filename": "exec-aba8f25e-4d04-4f07-b26f-a35e64f2314d.png",
       "reviewed": true
     },
     {
@@ -7098,6 +8385,781 @@
       "model": "built-in image_gen",
       "generated_at": "2026-11-02T10:43:02.510268+00:00",
       "generated_source_filename": "exec-0b4abf9c-7808-4093-b536-90161dbe6358.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P013_front",
+      "original_source_id": "upper80v2_P013_front",
+      "record": {
+        "id": "male_upper80v2_P013_front",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P013",
+        "分類": "かわいい系",
+        "ポーズ名": "両手のひらにあご乗せ（花ポーズ）",
+        "アングル": "正面",
+        "サムネ": "thumbs/male_upper80v2_P013_front.jpg",
+        "原寸": "img/male_upper80v2_P013_front.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P013_front.png",
+          "bytes": 1185656,
+          "sha256": "0e59bf8b88ae88d9351f3a72226c001f30c9dbf8f941c7934f327927b23779af"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P013_front.jpg",
+          "bytes": 29310,
+          "sha256": "dcff32fc9efb5bf6ef9d4cebeb221ef203f52c8c92c26914fcfc8335d6eea72a"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Create one 3:4 portrait upper-body art-education pose reference PNG. Image 1 is the exact pose, camera and crop reference; image 2 supplies ONLY the adult male mannequin identity/design, never its seated pose. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head tilt, arm/elbow/hand positions, finger gestures, contact points, foreshortening, camera direction and upper-body crop ending at the waist. Keep both palms supporting the underside of the jaw/chin, fingers fanned beside the cheeks, bent elbows in front of the torso. Smooth inanimate white mannequin, blank oval head with thin construction cross-lines, spherical joints, thin neutral gray/charcoal outlines on plain white. No nipples, genitals, hair, skin texture, clothes, shading, color, scenery, props, text, watermark, extra figures, extra or missing limbs. Do not add legs. Exact frontal camera and symmetric head-and-hands arrangement from image 1.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:49:00.183778+00:00",
+      "generated_source_filename": "exec-2cbcbe2b-61d8-4b1e-8422-b23d7a013bd7.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P013_high",
+      "original_source_id": "upper80v2_P013_high",
+      "record": {
+        "id": "male_upper80v2_P013_high",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P013",
+        "分類": "かわいい系",
+        "ポーズ名": "両手のひらにあご乗せ（花ポーズ）",
+        "アングル": "上から",
+        "サムネ": "thumbs/male_upper80v2_P013_high.jpg",
+        "原寸": "img/male_upper80v2_P013_high.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P013_high.png",
+          "bytes": 1236298,
+          "sha256": "8afb28df1d0873e1c5e1318ab3afa66582f970f04d152086433c8a5729f219ba"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P013_high.jpg",
+          "bytes": 28768,
+          "sha256": "ff340f5f2ad65524273667633fd1943f491e087577332040466370dbb1d5edb7"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Create one 3:4 portrait upper-body art-education pose reference PNG. Image 1 is the exact pose, camera and crop reference; image 2 supplies ONLY the adult male mannequin identity/design, never its seated pose. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head tilt, arm/elbow/hand positions, finger gestures, contact points, foreshortening, camera direction and upper-body crop ending at the waist. Keep both palms supporting the underside of the jaw/chin, fingers fanned beside the cheeks, bent elbows in front of the torso. Smooth inanimate white mannequin, blank oval head with thin construction cross-lines, spherical joints, thin neutral gray/charcoal outlines on plain white. No nipples, genitals, hair, skin texture, clothes, shading, color, scenery, props, text, watermark, extra figures, extra or missing limbs. Do not add legs. Exact high camera looking down from image 1; preserve the large head at upper left, diagonal head axis, both cupped hands and foreshortened torso receding toward the lower right.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:49:00.186449+00:00",
+      "generated_source_filename": "exec-ef0f5c70-79e1-4e54-ba64-fe2b4da3113d.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P013_low",
+      "original_source_id": "upper80v2_P013_low",
+      "record": {
+        "id": "male_upper80v2_P013_low",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P013",
+        "分類": "かわいい系",
+        "ポーズ名": "両手のひらにあご乗せ（花ポーズ）",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_upper80v2_P013_low.jpg",
+        "原寸": "img/male_upper80v2_P013_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P013_low.png",
+          "bytes": 1194611,
+          "sha256": "c176d2ab2c68e1c88900544a45b377ffdebfbe6484149142f83ca18cc774cff8"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P013_low.jpg",
+          "bytes": 28416,
+          "sha256": "65f429acf4659c18d801ed20b36b1f8bfc3584c6ca7c62f90a77c4545df600bd"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Create one 3:4 portrait upper-body art-education pose reference PNG. Image 1 is the exact pose, camera and crop reference; image 2 supplies ONLY the adult male mannequin identity/design, never its seated pose. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head tilt, arm/elbow/hand positions, finger gestures, contact points, foreshortening, camera direction and upper-body crop ending at the waist. Keep both palms supporting the underside of the jaw/chin, fingers fanned beside the cheeks, bent elbows in front of the torso. Smooth inanimate white mannequin, blank oval head with thin construction cross-lines, spherical joints, thin neutral gray/charcoal outlines on plain white. No nipples, genitals, hair, skin texture, clothes, shading, color, scenery, props, text, watermark, extra figures, extra or missing limbs. Do not add legs. Exact low upward-looking camera from image 1; preserve underside of jaw and palms, upward head construction arc, long neck and raised hands, both bent elbows in front.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:49:00.191046+00:00",
+      "generated_source_filename": "exec-5dc78e6e-479a-4867-ace2-44ba7a7af677.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P013_side",
+      "original_source_id": "upper80v2_P013_side",
+      "record": {
+        "id": "male_upper80v2_P013_side",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P013",
+        "分類": "かわいい系",
+        "ポーズ名": "両手のひらにあご乗せ（花ポーズ）",
+        "アングル": "横",
+        "サムネ": "thumbs/male_upper80v2_P013_side.jpg",
+        "原寸": "img/male_upper80v2_P013_side.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P013_side.png",
+          "bytes": 1124044,
+          "sha256": "d4dc6b06374863503ba30fd2b86e69deff2bb20dee191200f3a71fe919a6772f"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P013_side.jpg",
+          "bytes": 23098,
+          "sha256": "3f60eef012757151ce0cd440b4ce7576eb24fcd48fc859dd8af594e480595a30"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Create one 3:4 portrait upper-body art-education pose reference PNG. Image 1 is the exact pose, camera and crop reference; image 2 supplies ONLY the adult male mannequin identity/design, never its seated pose. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head tilt, arm/elbow/hand positions, finger gestures, contact points, foreshortening, camera direction and upper-body crop ending at the waist. Keep both palms supporting the underside of the jaw/chin, fingers fanned beside the cheeks, bent elbows in front of the torso. Smooth inanimate white mannequin, blank oval head with thin construction cross-lines, spherical joints, thin neutral gray/charcoal outlines on plain white. No nipples, genitals, hair, skin texture, clothes, shading, color, scenery, props, text, watermark, extra figures, extra or missing limbs. Do not add legs. Exact left-facing profile camera from image 1; preserve overlapping arms and hands at the jaw, both palms present, chin facing left and torso in profile.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:49:00.194326+00:00",
+      "generated_source_filename": "exec-28cf3838-7f07-4f1f-a179-d80d06af21b1.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P013_diag",
+      "original_source_id": "upper80v2_P013_diag",
+      "record": {
+        "id": "male_upper80v2_P013_diag",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P013",
+        "分類": "かわいい系",
+        "ポーズ名": "両手のひらにあご乗せ（花ポーズ）",
+        "アングル": "斜め",
+        "サムネ": "thumbs/male_upper80v2_P013_diag.jpg",
+        "原寸": "img/male_upper80v2_P013_diag.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P013_diag.png",
+          "bytes": 1212649,
+          "sha256": "df0006e5b7ce804701bab23233c673890ba1d93ce772e18eedda2f3a046269c8"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P013_diag.jpg",
+          "bytes": 27932,
+          "sha256": "5403783293a14910c89ba5d83cae29315911af9010faeb64639ca0dd5ccabf2a"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Create one 3:4 portrait upper-body art-education pose reference PNG. Image 1 is the exact pose, camera and crop reference; image 2 supplies ONLY the adult male mannequin identity/design, never its seated pose. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head tilt, arm/elbow/hand positions, finger gestures, contact points, foreshortening, camera direction and upper-body crop ending at the waist. Keep both palms supporting the underside of the jaw/chin, fingers fanned beside the cheeks, bent elbows in front of the torso. Smooth inanimate white mannequin, blank oval head with thin construction cross-lines, spherical joints, thin neutral gray/charcoal outlines on plain white. No nipples, genitals, hair, skin texture, clothes, shading, color, scenery, props, text, watermark, extra figures, extra or missing limbs. Do not add legs. Exact three-quarter camera from image 1; preserve head facing slightly left, both palms under jaw and fingers beside face, near arm on viewer right and far arm on viewer left.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:49:00.200312+00:00",
+      "generated_source_filename": "exec-e53b8224-9c6a-4795-80a4-1ee6b8312bfe.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P014_front",
+      "original_source_id": "upper80v2_P014_front",
+      "record": {
+        "id": "male_upper80v2_P014_front",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P014",
+        "分類": "かわいい系",
+        "ポーズ名": "人差し指でほっぺをツン",
+        "アングル": "正面",
+        "サムネ": "thumbs/male_upper80v2_P014_front.jpg",
+        "原寸": "img/male_upper80v2_P014_front.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P014_front.png",
+          "bytes": 1212227,
+          "sha256": "c1f441ca15e55f19746d66f3246bec08578233aa399f7da65300643fecb7c578"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P014_front.jpg",
+          "bytes": 27618,
+          "sha256": "c6d0b25905c86bacfc03c0fafef3d27e85d82aec934b61f38ceea5a4db0f9950"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Create one 3:4 portrait upper-body art-education pose reference PNG. Image 1 is the exact pose, camera and crop reference; image 2 supplies ONLY adult male mannequin identity/design, never its seated pose. Transform the main figure of image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist and moderately athletic proportions. Preserve image 1's exact head tilt, arm/elbow/hand positions, index-finger gesture, contact points, foreshortening, camera direction and upper-body crop. The arm on viewer left is bent upward, one extended index finger touches the cheek; the other arm crosses horizontally in front of the lower torso, its hand supports the raised arm's elbow. Keep exact right/left orientation. Smooth inanimate white mannequin, blank oval head with thin construction cross-lines, spherical joints, thin neutral gray/charcoal outlines on plain white. No nipples, genitals, hair, skin texture, clothes, shading, color, scenery, props, text, watermark, extra figures, extra or missing limbs. No legs. Ignore any stray fragment from a separate drawing at image 1's top edge; render only its main figure. Exact frontal view from image 1, head very slightly tilted, finger at viewer-left cheek; preserve horizontal supporting forearm across the lower torso.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:52:44.688266+00:00",
+      "generated_source_filename": "exec-50cbfc55-7265-4b0d-9a4a-6b5c0b8c73eb.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P014_high",
+      "original_source_id": "upper80v2_P014_high",
+      "record": {
+        "id": "male_upper80v2_P014_high",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P014",
+        "分類": "かわいい系",
+        "ポーズ名": "人差し指でほっぺをツン",
+        "アングル": "上から",
+        "サムネ": "thumbs/male_upper80v2_P014_high.jpg",
+        "原寸": "img/male_upper80v2_P014_high.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P014_high.png",
+          "bytes": 1456443,
+          "sha256": "67e15c9541e9ffeca5ccebdf19d752796dc31de4e0457ec0bc834ccb2217c98c"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P014_high.jpg",
+          "bytes": 30005,
+          "sha256": "656779a6fec0554f4c91e9f7db7317b0276ebcfbb025703f59005195cbffcdb6"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Create one 3:4 portrait upper-body art-education pose reference PNG. Image 1 is the exact pose, camera and crop reference; image 2 supplies ONLY adult male mannequin identity/design, never its seated pose. Transform the main figure of image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist and moderately athletic proportions. Preserve image 1's exact head tilt, arm/elbow/hand positions, index-finger gesture, contact points, foreshortening, camera direction and upper-body crop. The arm on viewer left is bent upward, one extended index finger touches the cheek; the other arm crosses horizontally in front of the lower torso, its hand supports the raised arm's elbow. Keep exact right/left orientation. Smooth inanimate white mannequin, blank oval head with thin construction cross-lines, spherical joints, thin neutral gray/charcoal outlines on plain white. No nipples, genitals, hair, skin texture, clothes, shading, color, scenery, props, text, watermark, extra figures, extra or missing limbs. No legs. Ignore any stray fragment from a separate drawing at image 1's top edge; render only its main figure. Exact high camera looking downward from image 1; show top of large foreshortened head, shoulders receding behind it, index finger at viewer-left cheek, shortened torso and supporting forearm along the bottom.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:52:44.692833+00:00",
+      "generated_source_filename": "exec-56af2cca-9137-4403-bf47-844779314b74.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P014_low",
+      "original_source_id": "upper80v2_P014_low",
+      "record": {
+        "id": "male_upper80v2_P014_low",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P014",
+        "分類": "かわいい系",
+        "ポーズ名": "人差し指でほっぺをツン",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_upper80v2_P014_low.jpg",
+        "原寸": "img/male_upper80v2_P014_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P014_low.png",
+          "bytes": 1256355,
+          "sha256": "29dbc9250597370ae966bcaafa6db767bb308f705c7bf6f2a2267ac14fed1a57"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P014_low.jpg",
+          "bytes": 29311,
+          "sha256": "a423fc8cb7b8b0e2e618b54474439db8f40da61ce1d642bbdd02f2ffea158e0f"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Create one 3:4 portrait upper-body art-education pose reference PNG. Image 1 is the exact pose, camera and crop reference; image 2 supplies ONLY adult male mannequin identity/design, never its seated pose. Transform the main figure of image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist and moderately athletic proportions. Preserve image 1's exact head tilt, arm/elbow/hand positions, index-finger gesture, contact points, foreshortening, camera direction and upper-body crop. The arm on viewer left is bent upward, one extended index finger touches the cheek; the other arm crosses horizontally in front of the lower torso, its hand supports the raised arm's elbow. Keep exact right/left orientation. Smooth inanimate white mannequin, blank oval head with thin construction cross-lines, spherical joints, thin neutral gray/charcoal outlines on plain white. No nipples, genitals, hair, skin texture, clothes, shading, color, scenery, props, text, watermark, extra figures, extra or missing limbs. No legs. Ignore any stray fragment from a separate drawing at image 1's top edge; render only its main figure. Exact low upward-looking camera from image 1, slight three-quarter angle; preserve visible underside of chin, elongated neck, index finger at viewer-left cheek, torso and supporting forearm cropped at bottom exactly as source.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:52:44.699100+00:00",
+      "generated_source_filename": "exec-df7eb751-2f10-44ff-b471-c9c2c37958b2.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P014_side",
+      "original_source_id": "upper80v2_P014_side",
+      "record": {
+        "id": "male_upper80v2_P014_side",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P014",
+        "分類": "かわいい系",
+        "ポーズ名": "人差し指でほっぺをツン",
+        "アングル": "横",
+        "サムネ": "thumbs/male_upper80v2_P014_side.jpg",
+        "原寸": "img/male_upper80v2_P014_side.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P014_side.png",
+          "bytes": 1129299,
+          "sha256": "fe3b82956206857be8233f904734c6e29642dda02a0feac0d10207fbddd8d43a"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P014_side.jpg",
+          "bytes": 23318,
+          "sha256": "666a352c2926494abfe30a90a97b0379c45b7842ed866f0b534cad3be74f17ae"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Create one 3:4 portrait upper-body art-education pose reference PNG. Image 1 is the exact pose, camera and crop reference; image 2 supplies ONLY adult male mannequin identity/design, never its seated pose. Transform the main figure of image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist and moderately athletic proportions. Preserve image 1's exact head tilt, arm/elbow/hand positions, index-finger gesture, contact points, foreshortening, camera direction and upper-body crop. The arm on viewer left is bent upward, one extended index finger touches the cheek; the other arm crosses horizontally in front of the lower torso, its hand supports the raised arm's elbow. Keep exact right/left orientation. Smooth inanimate white mannequin, blank oval head with thin construction cross-lines, spherical joints, thin neutral gray/charcoal outlines on plain white. No nipples, genitals, hair, skin texture, clothes, shading, color, scenery, props, text, watermark, extra figures, extra or missing limbs. No legs. Ignore any stray fragment from a separate drawing at image 1's top edge; render only its main figure. Exact left-facing profile camera from image 1; preserve profile head, raised index touching near cheek, overlapping bent arms and hand supporting the raised elbow. Retain the main figure's original size and framing.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:52:44.704388+00:00",
+      "generated_source_filename": "exec-6d0b9525-24d3-415f-8990-eba11ab026dc.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P014_diag",
+      "original_source_id": "upper80v2_P014_diag",
+      "record": {
+        "id": "male_upper80v2_P014_diag",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P014",
+        "分類": "かわいい系",
+        "ポーズ名": "人差し指でほっぺをツン",
+        "アングル": "斜め",
+        "サムネ": "thumbs/male_upper80v2_P014_diag.jpg",
+        "原寸": "img/male_upper80v2_P014_diag.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P014_diag.png",
+          "bytes": 1186428,
+          "sha256": "e64e69bc3ec9241b49e99e4622a99b5d32b0d2f19fb00d2badc50133b18f341f"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P014_diag.jpg",
+          "bytes": 24912,
+          "sha256": "7791e0a1190ada90b357750a3f99442c0b6cc0a6feaf2c9d56cc48292f0fe3c1"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Create one 3:4 portrait upper-body art-education pose reference PNG. Image 1 is the exact pose, camera and crop reference; image 2 supplies ONLY adult male mannequin identity/design, never its seated pose. Transform the main figure of image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates (never rounded breast forms), straight waist and moderately athletic proportions. Preserve image 1's exact head tilt, arm/elbow/hand positions, index-finger gesture, contact points, foreshortening, camera direction and upper-body crop. The arm on viewer left is bent upward, one extended index finger touches the cheek; the other arm crosses horizontally in front of the lower torso, its hand supports the raised arm's elbow. Keep exact right/left orientation. Smooth inanimate white mannequin, blank oval head with thin construction cross-lines, spherical joints, thin neutral gray/charcoal outlines on plain white. No nipples, genitals, hair, skin texture, clothes, shading, color, scenery, props, text, watermark, extra figures, extra or missing limbs. No legs. Ignore any stray fragment from a separate drawing at image 1's top edge; render only its main figure. Exact three-quarter camera from image 1, head facing slightly left; finger touches viewer-left cheek, near arm on viewer right extends downward and its forearm crosses the lower torso to support the opposite elbow. Retain original main figure framing.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:52:44.710236+00:00",
+      "generated_source_filename": "exec-5d805f6f-cbc7-4a38-8252-1049510ede51.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P015_front",
+      "original_source_id": "upper80v2_P015_front",
+      "record": {
+        "id": "male_upper80v2_P015_front",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P015",
+        "分類": "かわいい系",
+        "ポーズ名": "萌え袖風に両手で口元を隠す",
+        "アングル": "正面",
+        "サムネ": "thumbs/male_upper80v2_P015_front.jpg",
+        "原寸": "img/male_upper80v2_P015_front.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P015_front.png",
+          "bytes": 1176175,
+          "sha256": "e5a3ceaa74dbf6aae24a8229259103bba047ddf0c76bf0f365c16d7d6ccf0999"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P015_front.jpg",
+          "bytes": 28508,
+          "sha256": "9040c378fba3dd3acabb09ecb537dc1c1bb334754393c61a330a0922d1c4da56"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body mannequin pose reference PNG. Image 1 is the exact pose, camera and crop reference. Image 2 supplies ONLY adult male mannequin identity and line style; never copy its seated pose or legs. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates, straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head position, arms, elbows, wrist joints, curled finger gesture, hand contact points, camera perspective, foreshortening and original upper-body crop. Keep blank oval head with sparse construction cross-lines, smooth mechanical joint surfaces, thin neutral gray and charcoal outlines, white interiors and plain white background. Chest plates must be flat and angular, never rounded breast forms. No skin texture, hair, nipples, genitals, clothing, props, shading, text, watermark, extra figures or extra/missing limbs. Keep 3:4 portrait canvas and source margins. Pose: both hands are loosely curled side by side directly in front of the mouth, elbows bent downward, raised forearms angled inward. Camera: straight-on frontal view, symmetrical head and shoulders. Keep both curled hands just beneath the lower face and both elbows fully in frame, with lower torso cut at the waist as in image 1.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:59:10.143863+00:00",
+      "generated_source_filename": "exec-4cfb3520-d6af-4922-b649-14c7727748bc.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P015_high",
+      "original_source_id": "upper80v2_P015_high",
+      "record": {
+        "id": "male_upper80v2_P015_high",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P015",
+        "分類": "かわいい系",
+        "ポーズ名": "萌え袖風に両手で口元を隠す",
+        "アングル": "上から",
+        "サムネ": "thumbs/male_upper80v2_P015_high.jpg",
+        "原寸": "img/male_upper80v2_P015_high.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P015_high.png",
+          "bytes": 1235709,
+          "sha256": "1b40c87092d90e64611dbee71ca62713ddb40debded4dc5ec0e3ca03db043d34"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P015_high.jpg",
+          "bytes": 31397,
+          "sha256": "5fc5190b1bb5c9d98dde1065e6431fef8c9faeb603e5651fb66f6099dd2a7e30"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body mannequin pose reference PNG. Image 1 is the exact pose, camera and crop reference. Image 2 supplies ONLY adult male mannequin identity and line style; never copy its seated pose or legs. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates, straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head position, arms, elbows, wrist joints, curled finger gesture, hand contact points, camera perspective, foreshortening and original upper-body crop. Keep blank oval head with sparse construction cross-lines, smooth mechanical joint surfaces, thin neutral gray and charcoal outlines, white interiors and plain white background. Chest plates must be flat and angular, never rounded breast forms. No skin texture, hair, nipples, genitals, clothing, props, shading, text, watermark, extra figures or extra/missing limbs. Keep 3:4 portrait canvas and source margins. Pose: both hands are loosely curled side by side directly in front of the mouth, elbows bent downward, raised forearms angled inward. Camera: elevated three-quarter view looking downward, showing top of head and shoulders. Keep head angled down toward the two curled hands, diagonal shoulder line and source foreshortening, with hips only as cropped in image 1.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:59:10.145810+00:00",
+      "generated_source_filename": "exec-d6cc14ef-8b69-4fcf-9509-5bf522eb6275.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P015_low",
+      "original_source_id": "upper80v2_P015_low",
+      "record": {
+        "id": "male_upper80v2_P015_low",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P015",
+        "分類": "かわいい系",
+        "ポーズ名": "萌え袖風に両手で口元を隠す",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_upper80v2_P015_low.jpg",
+        "原寸": "img/male_upper80v2_P015_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P015_low.png",
+          "bytes": 1370534,
+          "sha256": "35135031c7afe79428b3b81d472fc69a3383b303178508a880f8e5976b1f67ab"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P015_low.jpg",
+          "bytes": 28580,
+          "sha256": "8f096f9d88e97c46b3fad75fd1c3de84a4e79771670339aba07dbe5fbe82f8ca"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body mannequin pose reference PNG. Image 1 is the exact pose, camera and crop reference. Image 2 supplies ONLY adult male mannequin identity and line style; never copy its seated pose or legs. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates, straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head position, arms, elbows, wrist joints, curled finger gesture, hand contact points, camera perspective, foreshortening and original upper-body crop. Keep blank oval head with sparse construction cross-lines, smooth mechanical joint surfaces, thin neutral gray and charcoal outlines, white interiors and plain white background. Chest plates must be flat and angular, never rounded breast forms. No skin texture, hair, nipples, genitals, clothing, props, shading, text, watermark, extra figures or extra/missing limbs. Keep 3:4 portrait canvas and source margins. Pose: both hands are loosely curled side by side directly in front of the mouth, elbows bent downward, raised forearms angled inward. Camera: low frontal view looking upward, visible underside of chin, head slightly back, hands raised over lower face. Keep the source's larger foreground forearms and shoulders and exact waist crop.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:59:10.147594+00:00",
+      "generated_source_filename": "exec-504c6b25-b078-4b5b-8aaa-9079842c2574.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P015_side",
+      "original_source_id": "upper80v2_P015_side",
+      "record": {
+        "id": "male_upper80v2_P015_side",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P015",
+        "分類": "かわいい系",
+        "ポーズ名": "萌え袖風に両手で口元を隠す",
+        "アングル": "横",
+        "サムネ": "thumbs/male_upper80v2_P015_side.jpg",
+        "原寸": "img/male_upper80v2_P015_side.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P015_side.png",
+          "bytes": 1154792,
+          "sha256": "3d872464d7fa42cd5345542ca23c1e584d93195a21065bc9a276c02a69523fd2"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P015_side.jpg",
+          "bytes": 25430,
+          "sha256": "d5f6d666967c6f65e3e90da1eb051316ab3a398fc3c7516f6ce7052df0b21564"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body mannequin pose reference PNG. Image 1 is the exact pose, camera and crop reference. Image 2 supplies ONLY adult male mannequin identity and line style; never copy its seated pose or legs. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates, straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head position, arms, elbows, wrist joints, curled finger gesture, hand contact points, camera perspective, foreshortening and original upper-body crop. Keep blank oval head with sparse construction cross-lines, smooth mechanical joint surfaces, thin neutral gray and charcoal outlines, white interiors and plain white background. Chest plates must be flat and angular, never rounded breast forms. No skin texture, hair, nipples, genitals, clothing, props, shading, text, watermark, extra figures or extra/missing limbs. Keep 3:4 portrait canvas and source margins. Pose: both hands are loosely curled side by side directly in front of the mouth, elbows bent downward, raised forearms angled inward. Camera: exact left-facing side profile. Keep the hands together in front of mouth, overlapping hands and arms as in source, near shoulder large at screen right and elbows low at screen left. Preserve exact upper-body crop.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:59:10.149146+00:00",
+      "generated_source_filename": "exec-e90a0f35-c371-4da8-8d9f-5c384a6ae069.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P015_diag",
+      "original_source_id": "upper80v2_P015_diag",
+      "record": {
+        "id": "male_upper80v2_P015_diag",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P015",
+        "分類": "かわいい系",
+        "ポーズ名": "萌え袖風に両手で口元を隠す",
+        "アングル": "斜め",
+        "サムネ": "thumbs/male_upper80v2_P015_diag.jpg",
+        "原寸": "img/male_upper80v2_P015_diag.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P015_diag.png",
+          "bytes": 1190355,
+          "sha256": "2f60592db34e39bbc92c4f8d00c9496cda07f6df6c6f0b42f99c24fe3dfcbef2"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P015_diag.jpg",
+          "bytes": 28313,
+          "sha256": "c5e1142ab6daa57d91cb868b34338a62f9a47726e6e6503373c9a2a991e9e8e6"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body mannequin pose reference PNG. Image 1 is the exact pose, camera and crop reference. Image 2 supplies ONLY adult male mannequin identity and line style; never copy its seated pose or legs. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates, straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head position, arms, elbows, wrist joints, curled finger gesture, hand contact points, camera perspective, foreshortening and original upper-body crop. Keep blank oval head with sparse construction cross-lines, smooth mechanical joint surfaces, thin neutral gray and charcoal outlines, white interiors and plain white background. Chest plates must be flat and angular, never rounded breast forms. No skin texture, hair, nipples, genitals, clothing, props, shading, text, watermark, extra figures or extra/missing limbs. Keep 3:4 portrait canvas and source margins. Pose: both hands are loosely curled side by side directly in front of the mouth, elbows bent downward, raised forearms angled inward. Camera: three-quarter oblique view facing toward screen left, near shoulder at screen right, both curled hands in front of mouth. Preserve asymmetric arm overlap, head direction and exact source waist crop.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T10:59:10.151050+00:00",
+      "generated_source_filename": "exec-fa4c5255-0130-4ee0-84d4-b1553b5c7c86.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P016_front",
+      "original_source_id": "upper80v2_P016_front",
+      "record": {
+        "id": "male_upper80v2_P016_front",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P016",
+        "分類": "かわいい系",
+        "ポーズ名": "お願いポーズ（両手を合わせる）",
+        "アングル": "正面",
+        "サムネ": "thumbs/male_upper80v2_P016_front.jpg",
+        "原寸": "img/male_upper80v2_P016_front.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P016_front.png",
+          "bytes": 1348111,
+          "sha256": "6ae5118a7c664be150795e440f490f9ac2d59893555e00bc71a736f3ca24286a"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P016_front.jpg",
+          "bytes": 29830,
+          "sha256": "da2b337ce3a5e8af21403f520e0eb076e14ac7c04fda0989a368857a4ab3c646"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body mannequin pose reference PNG. Image 1 is the exact pose, camera and crop reference. Image 2 supplies ONLY adult male mannequin identity and line style; never copy its seated pose or legs. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates, straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head position, arms, elbows, wrist joints, finger gesture, hand contact points, camera perspective, foreshortening and original upper-body crop. Keep blank oval head with sparse construction cross-lines, smooth mechanical joint surfaces, thin neutral gray and charcoal outlines, white interiors and plain white background. Chest plates must be flat and angular, never rounded breast forms. No skin texture, hair, nipples, genitals, clothing, props, shading, text, watermark, extra figures or extra/missing limbs. Keep 3:4 portrait canvas and source margins. Pose: both palms pressed together vertically, fingers extended upward in front of face/chest, with bent elbows. Camera: preserve image 1's near-frontal view and lateral lean. Head leans strongly toward screen left, joined hands offset toward screen right in front of lower face, screen-left elbow lower than screen-right. Do not straighten the head or make the pose symmetrical. Keep exact waist crop.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:03:07.234851+00:00",
+      "generated_source_filename": "exec-5f860f1a-4e27-48d9-ba40-85ac2eb126c2.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P016_high",
+      "original_source_id": "upper80v2_P016_high",
+      "record": {
+        "id": "male_upper80v2_P016_high",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P016",
+        "分類": "かわいい系",
+        "ポーズ名": "お願いポーズ（両手を合わせる）",
+        "アングル": "上から",
+        "サムネ": "thumbs/male_upper80v2_P016_high.jpg",
+        "原寸": "img/male_upper80v2_P016_high.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P016_high.png",
+          "bytes": 1268338,
+          "sha256": "f407ec3ac9e2dc5a1714034209f5a591f2cc24f5c4d66b6827d250007f46e2aa"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P016_high.jpg",
+          "bytes": 31508,
+          "sha256": "1d60c30bcad50524d15d7c941d2169dabaf2df422314632457c09e6e619a7b80"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body mannequin pose reference PNG. Image 1 is the exact pose, camera and crop reference. Image 2 supplies ONLY adult male mannequin identity and line style; never copy its seated pose or legs. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates, straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head position, arms, elbows, wrist joints, finger gesture, hand contact points, camera perspective, foreshortening and original upper-body crop. Keep blank oval head with sparse construction cross-lines, smooth mechanical joint surfaces, thin neutral gray and charcoal outlines, white interiors and plain white background. Chest plates must be flat and angular, never rounded breast forms. No skin texture, hair, nipples, genitals, clothing, props, shading, text, watermark, extra figures or extra/missing limbs. Keep 3:4 portrait canvas and source margins. Pose: both palms pressed together vertically, fingers extended upward in front of face/chest, with bent elbows. Camera: steep elevated frontal view looking downward, head bowed toward joined hands. Show top of head and shoulders, both forearms foreshortened and elbows low to the sides, maintain centered symmetric composition and original cropped upper pelvis.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:03:07.237291+00:00",
+      "generated_source_filename": "exec-fd75cdf9-341c-4cdf-beb8-f016b68cd62d.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P016_low",
+      "original_source_id": "upper80v2_P016_low",
+      "record": {
+        "id": "male_upper80v2_P016_low",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P016",
+        "分類": "かわいい系",
+        "ポーズ名": "お願いポーズ（両手を合わせる）",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_upper80v2_P016_low.jpg",
+        "原寸": "img/male_upper80v2_P016_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P016_low.png",
+          "bytes": 1205352,
+          "sha256": "5e649af5be2be95bc82b94324a859b7668e8f09c9f1d3d6c0b1116d3623dc31a"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P016_low.jpg",
+          "bytes": 30178,
+          "sha256": "9d9aaf210289e5a120eec2cff06a8914578d91add3750677ed5437c9aa2d7892"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body mannequin pose reference PNG. Image 1 is the exact pose, camera and crop reference. Image 2 supplies ONLY adult male mannequin identity and line style; never copy its seated pose or legs. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates, straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head position, arms, elbows, wrist joints, finger gesture, hand contact points, camera perspective, foreshortening and original upper-body crop. Keep blank oval head with sparse construction cross-lines, smooth mechanical joint surfaces, thin neutral gray and charcoal outlines, white interiors and plain white background. Chest plates must be flat and angular, never rounded breast forms. No skin texture, hair, nipples, genitals, clothing, props, shading, text, watermark, extra figures or extra/missing limbs. Keep 3:4 portrait canvas and source margins. Pose: both palms pressed together vertically, fingers extended upward in front of face/chest, with bent elbows. Camera: low upward three-quarter frontal view. Preserve visibly tipped-back head and long visible underside of chin/neck, hands together slightly left of center below chin, near elbow at screen right. Preserve all perspective and original waist crop.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:03:07.239124+00:00",
+      "generated_source_filename": "exec-383cf90e-d889-48bd-91ce-a7f139b5a5e2.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P016_side",
+      "original_source_id": "upper80v2_P016_side",
+      "record": {
+        "id": "male_upper80v2_P016_side",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P016",
+        "分類": "かわいい系",
+        "ポーズ名": "お願いポーズ（両手を合わせる）",
+        "アングル": "横",
+        "サムネ": "thumbs/male_upper80v2_P016_side.jpg",
+        "原寸": "img/male_upper80v2_P016_side.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P016_side.png",
+          "bytes": 1136829,
+          "sha256": "ecef0c41445502462295d3ea8a8e861d475a30ab1917c1303a41c5d5494d5e7a"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P016_side.jpg",
+          "bytes": 24258,
+          "sha256": "daf2c0843d4008dbff6081506a1fa6c74edf26a1c6c1cd5596c51db1f361f528"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body mannequin pose reference PNG. Image 1 is the exact pose, camera and crop reference. Image 2 supplies ONLY adult male mannequin identity and line style; never copy its seated pose or legs. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates, straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head position, arms, elbows, wrist joints, finger gesture, hand contact points, camera perspective, foreshortening and original upper-body crop. Keep blank oval head with sparse construction cross-lines, smooth mechanical joint surfaces, thin neutral gray and charcoal outlines, white interiors and plain white background. Chest plates must be flat and angular, never rounded breast forms. No skin texture, hair, nipples, genitals, clothing, props, shading, text, watermark, extra figures or extra/missing limbs. Keep 3:4 portrait canvas and source margins. Pose: both palms pressed together vertically, fingers extended upward in front of face/chest, with bent elbows. Camera: exact right-facing side profile. Keep hands pressed together vertically immediately in front of lower face, overlapping arms and hands, near shoulder at screen left and elbow low at screen right. Keep source's upper-body crop and side silhouette.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:03:07.240579+00:00",
+      "generated_source_filename": "exec-7832178a-d12d-4fba-834b-a29a2672d687.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P016_diag",
+      "original_source_id": "upper80v2_P016_diag",
+      "record": {
+        "id": "male_upper80v2_P016_diag",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P016",
+        "分類": "かわいい系",
+        "ポーズ名": "お願いポーズ（両手を合わせる）",
+        "アングル": "斜め",
+        "サムネ": "thumbs/male_upper80v2_P016_diag.jpg",
+        "原寸": "img/male_upper80v2_P016_diag.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P016_diag.png",
+          "bytes": 1254353,
+          "sha256": "6bb268cd19d8eb51635358ced6a2afba620479ed375dfe81c2fd88278947e67a"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P016_diag.jpg",
+          "bytes": 28581,
+          "sha256": "2da0a67e2b1b9ced3f42f691d0b85eefa567f3613d06dd81e8c1a0b6889e400b"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body mannequin pose reference PNG. Image 1 is the exact pose, camera and crop reference. Image 2 supplies ONLY adult male mannequin identity and line style; never copy its seated pose or legs. Transform image 1 into one adult faceless articulated male artist mannequin with broad shoulders, flat shallow angular pectoral plates, straight waist, narrower pelvis and moderately athletic proportions. Preserve image 1's exact head position, arms, elbows, wrist joints, finger gesture, hand contact points, camera perspective, foreshortening and original upper-body crop. Keep blank oval head with sparse construction cross-lines, smooth mechanical joint surfaces, thin neutral gray and charcoal outlines, white interiors and plain white background. Chest plates must be flat and angular, never rounded breast forms. No skin texture, hair, nipples, genitals, clothing, props, shading, text, watermark, extra figures or extra/missing limbs. Keep 3:4 portrait canvas and source margins. Pose: both palms pressed together vertically, fingers extended upward in front of face/chest, with bent elbows. Camera: three-quarter oblique view facing screen left. Hands pressed together vertically in front of lower face at screen left, near forearm center with large elbow low at screen right; far elbow lower left. Preserve head orientation, arm overlap and exact source waist crop.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:03:07.242764+00:00",
+      "generated_source_filename": "exec-0bfe9c1c-f544-4090-9353-fe20c3218a9f.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P017_front",
+      "original_source_id": "upper80v2_P017_front",
+      "record": {
+        "id": "male_upper80v2_P017_front",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P017",
+        "分類": "かわいい系",
+        "ポーズ名": "自分を抱きしめる照れポーズ",
+        "アングル": "正面",
+        "サムネ": "thumbs/male_upper80v2_P017_front.jpg",
+        "原寸": "img/male_upper80v2_P017_front.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P017_front.png",
+          "bytes": 1196487,
+          "sha256": "84e8f76dbc57506eb57a6fd1a2098539b3e7ad3b939e87483a0bea21cc6a9cdc"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P017_front.jpg",
+          "bytes": 28497,
+          "sha256": "340aa8206d5f418a16bfc3ad177f19165c69b1de6746c488bd94121bccd9448e"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body artist mannequin pose reference PNG. Input image 1 is the exact pose, camera angle and crop reference. Input image 2 is the adult male mannequin design/style reference ONLY, never copy its seated pose or legs. Transform image 1 into one ADULT MALE faceless articulated artist mannequin. Keep its exact self-embrace pose: shoulders raised slightly, both arms crossed in front of torso and both hands holding opposite upper arms; preserve which forearm overlaps in front, head tilt, elbow positions, hand contacts, foreshortening, framing and waist crop. Broad shoulders, straight waist, moderately athletic proportions. MALE THORAX MUST BE FLAT: a broad shallow box-like ribcage with thin angular pectoral plates flush against it, no independent rounded chest lobes, no projecting or hanging breast forms, no cleavage or under-breast arcs. Do not retain the female chest shape from image 1. Use blank oval head with construction cross-lines, smooth mechanical joints, thin neutral gray and charcoal outlines, white interiors and plain white background. No skin texture, hair, nipples, genitals, clothes, shading, props, text, watermark, extra figure, extra or missing limbs, legs, or lower body. Exact front camera view of image 1; head faces the viewer, both forearms cross beneath the shallow male chest.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:09:04.574988+00:00",
+      "generated_source_filename": "exec-deb7b645-dbe0-46dc-8e82-e258ca523d5a.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P017_high",
+      "original_source_id": "upper80v2_P017_high",
+      "record": {
+        "id": "male_upper80v2_P017_high",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P017",
+        "分類": "かわいい系",
+        "ポーズ名": "自分を抱きしめる照れポーズ",
+        "アングル": "上から",
+        "サムネ": "thumbs/male_upper80v2_P017_high.jpg",
+        "原寸": "img/male_upper80v2_P017_high.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P017_high.png",
+          "bytes": 1222811,
+          "sha256": "d7afe6aedc005ddd40189a20c1f2f7505a7630cf3d2f0d7b709c2218ae02de0c"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P017_high.jpg",
+          "bytes": 31210,
+          "sha256": "1f0cc8d71981702f543c6a56858bd954a06d509de6535ef4b4c2bee5f0711ee3"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body artist mannequin pose reference PNG. Input image 1 is the exact pose, camera angle and crop reference. Input image 2 is the adult male mannequin design/style reference ONLY, never copy its seated pose or legs. Transform image 1 into one ADULT MALE faceless articulated artist mannequin. Keep its exact self-embrace pose: shoulders raised slightly, both arms crossed in front of torso and both hands holding opposite upper arms; preserve which forearm overlaps in front, head tilt, elbow positions, hand contacts, foreshortening, framing and waist crop. Broad shoulders, straight waist, moderately athletic proportions. MALE THORAX MUST BE FLAT: a broad shallow box-like ribcage with thin angular pectoral plates flush against it, no independent rounded chest lobes, no projecting or hanging breast forms, no cleavage or under-breast arcs. Do not retain the female chest shape from image 1. Use blank oval head with construction cross-lines, smooth mechanical joints, thin neutral gray and charcoal outlines, white interiors and plain white background. No skin texture, hair, nipples, genitals, clothes, shading, props, text, watermark, extra figure, extra or missing limbs, legs, or lower body. Exact elevated downward camera view of image 1, clearly looking down on head and shoulders, with foreshortened lower torso. Preserve the bowed head and the exact diagonal arm overlap.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:09:04.577117+00:00",
+      "generated_source_filename": "exec-e6980864-f220-4e61-afcb-7adcfc625661.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P017_low",
+      "original_source_id": "upper80v2_P017_low",
+      "record": {
+        "id": "male_upper80v2_P017_low",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P017",
+        "分類": "かわいい系",
+        "ポーズ名": "自分を抱きしめる照れポーズ",
+        "アングル": "下から",
+        "サムネ": "thumbs/male_upper80v2_P017_low.jpg",
+        "原寸": "img/male_upper80v2_P017_low.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P017_low.png",
+          "bytes": 1185408,
+          "sha256": "ebd4b6121e953868d0e401d4fa44999f98ed3fcf2d7de7d2f8ff0a5b94505a5d"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P017_low.jpg",
+          "bytes": 29172,
+          "sha256": "b45841726834ebdc4ab4f986eb2eb172e872eb00bfc0e0704337d1aaa0b4d240"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body artist mannequin pose reference PNG. Input image 1 is the exact pose, camera angle and crop reference. Input image 2 is the adult male mannequin design/style reference ONLY, never copy its seated pose or legs. Transform image 1 into one ADULT MALE faceless articulated artist mannequin. Keep its exact self-embrace pose: shoulders raised slightly, both arms crossed in front of torso and both hands holding opposite upper arms; preserve which forearm overlaps in front, head tilt, elbow positions, hand contacts, foreshortening, framing and waist crop. Broad shoulders, straight waist, moderately athletic proportions. MALE THORAX MUST BE FLAT: a broad shallow box-like ribcage with thin angular pectoral plates flush against it, no independent rounded chest lobes, no projecting or hanging breast forms, no cleavage or under-breast arcs. Do not retain the female chest shape from image 1. Use blank oval head with construction cross-lines, smooth mechanical joints, thin neutral gray and charcoal outlines, white interiors and plain white background. No skin texture, hair, nipples, genitals, clothes, shading, props, text, watermark, extra figure, extra or missing limbs, legs, or lower body. Exact low upward camera view of image 1, clearly visible underside of jaw and rising torso perspective. Keep the head angle and larger nearer hand on screen right.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:09:04.578984+00:00",
+      "generated_source_filename": "exec-93215e07-835e-4ebe-874f-5c93ae3a8744.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P017_side",
+      "original_source_id": "upper80v2_P017_side",
+      "record": {
+        "id": "male_upper80v2_P017_side",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P017",
+        "分類": "かわいい系",
+        "ポーズ名": "自分を抱きしめる照れポーズ",
+        "アングル": "横",
+        "サムネ": "thumbs/male_upper80v2_P017_side.jpg",
+        "原寸": "img/male_upper80v2_P017_side.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P017_side.png",
+          "bytes": 1142147,
+          "sha256": "eeb1c9c0c29a82e4410ee1b6c96b3ee73fb1f0421a9d5452be9e76a0b106d0fb"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P017_side.jpg",
+          "bytes": 24630,
+          "sha256": "2dc549a17a7257fdca7e3fe85002217170175dc891049d517b2ec450fa22f379"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body artist mannequin pose reference PNG. Input image 1 is the exact pose, camera angle and crop reference. Input image 2 is the adult male mannequin design/style reference ONLY, never copy its seated pose or legs. Transform image 1 into one ADULT MALE faceless articulated artist mannequin. Keep its exact self-embrace pose: shoulders raised slightly, both arms crossed in front of torso and both hands holding opposite upper arms; preserve which forearm overlaps in front, head tilt, elbow positions, hand contacts, foreshortening, framing and waist crop. Broad shoulders, straight waist, moderately athletic proportions. MALE THORAX MUST BE FLAT: a broad shallow box-like ribcage with thin angular pectoral plates flush against it, no independent rounded chest lobes, no projecting or hanging breast forms, no cleavage or under-breast arcs. Do not retain the female chest shape from image 1. Use blank oval head with construction cross-lines, smooth mechanical joints, thin neutral gray and charcoal outlines, white interiors and plain white background. No skin texture, hair, nipples, genitals, clothes, shading, props, text, watermark, extra figure, extra or missing limbs, legs, or lower body. Exact left-facing side profile camera of image 1. Chest profile is shallow nearly straight male thorax, no rounded breast projection; retain both crossed arms and the visible hand gripping the near upper arm.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:09:04.580814+00:00",
+      "generated_source_filename": "exec-4f77c3cd-256a-4751-824a-05fd09e85f5f.png",
+      "reviewed": true
+    },
+    {
+      "id": "male_upper80v2_P017_diag",
+      "original_source_id": "upper80v2_P017_diag",
+      "record": {
+        "id": "male_upper80v2_P017_diag",
+        "系統": "男性・上半身",
+        "ポーズ番号": "P017",
+        "分類": "かわいい系",
+        "ポーズ名": "自分を抱きしめる照れポーズ",
+        "アングル": "斜め",
+        "サムネ": "thumbs/male_upper80v2_P017_diag.jpg",
+        "原寸": "img/male_upper80v2_P017_diag.png"
+      },
+      "files": [
+        {
+          "path": "img/male_upper80v2_P017_diag.png",
+          "bytes": 1204299,
+          "sha256": "29d8ec7bbd0e778b62a58fd201c64d9f2b592e3032cbdd2616e96a2f09ef6c42"
+        },
+        {
+          "path": "thumbs/male_upper80v2_P017_diag.jpg",
+          "bytes": 28632,
+          "sha256": "6d11266d537e0e65eb2c33aa33c351f17572c8ce9693401f4c2e5fa3c5470090"
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one 3:4 portrait upper-body artist mannequin pose reference PNG. Input image 1 is the exact pose, camera angle and crop reference. Input image 2 is the adult male mannequin design/style reference ONLY, never copy its seated pose or legs. Transform image 1 into one ADULT MALE faceless articulated artist mannequin. Keep its exact self-embrace pose: shoulders raised slightly, both arms crossed in front of torso and both hands holding opposite upper arms; preserve which forearm overlaps in front, head tilt, elbow positions, hand contacts, foreshortening, framing and waist crop. Broad shoulders, straight waist, moderately athletic proportions. MALE THORAX MUST BE FLAT: a broad shallow box-like ribcage with thin angular pectoral plates flush against it, no independent rounded chest lobes, no projecting or hanging breast forms, no cleavage or under-breast arcs. Do not retain the female chest shape from image 1. Use blank oval head with construction cross-lines, smooth mechanical joints, thin neutral gray and charcoal outlines, white interiors and plain white background. No skin texture, hair, nipples, genitals, clothes, shading, props, text, watermark, extra figure, extra or missing limbs, legs, or lower body. Exact three-quarter camera view of image 1 facing toward screen right. Preserve the near left-of-image arm and hand, far right-of-image arm and hand, and diagonal forearm overlap.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-11-02T11:09:04.583285+00:00",
+      "generated_source_filename": "exec-3fd11fc5-3b5a-466d-9897-738c3b945f9b.png",
       "reviewed": true
     }
   ]
